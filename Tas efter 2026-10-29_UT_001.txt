@@ -1,0 +1,1385 @@
+FN Clarivate Analytics Web of Science
+VR 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PT C
+AU $$$Austrin, P
+   $$$Hastad, J
+   $$$Martinsson, B
+AF $$$Austrin, Per
+   $$$Hastad, Johan
+   $$$Martinsson, Bjorn
+BE Saha, B
+   Larsen, KG
+TI On the Usefulness of Promises
+SO PROCEEDINGS OF THE 2026 ANNUAL ACM-SIAM SYMPOSIUM ON DISCRETE
+   ALGORITHMS, SODA
+SE Applied and Computational Discrete Algorithms
+LA English
+DT Proceedings Paper
+CT 37th Symposium on Discrete Algorithms-SODA-Annual
+CY JAN 11-14, 2026
+CL Vancouver, CANADA
+SP Society for Industrial and Applied Mathematics, ACM SIGACT
+ID CONSTRAINT SATISFACTION; ALGEBRAIC STRUCTURE
+AB A Boolean predicate A is defined to be promise-useful if PCSP(A, B) is tractable for some non-trivial Boolean predicate B and otherwise it is promise-useless. We initiate investigations of this notion and derive sufficient conditions for both promise-usefulness and promise-uselessness (assuming P not equal NP). While we do not obtain a complete characterization, our conditions are sufficient to classify all predicates of arity at most 4 and almost all predicates of arity 5. We also derive asymptotic results to show that for large arities a vast majority of all predicates are promise-useless.
+   Our results are primarily obtained by a thorough study of the "Promise-SAT" problem, in which we are given a k-SAT instance with the promise that there is a satisfying assignment for which the literal values of each clause satisfy some additional constraint.
+   The algorithmic results are based on the basic LP + affine IP algorithm of Brakensiek et al. (SICOMP, 2020) while we use a number of novel criteria to establish NP-hardness.
+C1 [Austrin, Per; Hastad, Johan; Martinsson, Bjorn] KTH Royal Inst Technol, Stockholm, Sweden.
+C3 Royal Institute of Technology
+RP Austrin, P (corresponding author), KTH Royal Inst Technol, Stockholm, Sweden.
+EM austrin@kth.se; johanh@kth.se; bmart@kth.se
+NR 24
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SIAM
+PI PHILADELPHIA
+PA 3600 UNIV CITY SCIENCE CENTER, PHILADELPHIA, PA 19104-2688 USA
+BN 978-1-61197-897-1
+J9 Appl Compu Discret A
+PY 2026
+BP 6332
+EP 6378
+PG 47
+WC Computer Science, Theory & Methods; Mathematics, Applied
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science; Mathematics
+GA BA9JE
+UT WOS:001817434800228
+DA 2026-09-24
+ER
+PT J
+AU $$$Hansson, SO
+AF $$$Hansson, Sven Ove
+TI Delineating the Legitimate Role of Values in Science
+SO JOURNAL FOR GENERAL PHILOSOPHY OF SCIENCE
+LA English
+DT Article; Early Access
+DE All-purpose beliefs; Cognitive limitations; Context-sensitivity of
+   beliefs; Credences; Fact-finding practices; Fact-value distinction; Full
+   beliefs; Scientific corpus; Uncertain beliefs; Values in science
+ID PRAGMATIC ENCROACHMENT; PARTIAL BELIEF; ACCEPTANCE; RISK; EVIDENTIALISM;
+   PROBABILITY
+AB Previous philosophical discussions of values in science have mainly been devoted to showing that non-epistemic values can have a legitimate influence on the evidential requirements for accepting a scientific claim. There is a lack of credible explanations of how the influence of such values can be - and usually is - adequately restricted so that science still provides us with sufficiently reliable information. The importance of this problem has increased due to the current onslaught of science denial. We show how it can be solved with decision-theoretical tools, the most important of which is the distinction between lowering and raising evidential requirements. Lowering the evidential requirements for treating a claim as scientifically established is usually inadvisable since it increases the risk of adopting badly supported - and therefore often incorrect - full beliefs. In such cases, a distinction should instead be drawn between the criteria for accepting a claim and those for acting as if it is true. In contrast, value-based raising of the evidential requirements for accepting a claim does not involve any risk of making the set of factual full beliefs less reliable. This type of value influence seems to have a considerable role in areas of science that have extensive practical applications. The influence of values in science may therefore be larger than what has often been assumed.
+C1 [Hansson, Sven Ove] Royal Inst Technol KTH, Div Philosophy, Stockholm, Sweden.
+C3 Royal Institute of Technology
+RP Hansson, SO (corresponding author), Royal Inst Technol KTH, Div Philosophy, Stockholm, Sweden.
+EM soh@kth.se
+FU Royal Institute of Technology
+FX Open access funding provided by Royal Institute of Technology.
+NR 101
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 0925-4560
+EI 1572-8587
+J9 J GEN PHILOS SCI
+JI J. Gen. Philos. Sci.
+PD 2026 SEP 6
+PY 2026
+DI 10.1007/s10838-026-09778-4
+EA SEP 2026
+PG 22
+WC History & Philosophy Of Science
+WE Arts &amp; Humanities Citation Index (A&amp;HCI)
+SC History & Philosophy of Science
+GA NS5TP
+UT WOS:001867538400001
+OA hybrid
+DA 2026-09-24
+ER
+PT C
+AU Arellano, S
+   $$$Yeh, C
+   $$$Bhattacharya, G
+   $$$Arteaga, D
+AF Arellano, Silvia
+   $$$Yeh, Chunghsin
+   $$$Bhattacharya, Gautam
+   $$$Arteaga, Daniel
+GP IEEE
+TI Room Impulse Response Generation Conditioned on Acoustic Parameters
+SO 2025 IEEE WORKSHOP ON APPLICATIONS OF SIGNAL PROCESSING TO AUDIO AND
+   ACOUSTICS, WASPAA
+SE IEEE Workshop on Applications of Signal Processing to Audio and
+   Acoustics
+LA English
+DT Proceedings Paper
+CT 2025 Workshop on Applications of Signal Processing to Audio and
+   Acoustics-WASPAA-Annual
+CY OCT 12-15, 2025
+CL Tahoe Vista, CA
+SP Institute of Electrical and Electronics Engineers Inc, Amazon.com Inc, CISCO USA, Mitsubishi Electric Research Laboratories Inc, Meta AI, Treble Capital LLC, Apple Inc, ByteDance Inc, Google LLC, Microsoft Corp, Yamaha, Bose Corp, University of Illinois Urbana-Champaign
+AB The generation of room impulse responses (RIRs) using deep neural networks has attracted growing research interest due to its applications in virtual and augmented reality, audio postproduction, and related fields. Most existing approaches condition generative models on physical descriptions of a room, such as its size, shape, and surface materials. However, this reliance on geometric information limits their usability in scenarios where the room layout is unknown or when perceptual realism (how a space sounds to a listener) is more important than strict physical accuracy. In this study, we propose an alternative strategy: conditioning RIR generation directly on a set of RIR acoustic parameters. These parameters include various measures of reverberation time and direct sound to reverberation ratio, both broadband and bandwise. By specifying how the space should sound instead of how it should look, our method enables more flexible and perceptually driven RIR generation. We explore both autoregressive and non-autoregressive generative models operating in the Descript Audio Codec domain, using either discrete token sequences or continuous embeddings. Specifically, we have selected four models to evaluate: an autoregressive transformer, the MaskGIT model, a flow matching model, and a classifier-based approach. Objective and subjective evaluations are performed to compare these methods with state-of-the-art alternatives. Results show that the proposed models match or outperform state-of-the-art alternatives, with the MaskGIT model achieving the best performance.
+C1 [Yeh, Chunghsin; Bhattacharya, Gautam; Arteaga, Daniel] Dolby Labs, San Francisco, CA USA.
+   [Arellano, Silvia] KTH Royal Inst Technol, Stockholm, Sweden.
+C3 Dolby Laboratories, Inc.; Royal Institute of Technology
+RP Arellano, S (corresponding author), KTH Royal Inst Technol, Stockholm, Sweden.
+RI /AAY-3609-2020
+NR 33
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 1931-1168
+BN 979-8-3315-3746-3; 979-8-3315-3745-6
+J9 IEEE WORK APPL SIG
+PY 2025
+DI 10.1109/WASPAA66052.2025.11230976
+PG 5
+WC Acoustics; Engineering, Electrical & Electronic
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Acoustics; Engineering
+GA BB0GP
+UT WOS:001837931500056
+DA 2026-09-24
+ER
+PT J
+AU $$$Taghavian, H
+   $$$Andersson, M
+   $$$Johansson, M
+AF $$$Taghavian, Hamed
+   $$$Andersson, Malin
+   $$$Johansson, Mikael
+TI Model-free fast charging of lithium-ion batteries by online gradient
+   descent
+SO AUTOMATICA
+LA English
+DT Article
+DE Battery management systems; Data-driven controllers; Online convex
+   optimization
+AB This paper studies the fast-charging problem of lithium-ion batteries with multiple safety and aging constraints. It is noted that, under suitable conditions, the optimal solutions to these problems are of the bang-ride type; they follow the constraint-set boundary to maximize the charging current. We exploit this observation to propose a data-driven algorithm based on online gradient descent, which converges to the bang-ride protocol by observing the measurable battery quantities, such as input current, terminal voltage, and temperature. As such, the proposed method can optimize the charging current without requiring detailed battery models or training episodes. The theoretical convergence is proven under mild conditions and is numerically validated on several linear and nonlinear battery models, including single-particle and equivalent-circuit models.
+C1 [Taghavian, Hamed; Andersson, Malin; Johansson, Mikael] KTH Royal Inst Technol, Div Decis & Control Syst, Stockholm, Sweden.
+C3 Royal Institute of Technology
+RP Taghavian, H (corresponding author), KTH Royal Inst Technol, Div Decis & Control Syst, Stockholm, Sweden.
+EM hamedta@kth.se; malinan9@kth.se; mikaelj@kth.se
+FU KTH Royal Institute of Technology
+FX star This work was supported by KTH Royal Institute of Technology. The
+   material in this paper was not presented at any conference. This paper
+   was recommended for publication in revised form by Associate Editor
+   Prashant Mhaskar under the direction of Editor Thomas Parisini.
+NR 30
+TC 0
+Z9 0
+U1 1
+U2 1
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0005-1098
+EI 1873-2836
+J9 AUTOMATICA
+JI Automatica
+PD DEC
+PY 2026
+VL 194
+AR 113275
+DI 10.1016/j.automatica.2026.113275
+EA SEP 2026
+PG 10
+WC Automation & Control Systems; Engineering, Electrical & Electronic
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Automation & Control Systems; Engineering
+GA NR6JN
+UT WOS:001866901700001
+OA Green Submitted, hybrid
+DA 2026-09-24
+ER
+PT C
+AU $$$Wahlgren, J
+   $$$Schieffer, G
+   $$$Shi, RM
+   León, EA
+   Pearce, R
+   Gokhale, M
+   $$$Peng, I
+AF $$$Wahlgren, Jacob
+   $$$Schieffer, Gabin
+   $$$Shi, Ruimin
+   Leon, Edgar A.
+   Pearce, Roger
+   Gokhale, Maya
+   $$$Peng, Ivy
+GP IEEE COMPUTER SOC
+TI Dissecting CPU-GPU Unified Physical Memory on AMD MI300A APUs
+SO 2025 IEEE INTERNATIONAL SYMPOSIUM ON WORKLOAD CHARACTERIZATION, IISWC
+SE International Symposium on Workload Characterization Proceedings
+LA English
+DT Proceedings Paper
+CT 28th International Symposium on Workload Characterization-IISWC-Annual
+CY OCT 12-14, 2025
+CL Irvine, CA
+SP Institute of Electrical and Electronics Engineers Inc, Intel Corporation, Futurewei Technologies Inc, Panmnesia
+DE Memory System Characterization; GPU Memory Management; High Performance
+   Computing (HPC)
+AB Discrete GPUs are a cornerstone of HPC and data center systems, requiring management of separate CPU and GPU memory spaces. Unified Virtual Memory (UVM) has been proposed to ease the burden of memory management; however, at a high cost in performance. The recent introduction of AMD's MI300A Accelerated Processing Units (APUs)-as deployed in the El Capitan supercomputer-enables HPC systems featuring integrated CPU and GPU with Unified Physical Memory (UPM) for the first time. This work presents the first comprehensive characterization of the UPM architecture on MI300A. We first analyze the UPM system properties, including memory latency, bandwidth, and coherence overhead. We then assess the efficiency of the system software in memory allocation, page fault handling, TLB management, and Infinity Cache utilization. We propose a set of porting strategies for transforming applications for the UPM architecture and evaluate six applications on the MI300A APU. Our results show that applications on UPM using the unified memory model can match or outperform those in the explicitly managed model-while reducing memory costs by up to 44%.
+C1 [Wahlgren, Jacob; Schieffer, Gabin; Shi, Ruimin; Peng, Ivy] KTH Royal Inst Technol, Stockholm, Sweden.
+   [Leon, Edgar A.; Pearce, Roger; Gokhale, Maya] Lawrence Livermore Natl Lab, Livermore, CA USA.
+C3 Royal Institute of Technology; United States Department of Energy (DOE);
+   Lawrence Livermore National Laboratory
+RP Wahlgren, J (corresponding author), KTH Royal Inst Technol, Stockholm, Sweden.
+EM jacobwah@kth.se; gabins@kth.se; ruimins@kth.se; leon@llnl.gov;
+   pearce7@llnl.gov; gokhale2@llnl.gov; ivybopeng@kth.se
+RI Wahlgren, Jacob/IZE-1185-2023
+FU U.S. Department of Energy [DE-AC52-07NA27344, LLNL-CONF-2004685]; LLNL
+   LDRD [24-ERD-047]; Swedish Research Council [2022.03062]; Swedish
+   Research Council [2022-03062] Funding Source: Swedish Research Council
+FX This work was performed under the auspices of the U.S. Department of
+   Energy by Lawrence Livermore National Laboratory under Contract
+   DE-AC52-07NA27344. LLNL-CONF-2004685. Funding from LLNL LDRD project
+   24-ERD-047 was used in this work. This research is supported by the
+   Swedish Research Council (no. 2022.03062).
+NR 34
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE COMPUTER SOC
+PI LOS ALAMITOS
+PA 10662 LOS VAQUEROS CIRCLE, PO BOX 3014, LOS ALAMITOS, CA 90720-1264 USA
+BN 979-8-3315-4918-3; 979-8-3315-4917-6
+J9 I S WORKL CHAR PROC
+PY 2025
+BP 368
+EP 380
+DI 10.1109/IISWC66894.2025.00038
+PG 13
+WC Computer Science, Hardware & Architecture; Computer Science, Software
+   Engineering; Computer Science, Theory & Methods; Engineering, Electrical
+   & Electronic
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science; Engineering
+GA BA9SZ
+UT WOS:001828212200028
+DA 2026-09-24
+ER
+PT J
+AU $$$Hansson, SO
+AF $$$Hansson, Sven Ove
+TI Swedish Theses in Philosophy in 2025
+SO THEORIA-A SWEDISH JOURNAL OF PHILOSOPHY
+LA English
+DT Bibliography
+C1 [Hansson, Sven Ove] Royal Inst Technol KTH, Div Philosophy, Stockholm, Sweden.
+C3 Royal Institute of Technology
+RP Hansson, SO (corresponding author), Royal Inst Technol KTH, Div Philosophy, Stockholm, Sweden.
+EM soh@kth.se
+NR 0
+TC 0
+Z9 0
+U1 0
+U2 0
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 0040-5825
+EI 1755-2567
+J9 THEORIA-SWED J PHILO
+JI Theoria-Swed. J. Philos.
+PD AUG
+PY 2026
+VL 92
+IS 4
+AR e70110
+DI 10.1111/theo.70110
+PG 3
+WC Philosophy
+WE Arts &amp; Humanities Citation Index (A&amp;HCI)
+SC Philosophy
+GA NL8KN
+UT WOS:001862956800001
+OA Bronze
+DA 2026-09-24
+ER
+PT C
+AU $$$Troubitsyna, E
+AF $$$Troubitsyna, Elena
+GP IEEE COMPUTER SOC
+TI Modelling Collaborative Resilient Behavior of Multi-Agent Systems
+SO 2025 IEEE INTERNATIONAL CONFERENCE ON AUTONOMIC COMPUTING AND
+   SELF-ORGANIZING SYSTEMS COMPANION, ACSOS-C
+LA English
+DT Proceedings Paper
+CT 6th International Conference on Autonomic Computing and Self-Organizing
+   Systems-ACSOS-Annual
+CY SEP 29-OCT 03, 2025
+CL Tokyo, JAPAN
+SP Institute of Electrical and Electronics Engineers Inc, IEEE Computer Society, Google LLC
+DE multi-agent systems; mission planning; fault tolerance; coordination
+AB Effective collaboration among agents is essential to allow multi-agent systems to accomplish their objectives. When designing such systems for mission-critical scenarios like surveillance or disaster response, it is necessary to ensure that operations can be completed successfully even in the face of agent malfunctions or unforeseen environmental changes. Consequently, resilience becomes a key design priority. However, achieving it is challenging due to the inherently decentralized control and asynchronous communication typical of these systems. In this work, we present a formal framework that models cooperative behaviors in multi-agent systems with the aim of supporting resilience. The framework addresses issues of dynamic reconfiguration and adaptive task redistribution. Furthermore, we introduce specialized mechanisms for inter-agent knowledge exchange and coordination, which strengthen the system's ability to withstand agent failures.
+C1 [Troubitsyna, Elena] KTH Royal Inst Technol, Dept Comp Sci, Stockholm, Sweden.
+C3 Royal Institute of Technology
+RP Troubitsyna, E (corresponding author), KTH Royal Inst Technol, Dept Comp Sci, Stockholm, Sweden.
+EM elenatro@kth.se
+RI Troubitsyna, Elena/AAY-2172-2021
+NR 19
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE COMPUTER SOC
+PI LOS ALAMITOS
+PA 10662 LOS VAQUEROS CIRCLE, PO BOX 3014, LOS ALAMITOS, CA 90720-1264 USA
+BN 979-8-3315-0216-4; 979-8-3315-0215-7
+PY 2025
+BP 142
+EP 147
+DI 10.1109/ACSOS-C66519.2025.00044
+PG 6
+WC Automation & Control Systems; Computer Science, Cybernetics; Computer
+   Science, Theory & Methods
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems; Computer Science
+GA BB0CZ
+UT WOS:001835404000024
+DA 2026-09-24
+ER
+PT J
+AU $$$Bruijl, IM
+   $$$Burghout, W
+   $$$Minbashi, N
+AF $$$Bruijl, Ivo M.
+   $$$Burghout, Wilco
+   $$$Minbashi, Niloofar
+TI Review on the modelling of modular POD-based passenger and goods
+   transportation
+SO EUROPEAN TRANSPORT RESEARCH REVIEW
+LA English
+DT Review
+DE Modular road transport; Modular rail transport; Modular logistics;
+   Multimodality; Co-modality; Demand-responsive transit
+ID ALGORITHM
+AB Autonomous modular vehicles create new possibilities within public transportation services, responding to growing needs for flexible and sustainable transport. Modularity allows for vehicle configurations with standardised load units, enabling multimodal (i.e., interoperable across multiple modes, such as road and rail) and co-modal (i.e., integration of both passenger and goods) transportation systems. Although Demand Responsive Transit (DRT) systems see a substantial body of literature, this is the first comprehensive review focusing on modularity, multimodality, and co-modality in public transportation. This review synthesises 45 peer-reviewed articles, identified through a systematic Scopus search and enriched by snowball sampling, across three dimensions: transport system design, modularity implementation, and optimisation methodologies. The results show a concentration of research on road-based systems, whereas modular systems across multiple transportation modes remain largely underexplored. Similarly, most research attention is given to line- or corridor-based systems, highlighting the need to further explore systems with a more flexible network design to leverage the benefits that modular vehicles offer. Co-modality receives growing interest, but has not yet been systematically analysed from a modular perspective. Methodologically, most studies rely on analytical methods to optimise planning and operations, with less attention to simulation-based methods, which may better include real-world uncertainties, and Artificial Intelligence-based (AI-based) methods, which offer promising opportunities for more robust, flexible and scalable modular transport systems. This review contributes to the field of POD-based multimodal transportation as the first structured overview of multimodal and co-modal aspects in modular transport systems, identifying key research gaps and outlining directions for future research.
+C1 [Bruijl, Ivo M.; Burghout, Wilco; Minbashi, Niloofar] KTH Royal Inst Technol, Div Transport Planning, Stockholm, Sweden.
+C3 Royal Institute of Technology
+RP Bruijl, IM (corresponding author), KTH Royal Inst Technol, Div Transport Planning, Stockholm, Sweden.
+EM bruijl@kth.se; wilco@kth.se; minbashi@kth.se
+RI Burghout, Wilco/MFI-4342-2025
+FU Royal Institute of Technology
+FX Open access funding provided by Royal Institute of Technology.
+NR 64
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SPRINGER
+PI NEW YORK
+PA ONE NEW YORK PLAZA, SUITE 4600, NEW YORK, NY, UNITED STATES
+SN 1867-0717
+EI 1866-8887
+J9 EUR TRANSP RES REV
+JI Eur. Transp. Res. Rev.
+PD SEP 4
+PY 2026
+VL 18
+IS 1
+AR 77
+DI 10.1186/s12544-026-00832-2
+EA SEP 2026
+PG 19
+WC Transportation; Transportation Science & Technology
+WE Science Citation Index Expanded (SCI-EXPANDED); Social Science Citation Index (SSCI)
+SC Transportation
+GA NS2OJ
+UT WOS:001867322000001
+OA gold
+DA 2026-09-24
+ER
+PT C
+AU $$$Daei, S
+   $$$Fodor, G
+   $$$Skoglund, M
+AF $$$Daei, Sajad
+   $$$Fodor, Gabor
+   $$$Skoglund, Mikael
+GP IEEE
+TI When Near Becomes Far: From Rayleigh to Optimal Near-Field and Far-Field
+   Boundaries
+SO GLOBECOM 2025-2025 IEEE GLOBAL COMMUNICATIONS CONFERENCE
+SE IEEE Global Telecommunications Conference (Globecom)
+LA English
+DT Proceedings Paper
+CT 2025 Global Communications Conference-GLOBECOM
+CY DEC 08-12, 2025
+CL Taipei, TAIWAN
+SP Institute of Electrical and Electronics Engineers Inc
+DE Near-field propagation; Rayleigh distance; millimeter-wave and sub-THz
+   arrays; massive MIMO
+ID MASSIVE MIMO
+AB The transition toward 6G is pushing wireless communication into a regime where the classical plane-wave assumption no longer holds. Millimeter-wave and sub-THz frequencies shrink wavelengths to millimeters, while meter-scale arrays featuring hundreds of antenna elements dramatically enlarge the aperture. Together, these trends collapse the classical Rayleigh far-field boundary from kilometers to mere singledigit meters. Consequently, most practical 6G indoor, vehicular, and industrial deployments will inherently operate within the radiating near-field, where reliance on the plane-wave approximation leads to severe array-gain losses, degraded localization accuracy, and excessive pilot overhead. This paper re-examines the fundamental question: "Where does the far-field truly begin?" Rather than adopting purely geometric definitions, we introduce an application-oriented approach based on user-defined error budgets and a rigorous Fresnel-zone analysis that fully accounts for both amplitude and phase curvature. We propose three practical mismatch metrics: worst-case element mismatch, worst-case normalized mean square error, and spectral efficiency loss. For each metric, we derive a provably optimal transition distancethe minimal range beyond which mismatch permanently remains below a given tolerance-and provide closed-form solutions. Extensive numerical evaluations across diverse frequencies and antenna-array dimensions show that our proposed thresholds can exceed the Rayleigh distance by more than an order of magnitude. By transforming the near-field from a design nuisance into a precise, quantifiable tool, our results provide a clear roadmap for enabling reliable and resource-efficient nearfield communications and sensing in emerging 6G systems.
+C1 [Daei, Sajad; Fodor, Gabor; Skoglund, Mikael] KTH Royal Inst Technol, Sch Elect Engn Comp Sci, Stockholm, Sweden.
+   [Fodor, Gabor] Ericsson Res, Stockholm, Sweden.
+C3 Royal Institute of Technology; Ericsson
+RP Daei, S (corresponding author), KTH Royal Inst Technol, Sch Elect Engn Comp Sci, Stockholm, Sweden.
+EM sajado@kth.se; gaborf@kth.se; skoglund@kth.se
+RI Skoglund, Mikael/A-8334-2012; Fodor, Gabor/S-1717-2019; Daei,
+   Sajad/JWA-4187-2024
+FU Digital Futures; Swedish Strategic Research (SSF) [FUS21-0004];
+   6G-Multiband Wireless and Optical Signaling for Integrated
+   Communications, Sensing and Localization (6G-MUSICAL) EU Horizon 2023
+   project - EU [101139176]
+FX This work is supported in part by Digital Futures. G.Fodor is also
+   supported by the Swedish Strategic Research (SSF) grant for the
+   FUS21-0004 SAICOM project and the 6G-Multiband Wireless and Optical
+   Signaling for Integrated Communications, Sensing and Localization
+   (6G-MUSICAL) EU Horizon 2023 project, funded by the EU, Project ID:
+   101139176. S.Daei is supported by Digital Futures Project STACEY.
+NR 23
+TC 1
+Z9 1
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 1930-529X
+BN 979-8-3315-7782-7; 979-8-3315-7781-0
+J9 GLOB TELECOMM CONF
+PY 2025
+BP 3586
+EP 3592
+DI 10.1109/GLOBECOM59602.2025.11431789
+PG 7
+WC Telecommunications
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Telecommunications
+GA BA8WW
+UT WOS:001810917600055
+DA 2026-09-24
+ER
+PT J
+AU $$$Prasetia, ACG
+AF $$$Prasetia, Ari Carisza Graha
+TI Agents of collaborative adaptation: modelling temporal resilience in
+   supply chains
+SO ANNALS OF OPERATIONS RESEARCH
+LA English
+DT Article; Early Access
+DE Agent-based modelling; Adaptive agents; Policy learning; Supply chain
+   resilience; Cascading failures; Decentralized decision-making
+ID NETWORK; DISRUPTION; TRUST
+AB Supply-chain disruptions vary in intensity, scale, and frequency, producing temporally heterogeneous impacts on network viability. The emphasis on exposure and topology has anchored resilience in network structure, obscuring how collaboration and trust govern its phase-specific temporal dynamics, including resistive capabilities, adaptation speed, containment, and recovery. This study thus develops an agent-based simulation of the Netherlands logistics network, in which nodes operate as autonomous agents that redistribute load under capacity, link, and trust constraints. Cascading failures are simulated with trust-gated, capacity-aware, and collaboration-dependent load reallocation, capturing both immediate contagion and multi-step redistribution dynamics. The framework compares rule-based heuristics with adaptive AI agents trained using supervised imitation, online multiplicative adaptation, and cross-entropy policy search. Temporal resilience is then measured across each phase specific metrics of absorptive, adaptive, and recovery phases across the collaboration structure. This points to the main contribution of this article, in which AI agents improve adaptation and cascade containment through targeted use of high-trust, high-capacity links, while recovery dynamics remain bounded by structural and exogenous constraints. This points to a layered view of resilience, where performance depends on the interaction between network configuration, trust-mediated coordination, and agent-level adaptation.
+C1 [Prasetia, Ari Carisza Graha] KTH Royal Inst Technol, Brinellvagen 8, S-11428 Stockholm, Sweden.
+C3 Royal Institute of Technology
+RP Prasetia, ACG (corresponding author), KTH Royal Inst Technol, Brinellvagen 8, S-11428 Stockholm, Sweden.
+EM aricgp@kth.se
+RI Prasetia, Ari Carisza Graha/JQV-7321-2023
+FU HORIZON EUROPE Climate, Energy and Mobility [101123538]; Royal Institute
+   of Technology
+FX Open access funding provided by Royal Institute of Technology.
+NR 147
+TC 0
+Z9 0
+U1 1
+U2 1
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 0254-5330
+EI 1572-9338
+J9 ANN OPER RES
+JI Ann. Oper. Res.
+PD 2026 SEP 3
+PY 2026
+DI 10.1007/s10479-026-07406-4
+EA SEP 2026
+PG 49
+WC Operations Research & Management Science
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Operations Research & Management Science
+GA NR3AO
+UT WOS:001866673600001
+OA hybrid
+DA 2026-09-24
+ER
+PT C
+AU $$$Gouverneur, A
+   $$$Oechtering, TJ
+   $$$Skoglund, M
+AF $$$Gouverneur, Amaury
+   $$$Oechtering, Tobias J.
+   $$$Skoglund, Mikael
+GP IEEE
+TI Refined PAC-Bayes Bounds for Offline Bandits
+SO 2025 IEEE INTERNATIONAL SYMPOSIUM ON INFORMATION THEORY, ISIT
+SE IEEE International Symposium on Information Theory
+LA English
+DT Proceedings Paper
+CT 2025 International Symposium on Information Theory-ISIT-Annual
+CY JUN 22-27, 2025
+CL Ann Arbor, MI
+SP Institute of Electrical and Electronics Engineers Inc, IEEE Information Theory Society
+AB In this paper, we present refined probabilistic bounds on empirical reward estimates for off-policy learning in bandit problems. We build on the PAC-Bayesian bounds from [1]-[4] and improve on their results using a new parameter optimization approach introduced by [5]. This technique is based on a discretization of the space of possible events to optimize the "in probability" parameter, lambda. We provide two parameter-free PAC-Bayes bounds, one based on Hoeffding-Azuma's inequality and the other based on Bernstein's inequality. We prove that our bounds are almost optimal as they recover the same rate as would be obtained by setting the "in probability" parameter after the realization of the data.
+C1 [Gouverneur, Amaury; Oechtering, Tobias J.; Skoglund, Mikael] KTH Royal Inst Technol, Div Informat Sci & Engn ISE, Stockholm, Sweden.
+C3 Royal Institute of Technology
+RP Gouverneur, A (corresponding author), KTH Royal Inst Technol, Div Informat Sci & Engn ISE, Stockholm, Sweden.
+EM amauryg@kth.se; oech@kth.se; skoglund@kth.se
+RI Skoglund, Mikael/A-8334-2012
+FU Wallenberg AI, Autonomous Systems and Software Program (WASP) - Knut and
+   Alice Wallenberg Foundation
+FX This work was supported by the Wallenberg AI, Autonomous Systems and
+   Software Program (WASP) funded by the Knut and Alice Wallenberg
+   Foundation.
+NR 26
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 2157-8095
+BN 979-8-3315-4400-3; 979-8-3315-4399-0
+J9 IEEE INT SYMP INFO
+PY 2025
+DI 10.1109/ISIT63088.2025.11195415
+PG 6
+WC Computer Science, Information Systems; Computer Science, Theory &
+   Methods; Engineering, Electrical & Electronic; Mathematics, Applied
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science; Engineering; Mathematics
+GA BA9OA
+UT WOS:001821502600205
+DA 2026-09-24
+ER
+PT C
+AU $$$Bongole, R
+   $$$Gouverneur, A
+   $$$Oechtering, TJ
+   $$$Skoglund, M
+AF $$$Bongole, Raghav
+   $$$Gouverneur, Amaury
+   $$$Oechtering, Tobias J.
+   $$$Skoglund, Mikael
+GP IEEE
+TI Information-Theoretic Minimax Regret Upper Bounds for Reinforcement
+   Learning Problems
+SO 2025 IEEE INFORMATION THEORY WORKSHOP, ITW
+SE Information Theory Workshop
+LA English
+DT Proceedings Paper
+CT 2025 Information Theory Workshop-ITW
+CY SEP 29-OCT 03, 2025
+CL Sydney, AUSTRALIA
+SP Institute of Electrical and Electronics Engineers Inc, University of Sydney
+DE reinforcement learning; information theory; minimax theorems
+AB We study different classes of reinforcement learning problems using the minimax regret framework. We formalize a finite-horizon reinforcement learning problem setting that is suitable for the information-theoretic analysis of minimax regret which encompasses linear bandits, Markov decision processes, linear Markov decision processes, and other reinforcement learning problems. We derive a minimax theorem applicable to this setting that does not require any finiteness or deterministic policy constraints. Using this theorem, we show that any Bayesian regret bound can be used to bound the minimax regret within our framework. We then apply the minimax theorem to obtain an information-theoretic upper bound for the minimax regret, leveraging a general Bayesian regret bound. The derived minimax regret bound inherits key properties of the Bayesian regret bound, including its ability to isolate factors such as the information ratio, the mutual information between the learning target and the environment, and the Bayesian regret of the target policy. Finally, we demonstrate the applicability of our bounds in various settings, including linear bandits, episodic reinforcement learning, and linear Markov decision processes, recovering known results for the minimax regret.
+C1 [Bongole, Raghav; Gouverneur, Amaury; Oechtering, Tobias J.; Skoglund, Mikael] KTH Royal Inst Technol, Div Informat Sci & Engn ISE, Stockholm, Sweden.
+C3 Royal Institute of Technology
+RP Bongole, R (corresponding author), KTH Royal Inst Technol, Div Informat Sci & Engn ISE, Stockholm, Sweden.
+EM bongole@kth.se; amauryg@kth.se; oech@kth.se; skoglundl@kth.se
+RI Skoglund, Mikael/A-8334-2012
+NR 20
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 2475-420X
+BN 979-8-3315-3143-0; 979-8-3315-3142-3
+J9 INFO THEOR WORKSH
+PY 2025
+BP 404
+EP 409
+DI 10.1109/ITW62417.2025.11240440
+PG 6
+WC Computer Science, Information Systems; Computer Science, Theory &
+   Methods; Mathematics, Applied
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science; Mathematics
+GA BB0CB
+UT WOS:001834467300058
+DA 2026-09-24
+ER
+PT C
+AU $$$Damjanovic, D
+AF $$$Damjanovic, Danijela
+BE Friedlander, S
+   Tschinkel, Y
+TI Classifying Dynamics with Many Symmetries
+SO PROCEEDINGS OF THE INTERNATIONAL CONGRESS OF MATHEMATICIANS 2026, VOL 5
+LA English
+DT Proceedings Paper
+CT 2026 International Congress of Mathematicians-ICM-Quadrennial
+CY JUL 23-30, 2026
+CL Philadelphia, PA
+DE group actions; partial hyperbolicity; rigidity
+ID PARTIALLY HYPERBOLIC ACTIONS; LOCAL RIGIDITY; ANOSOV ACTIONS;
+   COHOMOLOGICAL EQUATION; GLOBAL RIGIDITY; ABELIAN ACTIONS; ACTIONS I.;
+   CLASSIFICATION; COCYCLES; SMOOTH
+AB We present an overview of some recent advances in the direction of global, local, and semilocal smooth classification of dynamical systems that embed in large groups of smooth transformations. The groups may be higher-rank semisimple, or higher-rank abelian, or may be groups of symmetries. All the presented rigidity results have similar flavor: a dynamical system embedding in a large group, satisfying certain dynamical features, is necessarily smoothly conjugate to an algebraic model. However, there is a broad variety of methods and approaches, since settings and dynamics may be very different. This text attempts to provide a glimpse of the diverse mechanisms that lead to the smooth rigidity phenomena for groups of transformations, and give the taste of how different techniques, originating in different directions in dynamics, are combined.
+C1 [Damjanovic, Danijela] Royal Inst Technol KTH, Lindstedtsvagen 25, S-10044 Stockholm, Sweden.
+C3 Royal Institute of Technology
+RP Damjanovic, D (corresponding author), Royal Inst Technol KTH, Lindstedtsvagen 25, S-10044 Stockholm, Sweden.
+EM ddam@kth.se
+FU Swedish Research Council; Wallenberg foundation; Trygger foundation; KTH
+FX This reasearch was supported by Swedish Research Council, Wallenberg
+   foundation, Trygger foundation, and KTH.
+NR 86
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SIAM
+PI PHILADELPHIA
+PA 3600 UNIV CITY SCIENCE CENTER, PHILADELPHIA, PA 19104-2688 USA
+BN 978-1-61197-869-8
+PY 2026
+BP 79
+EP 99
+DI 10.1137/25M1807964
+PG 21
+WC Mathematics, Applied; Mathematics, Interdisciplinary Applications;
+   Mathematics
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Mathematics
+GA BA9NB
+UT WOS:001821001300005
+OA gold
+DA 2026-09-24
+ER
+PT J
+AU $$$Sivan, P
+AF $$$Sivan, Pramod
+TI Tropism dynamics in plant movement: insights into the mechanism of
+   proprioception sensing in wood architecture and stem posture control in
+   trees
+SO NEW PHYTOLOGIST
+LA English
+DT Editorial Material; Early Access
+DE gelatinous layer; proprioception; stem posture; tension wood; tropism
+ID TENSION WOOD; G-LAYER; FIBERS
+C1 [Sivan, Pramod] AlbaNova Univ Ctr, KTH Royal Inst Technol, Dept Chem, Div Glycosci, S-10691 Stockholm, Sweden.
+C3 Royal Institute of Technology
+RP Sivan, P (corresponding author), AlbaNova Univ Ctr, KTH Royal Inst Technol, Dept Chem, Div Glycosci, S-10691 Stockholm, Sweden.
+EM psivan@kth.se
+RI Sivan, Pramod/K-5386-2015
+FU FORMAS-Swedish Research Council for Sustainable Development
+   [2022-02258]; Vinnova [2022-02258] Funding Source: Vinnova; Formas
+   [2022-02258] Funding Source: Formas
+FX PS acknowledges the support from FORMAS-Swedish Research Council for
+   Sustainable Development (Innovation research Grant No. 2022-02258).
+NR 19
+TC 0
+Z9 0
+U1 0
+U2 0
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 0028-646X
+EI 1469-8137
+J9 NEW PHYTOL
+JI New Phytol.
+PD 2026 SEP 2
+PY 2026
+DI 10.1111/nph.71436
+EA SEP 2026
+PG 4
+WC Plant Sciences
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Plant Sciences
+GA NO9GN
+UT WOS:001865055500001
+PM 42682037
+OA hybrid
+DA 2026-09-24
+ER
+PT J
+AU $$$Krishna, H
+   $$$Darwich, AS
+   Meijer, S
+AF $$$Krishna, Harsha
+   $$$Darwich, Adam S.
+   Meijer, Sebastiaan
+TI Using network databases for data fusion for the study of the promotion
+   of youth mental well-being
+SO HEALTH INFORMATICS JOURNAL
+LA English
+DT Article
+DE data fusion; graph database; mental well-being; youth mental health;
+   Neo4j; public health informatics; data integration; Sweden; property
+   graph
+ID HEALTH-PROMOTION; GLOBAL BURDEN; NEIGHBORHOODS; ADOLESCENTS; DISEASE;
+   IMPACT
+AB Promoting mental well-being among young people is a pressing need for Sweden to mitigate declines in health among the next generation. To achieve this, various programs have been implemented at both the school and municipal levels. Different municipalities implement programs, monitor, and collect data on youth mental well-being within their areas. Analysis of these data is challenging because data silos exist across institutions. System-level assessment has been difficult in both the reasoning and decision-making phases, and in attributing the impact of these strategies to the specific actions taken by municipalities.In this work, we propose using a data fusion approach to create a common dataset for studying youth mental well-being by combining data from various departments across Swedish municipalities. We identify the required datasets, along with their schemas, metadata, and definitions, and develop a graph database design that defines standard terms and related concepts. We deploy this min two Stockholm municipalities to demonstrate the approach's ability to query across different institutional datasets through the common graph schema. Finally, we outline the use of a graph database in a participatory setting to better understand programs that promote youth mental well-being across departments in both municipalities.
+C1 [Krishna, Harsha; Darwich, Adam S.] KTH Royal Inst Technol, Div Hlth Informat & Logist, Halsovagen 11C, S-14157 Stockholm, Sweden.
+   [Meijer, Sebastiaan] KTH Royal Inst Technol, Dept Head Sch, Div Hlth Informat & Logist, Stockholm, Sweden.
+C3 Royal Institute of Technology; Royal Institute of Technology
+RP Krishna, H (corresponding author), KTH Royal Inst Technol, Div Hlth Informat & Logist, Halsovagen 11C, S-14157 Stockholm, Sweden.
+EM harshak@kth.se
+RI Krishna, Harsha/GQA-5525-2022
+FU Region Stockholm
+FX The authors disclosed receipt of the following financial support for the
+   research, authorship, and/or publication of this article: Region
+   Stockholm funded this work within the Research and Innovation portfolio.
+NR 38
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SAGE PUBLICATIONS INC
+PI THOUSAND OAKS
+PA 2455 TELLER RD, THOUSAND OAKS, CA 91320 USA
+SN 1460-4582
+EI 1741-2811
+J9 HEALTH INFORM J
+JI Health Inform. J.
+PD JUL
+PY 2026
+VL 32
+IS 3
+AR 14604582261485434
+DI 10.1177/14604582261485434
+PG 17
+WC Health Care Sciences & Services; Medical Informatics
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Health Care Sciences & Services; Medical Informatics
+GA NR4YC
+UT WOS:001866802600001
+PM 42690845
+OA gold
+DA 2026-09-24
+ER
+PT C
+AU $$$Khokher, N
+   $$$Edin, H
+   Lancry, T
+AF $$$Khokher, Ncha
+   $$$Edin, Hans
+   Lancry, Tor
+GP IEEE
+TI Study of Transformer Pressboard Impregnation Process through Sequential
+   Dielectric Spectroscopy Measurements
+SO 2025 IEEE CONFERENCE ON ELECTRICAL INSULATION AND DIELECTRIC PHENOMENA,
+   CEIDP
+SE Conference on Electrical Insulation and Dielectric Phenomena Annual
+   Report
+LA English
+DT Proceedings Paper
+CT 2025 Conference on Electrical Insulation and Dielectric
+   Phenomena-CEIDP-Annual
+CY SEP 14-17, 2025
+CL University of Manchester, Manchester, ENGLAND
+SP Institute of Electrical and Electronics Engineers Inc, IEEE Dielectrics and Electrical Insulation Society, Doble Engineering Co, GE Vernova, National Grid PLC, Hitachi Limited
+HO University of Manchester
+DE power transformers; mineral oil; impregnation; pressboard; dielectric
+   spectroscopy
+AB The power transformer is one of the main and most essential components in the electrical power system, which enables efficient voltage conversion for power transmission and distribution. The power transformer performance mainly relies on the insulation system which generally consists of mineral oil, and solid materials like paper, and pressboards. This insulation system has several roles like insulating the electrical components, and ensuring the power transformer safety. A critical process is the impregnation of the solid cellulosic materials with the dielectric liquids to eliminate any air pockets that otherwise would form weak spots and eventually lead to the formation of partial discharges which can damage the insulation system. Optimization of the impregnation process is important for energy efficient manufacturing of power transformers. This paper studies the oil impregnation process of transformer pressboard through sequential dielectric spectroscopy measurements. The pressboard was a 2 mm-thick vacuum-dried high-density pressboard, and the oil a dried standard transformer mineral oil. The impregnation process was analyzed through sequential frequency dielectric spectroscopy (FDS) measurements with a Megger IDAX 300 in the frequency range 10 mHz - 1000 Hz. The impregnation process was studied at three temperatures: 23 degrees C, 40 degrees C, and 60 degrees C through the increase in the system's effective capacitance vs impregnation time in the higher frequency range of the spectra - i.e. 1 Hz - 1000 Hz. At lower frequencies the interpretation is more complicated due to other dielectric mechanisms such as interfacial charge accumulation.
+C1 [Khokher, Ncha; Edin, Hans] KTH Royal Inst Technol, Dept Elect Engn, Stockholm, Sweden.
+   [Lancry, Tor] Hitachi Energy Res, Vasteras, Sweden.
+C3 Royal Institute of Technology
+RP Khokher, N (corresponding author), KTH Royal Inst Technol, Dept Elect Engn, Stockholm, Sweden.
+NR 8
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 0084-9162
+BN 979-8-3315-8903-5; 979-8-3315-8902-8
+J9 C ELECT INSUL DIEL P
+PY 2025
+AR 1B17
+DI 10.1109/CEIDP61707.2025.11218295
+PG 4
+WC Engineering, Electrical & Electronic; Materials Science,
+   Multidisciplinary; Physics, Applied
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Engineering; Materials Science; Physics
+GA BA9ZY
+UT WOS:001832793600159
+DA 2026-09-24
+ER
+PT C
+AU $$$Amizhtan, SK
+   $$$Edin, H
+AF $$$Amizhtan, S. K.
+   $$$Edin, Hans
+GP IEEE
+TI Partial Discharge analysis under repeated Lightning Impulse superimposed
+   over AC Voltage
+SO 2025 IEEE CONFERENCE ON ELECTRICAL INSULATION AND DIELECTRIC PHENOMENA,
+   CEIDP
+SE Conference on Electrical Insulation and Dielectric Phenomena Annual
+   Report
+LA English
+DT Proceedings Paper
+CT 2025 Conference on Electrical Insulation and Dielectric
+   Phenomena-CEIDP-Annual
+CY SEP 14-17, 2025
+CL University of Manchester, Manchester, ENGLAND
+SP Institute of Electrical and Electronics Engineers Inc, IEEE Dielectrics and Electrical Insulation Society, Doble Engineering Co, GE Vernova, National Grid PLC, Hitachi Limited
+HO University of Manchester
+DE discharge; transient; PRPD; monitoring
+ID SPACE-CHARGE
+AB Partial discharge (PD) characterization under combined AC and repetitive transient stress is essential for assessing insulation integrity in high-voltage oil/paper systems. This study examines PD behavior under 50 Hz AC voltage with superimposed standard lightning impulses (LI) (1.2/50 mu s) at two different repeated interval of 60 s and 180 s. PD activity is analyzed through time-domain evolution, frequency-domain characteristics, phase-resolved patterns (PRPD), and the statistical distribution of time between discharge events. The results show that higher impulse repetition rates intensify PD activity, promote phase clustering, and broaden spectral components indicating greater field stress and reduced charge relaxation. These investigations support the development of effective on-line condition monitoring and aid in diagnosing strategies for high voltage equipment.
+C1 [Amizhtan, S. K.; Edin, Hans] KTH Royal Inst Technol, Sch Elect Engn & Comp Sci, SE-10044 Stockholm, Sweden.
+C3 Royal Institute of Technology
+RP Amizhtan, SK (corresponding author), KTH Royal Inst Technol, Sch Elect Engn & Comp Sci, SE-10044 Stockholm, Sweden.
+FU Transdimo through the Swedish Energy Agency [P2023-00506]
+FX The project is funded through grant "P2023-00506 Transdimo through the
+   Swedish Energy Agency".
+NR 16
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 0084-9162
+BN 979-8-3315-8903-5; 979-8-3315-8902-8
+J9 C ELECT INSUL DIEL P
+PY 2025
+AR B2
+DI 10.1109/CEIDP61707.2025.11218534
+PG 4
+WC Engineering, Electrical & Electronic; Materials Science,
+   Multidisciplinary; Physics, Applied
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Engineering; Materials Science; Physics
+GA BA9ZY
+UT WOS:001832793600165
+DA 2026-09-24
+ER
+PT J
+AU $$$Lousada, CM
+AF $$$Lousada, Claudio M.
+TI Symmetric tilt grain boundaries in uranium nitride and uranium carbide
+SO SCIENTIFIC REPORTS
+LA English
+DT Article
+ID ENERGIES; FUEL; MONONITRIDE; DEPENDENCE; MAGNESIA; SCHEMES; IMPACT
+AB The development of UN as a nuclear fuel requires good understanding of its microstructure. Here is presented a study of a set of 14 symmetric tilt grain boundaries (GBs) in UN and UC using density functional theory (DFT). From this set, both for UN and UC, the Sigma 03 (111)[10] is the most stable GB. Correlations between properties of the GBs such as tilt angle, excess volume and energies were obtained. For both materials the GB energies have a global minimum at the tilt angle of 70 degrees. The plot of the tilt angles vs. GB energies converges naturally to the previously published stacking fault energy for UN at 0 degrees. Using this method, a stacking fault energy for UC was obtained. The correlation between GB excess volume and GB energy is strong for UN, it is single-valued and of the simple parabolic type and shows that the excess volume is a good predictor of the GB energy for this material. For UC, the corresponding correlation is moderately predictive. Similarly to what is known for MgO with rock salt structure, this set of GBs is expected to be a good description of coincidence site lattice GBs in UN and UC that occur in microstructures close to equilibrium.
+C1 [Lousada, Claudio M.] KTH Royal Inst Technol, Dept Mat Sci & Engn, SE-10044 Stockholm, Sweden.
+C3 Royal Institute of Technology
+RP Lousada, CM (corresponding author), KTH Royal Inst Technol, Dept Mat Sci & Engn, SE-10044 Stockholm, Sweden.
+EM cmlp@kth.se
+FU Royal Institute of Technology
+FX Open access funding provided by Royal Institute of Technology.
+NR 81
+TC 0
+Z9 0
+U1 1
+U2 1
+PU NATURE PORTFOLIO
+PI BERLIN
+PA HEIDELBERGER PLATZ 3, BERLIN, 14197, GERMANY
+SN 2045-2322
+J9 SCI REP-UK
+JI Sci Rep
+PD AUG 31
+PY 2026
+VL 16
+IS 1
+AR 27231
+DI 10.1038/s41598-026-67229-y
+EA AUG 2026
+PG 13
+WC Multidisciplinary Sciences
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Science & Technology - Other Topics
+GA NO0RA
+UT WOS:001864471000003
+OA Green Published, gold
+DA 2026-09-24
+ER
+PT C
+AU $$$Zamani, A
+   Sadeghi, P
+   $$$Skoglund, M
+AF $$$Zamani, Amirreza
+   Sadeghi, Parastoo
+   $$$Skoglund, Mikael
+GP IEEE
+TI An Information Geometric Approach to Local Information Privacy with
+   Applications to Max-lift and Local Differential Privacy
+SO 2025 IEEE INFORMATION THEORY WORKSHOP, ITW
+SE Information Theory Workshop
+LA English
+DT Proceedings Paper
+CT 2025 Information Theory Workshop-ITW
+CY SEP 29-OCT 03, 2025
+CL Sydney, AUSTRALIA
+SP Institute of Electrical and Electronics Engineers Inc, University of Sydney
+ID DESIGN
+AB We study an information-theoretic privacy mechanism design, where an agent observes useful data Y and wants to reveal the information to a user. Since the useful data is correlated with the private data X, the agent uses a privacy mechanism to produce disclosed data U that can be released. We assume that the agent observes Y and has no direct access to X, i.e., the private data is hidden. We study the privacy mechanism design that maximizes the revealed information about Y while satisfying a bounded Local Information Privacy (LIP) criterion. When the leakage is sufficiently small, concepts from information geometry allow us to locally approximate the mutual information. By utilizing this approximation the main privacy-utility trade-off problem can be rewritten as a quadratic optimization problem that has closed-form solution under some constraints. For the cases where the closed-form solution is not obtained we provide lower bounds on it. In contrast to the previous works that have complexity issues, here, we provide simple privacy designs with low complexity which are based on finding the maximum singular value and singular vector of a matrix. To do so, we follow two approaches where in the first one we find a lower bound on the main problem and then approximate it, however, in the second approach we approximate the main problem directly.
+   In this work, we present geometrical studies of the proposed methods and in a numerical example we compare our results considering both approaches with the optimal solution and the previous methods. Finally, we discuss how the proposed methods can be applied to deal with differential privacy.
+C1 [Zamani, Amirreza; Skoglund, Mikael] KTH Royal Inst Technol, Div Informat Sci & Engn, Stockholm, Sweden.
+   [Sadeghi, Parastoo] UNSW, Sch Engn & Informat Technol, Sydney, NSW, Australia.
+C3 Royal Institute of Technology; University of New South Wales Sydney
+RP Zamani, A (corresponding author), KTH Royal Inst Technol, Div Informat Sci & Engn, Stockholm, Sweden.
+EM amizam@kth.se; p.sadeghi@unsw.edu.au; skoglund@kth.se
+RI Skoglund, Mikael/A-8334-2012; Zamani, Amirreza/NJS-3437-2025
+NR 37
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 2475-420X
+BN 979-8-3315-3143-0; 979-8-3315-3142-3
+J9 INFO THEOR WORKSH
+PY 2025
+BP 223
+EP 228
+DI 10.1109/ITW62417.2025.11240250
+PG 6
+WC Computer Science, Information Systems; Computer Science, Theory &
+   Methods; Mathematics, Applied
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science; Mathematics
+GA BB0CB
+UT WOS:001834467300001
+DA 2026-09-24
+ER
+PT C
+AU $$$Zhao, MY
+   $$$Oechtering, TJ
+   Le Treust, M
+AF $$$Zhao, Mengyuan
+   $$$Oechtering, Tobias J.
+   Le Treust, Mael
+GP IEEE
+TI Zero Estimation Cost Strategy for Witsenhausen Counterexample with
+   Causal Encoder
+SO 2025 IEEE INTERNATIONAL SYMPOSIUM ON INFORMATION THEORY, ISIT
+SE IEEE International Symposium on Information Theory
+LA English
+DT Proceedings Paper
+CT 2025 International Symposium on Information Theory-ISIT-Annual
+CY JUN 22-27, 2025
+CL Ann Arbor, MI
+SP Institute of Electrical and Electronics Engineers Inc, IEEE Information Theory Society
+ID INFORMATION
+AB We propose a zero estimation cost (ZEC) scheme for causal-encoding noncausal-decoding vector-valued Witsenhausen counterexample based on the coordination coding result. In contrast to source coding, our goal is to communicate a controlled system state. The introduced ZEC scheme is a joint control-communication approach that transforms the system state into a sequence that can be efficiently communicated using block coding. The noncausal decoder receives sufficient information for reconstructing the system state perfectly, enabling the achievable estimation cost to be zero. Numerical results show that our approach significantly reduces the power budget required for achieving zero-estimation-cost state reconstruction at the decoder. In the second part, we introduce a more general non-zero estimation cost (Non-ZEC) scheme. We observe numerically that the Non-ZEC scheme operates as a time-sharing mechanism between Witsenhausen's original two-point strategy and the ZEC scheme. Overall, by leveraging block-coding gain, our proposed methods substantially improve the power-estimation trade-off for Witsenhausen counterexample.
+C1 [Zhao, Mengyuan; Oechtering, Tobias J.] KTH Royal Inst Technol, Div Informat Sci & Engn, S-10044 Stockholm, Sweden.
+   [Le Treust, Mael] Univ Rennes, INRIA, CNRS, IRISA,UMR 6074, F-35000 Rennes, France.
+C3 Royal Institute of Technology; Centre National de la Recherche
+   Scientifique (CNRS); Universite de Rennes; Inria; CNRS - Institute for
+   Information Sciences & Technologies (INS2I)
+RP Zhao, MY (corresponding author), KTH Royal Inst Technol, Div Informat Sci & Engn, S-10044 Stockholm, Sweden.
+FU Swedish Research Council (VR) [2020-03884]; PEPR NF FOUNDS
+   [ANR-22-PEFT-0010]
+FX This work is supported by Swedish Research Council (VR) under grant
+   2020-03884. The work of Mael Le Treust is supported in part by PEPR NF
+   FOUNDS ANR-22-PEFT-0010.
+NR 30
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 2157-8095
+BN 979-8-3315-4400-3; 979-8-3315-4399-0
+J9 IEEE INT SYMP INFO
+PY 2025
+DI 10.1109/ISIT63088.2025.11195293
+PG 6
+WC Computer Science, Information Systems; Computer Science, Theory &
+   Methods; Engineering, Electrical & Electronic; Mathematics, Applied
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science; Engineering; Mathematics
+GA BA9OA
+UT WOS:001821502600085
+DA 2026-09-24
+ER
+PT J
+AU $$$Welle, MC
+   $$$Jaquier, N
+   Gams, A
+   Lundell, J
+   $$$Kragic, D
+AF $$$Welle, Michael C.
+   $$$Jaquier, Noemie
+   Gams, Andrej
+   Lundell, Jens
+   $$$Kragic, Danica
+TI Transfer learning in robotics: From promises to practice through the
+   emerging role of foundation models
+SO SCIENCE ROBOTICS
+LA English
+DT Editorial Material
+AB Foundation models offer a promising avenue to achieve transfer across robots, tasks, and environments.
+C1 [Welle, Michael C.; Jaquier, Noemie; Kragic, Danica] KTH Royal Inst Technol, Dept Robot Percept & Learning, Stockholm, Sweden.
+   [Gams, Andrej] Jozef Stefan Inst, Ljubljana, Slovenia.
+   [Lundell, Jens] Univ Turku, Turku, Finland.
+C3 Royal Institute of Technology; Slovenian Academy of Sciences & Arts
+   (SASA); Jozef Stefan Institute; University of Turku
+RP Kragic, D (corresponding author), KTH Royal Inst Technol, Dept Robot Percept & Learning, Stockholm, Sweden.
+EM dani@kth.se
+NR 1
+TC 0
+Z9 0
+U1 2
+U2 2
+PU AMER ASSOC ADVANCEMENT SCIENCE
+PI WASHINGTON
+PA 1200 NEW YORK AVE, NW, WASHINGTON, DC 20005 USA
+SN 2470-9476
+J9 SCI ROBOT
+JI Sci. Robot.
+PD APR 29
+PY 2026
+VL 11
+IS 113
+AR eaeh4374
+DI 10.1126/scirobotics.aeh4374
+EA APR 2026
+PG 2
+WC Robotics
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Robotics
+GA NM9DY
+UT WOS:001863687400001
+DA 2026-09-24
+ER
+PT C
+AU $$$Khan, MA
+   $$$Burghout, W
+   $$$Jenelius, E
+   $$$Cats, O
+   $$$Cebecauer, M
+AF $$$Khan, Mohd Aiman
+   $$$Burghout, Wilco
+   $$$Jenelius, Erik
+   $$$Cats, Oded
+   $$$Cebecauer, Matej
+GP IEEE
+TI Evaluating the operational and economic feasibility of mobile charging
+   pods for electric bus operations
+SO 2025 9TH INTERNATIONAL CONFERENCE ON MODELS AND TECHNOLOGIES FOR
+   INTELLIGENT TRANSPORTATION SYSTEMS, MT-ITS
+LA English
+DT Proceedings Paper
+CT 9th International Conference on Models and Technologies for Intelligent
+   Transportation Systems-MT ITS-Annual
+CY SEP 08-10, 2025
+CL Luxembourg, LUXEMBOURG
+SP Institute of Electrical and Electronics Engineers Inc, University of Luxembourg
+DE Electric Bus; Dynamic Charging; SUMO; Vehicle-to-Vehicle charging;
+   Mobile charging stations
+ID NETWORK
+AB Recent advances in battery technologies and a global push for greener transport have accelerated the development of electrified public transportation systems. Such systems often face challenges due to the need for large battery capacities and the high costs associated with conventional charging infrastructure. This study examines the potential of Mobile Autonomous Charging Pods (MAPs), which are autonomous charging vehicles, as an innovative solution to enhance both the efficiency and cost-effectiveness of electric bus operations in urban environments. Using the case of inner-city trunk bus lines in Stockholm and employing a microscopic simulation-based study, three charging scenarios are evaluated: depot charging only, depot combined with end-station charging, and depot plus MAP charging. The results indicate that the integration of MAPs can significantly reduce the required battery capacities and associated infrastructure costs while enhancing the reliability of the service. By facilitating dynamic, on-the-go charging, MAPs offer a sustainable and economically viable alternative for urban electric bus networks.
+C1 [Khan, Mohd Aiman; Burghout, Wilco; Jenelius, Erik; Cats, Oded; Cebecauer, Matej] KTH Royal Inst Technol, Div Transport Planning, Stockholm, Sweden.
+   [Cats, Oded] Delft Univ Technol, Dept Transport & Planning, Delft, Netherlands.
+C3 Royal Institute of Technology; Delft University of Technology
+RP Khan, MA (corresponding author), KTH Royal Inst Technol, Div Transport Planning, Stockholm, Sweden.
+EM makhan6@kth.se; wilco.burghout@abe.kth.se; erikjenelius@abe.kth.se;
+   o.cats@tudelft.nl; matej.cebecauer@abe.kth.se
+RI Jenelius, Erik/I-8061-2017; Burghout, Wilco/MFI-4342-2025
+FU Swedish Transport Administration [2022/8287]
+FX This research was funded by the Swedish Transport Administration grant
+   nr 2022/8287, Project SMART3.
+NR 19
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+BN 979-8-3315-8064-3; 979-8-3315-8063-6
+PY 2025
+BP 107
+EP 112
+DI 10.1109/MT-ITS68460.2025.11223571
+PG 6
+WC Computer Science, Artificial Intelligence; Computer Science, Information
+   Systems; Transportation Science & Technology
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science; Transportation
+GA BB0CX
+UT WOS:001835359000015
+OA Green Submitted
+DA 2026-09-24
+ER
+PT J
+AU $$$Zhu, FY
+   Penha, FM
+   $$$Cetecioglu, Z
+AF $$$Zhu, Fengyi
+   Penha, Frederico Marques
+   $$$Cetecioglu, Zeynep
+TI A staged biologically mediated process for phosphorus recovery from
+   marine sediments via enrichment of polyphosphate-accumulating organisms
+   and struvite precipitation
+SO JOURNAL OF ENVIRONMENTAL CHEMICAL ENGINEERING
+LA English
+DT Article
+DE Phosphorus recovery; Marine sediment; Biological concentration; PAO
+   enrichment; Struvite precipitation; PHREEQC modelling
+ID REMOVAL; PAO
+AB Phosphorus (P) is a critical but finite resource, while its internal release from sediments accelerates eutrophication. Developing recovery strategies that target sediments could simultaneously support resource recycling and environmental remediation. Here, we propose a biologically mediated two-stage P recovery strategy using marine sediments, where Stage I enriches polyphosphate-accumulating organisms (PAOs), and Stage II concentrates and recovers P via struvite precipitation. In Stage I, results demonstrated that PAOs can be enriched in natural marine sediments through cyclic aerobic-anaerobic cultivation. After 49 days, PAO abundance in sediment increased from 0.06% to 7.1% at the genus level, with the sediment-inoculated sequencing batch reactor (SBR) showing strong P release and uptake rates of 8.61 and 8.43 mg P/g VSS & centerdot;h(-1), respectively. In Stage II, extended anaerobic operation enhanced PAO selection and metabolic capacity, as shown by increased polymer synthesis rates (poly-P: 4.84 mg P/g VSS & centerdot;h(-1); glycogen: 14.92 mg C/g VSS & centerdot;h(-1)) and enrichment of carbon metabolism genes. PAO abundance surged to 41.2% within 10 days and ultimately reached 52.1% in the sediment reactor, while remaining below 7% in the sludge reactor. Supernatant P concentrations reached 99.5 mg/L in the sediment system, enabling effective struvite precipitation. PHREEQC simulations and laboratory precipitation confirmed recovery efficiencies > 95%. These findings demonstrate that biologically activated sediments can serve as a functional platform for concentrating low-P sediment-derived streams through PAO-mediated P cycling, followed by downstream struvite recovery.
+C1 [Zhu, Fengyi; Cetecioglu, Zeynep] KTH Royal Inst Technol, Sch Engn Sci Chem Biotechnol & Hlth, Dept Ind Biotechnol, SE-11421 Stockholm, Sweden.
+   [Penha, Frederico Marques] KTH Royal Inst Technol, Sch Engn Sci Chem Biotechnol & Hlth, Dept Chem Engn, Div Resource Recovery, SE-11428 Stockholm, Sweden.
+C3 Royal Institute of Technology; Royal Institute of Technology
+RP Zhu, FY (corresponding author), KTH Royal Inst Technol, Sch Engn Sci Chem Biotechnol & Hlth, Dept Ind Biotechnol, SE-11421 Stockholm, Sweden.
+EM fengyiz@kth.se
+RI ; Cetecioglu, Zeynep/AAI-4517-2020
+OI Zhu, Fengyi/0000-0001-7110-1165; 
+FU China Scholarship Council [C2021-0328]; Nordlander Family Foundation and
+   Initiative Uto [C2021-0328]; European Union [101060361]
+FX The authors appreciate the help from Brita Sundelin and Anna Sobek from
+   Stockholm University for the sediments sampling. Fengyi Zhu thanks the
+   financial support from China Scholarship Council. The research was
+   funded by Nordlander Family Foundation and Initiative Uto (C2021-0328)
+   and the European Union's Horizon Europe (SYM-BIOREM Grant agreement ID:
+   101060361). Funded by the European Union. Views and opinions expressed
+   are however those of the author(s) only and do not necessarily reflect
+   those of the European Union or the European Research Executive Agency
+   (REA). Neither the European Union nor the granting authority can be held
+   responsible for them.
+NR 44
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ELSEVIER SCI LTD
+PI London
+PA 125 London Wall, London, ENGLAND
+SN 2213-2929
+EI 2213-3437
+J9 J ENVIRON CHEM ENG
+JI J. Environ. Chem. Eng.
+PD OCT
+PY 2026
+VL 14
+IS 5
+AR 124767
+DI 10.1016/j.jece.2026.124767
+EA AUG 2026
+PG 12
+WC Engineering, Environmental; Engineering, Chemical
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering
+GA NO1BW
+UT WOS:001864499200001
+OA hybrid
+DA 2026-09-24
+ER
+PT J
+AU $$$Yu, SX
+   $$$Tian, X
+   $$$Shah, UM
+   $$$Oberhammer, J
+AF $$$Yu, Suxian
+   $$$Tian, Xu
+   $$$Shah, Umer
+   $$$Oberhammer, Joachim
+TI Comparative Study of DRIE-Based Fabrication Strategies for
+   Silicon-Micromachined Subterahertz Waveguide Components
+SO IEEE TRANSACTIONS ON COMPONENTS PACKAGING AND MANUFACTURING TECHNOLOGY
+LA English
+DT Article
+DE Etching; Fabrication; Silicon; Surfaces; Switches; Technology;
+   Microelectromechanical systems; Surface roughness; Metallization;
+   Couplers; Deep reactive-ion etching (DRIE); microelectromechanical
+   system (MEMS); silicon micromachining; subterahertz (THz) switching;
+   waveguide components
+ID BANDPASS-FILTERS; TECHNOLOGY
+AB Deep reactive-ion etching (DRIE) is widely used to realize high-aspect-ratio silicon waveguide components for terahertz (THz) and sub-THz applications. However, fabrication-induced variations in the waveguide cavity surface quality and geometry can significantly influence the conductor loss and device performance. At sub-THz frequencies, the electromagnetic (EM) skin depth becomes comparable to the characteristic scale of the surface roughness, while geometrical deviations can alter the EM behavior. In this work, two distinct DRIE-based fabrication strategies-a direct-etching approach and a release-assisted etching approach-are implemented to isolate the fabrication-induced surface morphology from the geometric integrity in silicon-micromachined waveguide cavities, providing insight into DRIE-based micromachining process optimization. Detailed geometrical and surface characterizations using scanning electron microscopy (SEM) and an optical profilometer reveal that the release-assisted etching approach effectively reduces the waveguide sidewall underetch from a maximum of 10.4-2.8 & micro;m while introducing increased sidewall surface roughness from 41.4 to 107.0 nm. A 163-183-GHz silicon-micromachined microelectromechanical system (MEMS) waveguide crossover switch is used as the test vehicle for RF characterization. The measurements show that, despite the reduction of the sidewall underetch, the measured isolation remains at a similar level for the two strategies. On the contrary, the increased sidewall roughness is accompanied by an approximately 33% increase in the crossover-state insertion loss (IL). These results indicate that, for the investigated device, surface roughness has a stronger impact on RF performance than sidewall underetch. The findings provide practical fabrication-level guidelines for DRIE process optimization and for the future development of increasingly complex high-frequency silicon-micromachined waveguide devices and microsystems.
+C1 [Yu, Suxian; Tian, Xu; Shah, Umer; Oberhammer, Joachim] KTH Royal Inst Technol, Dept Micro & Nanosyst, S-10044 Stockholm, Sweden.
+   [Tian, Xu] Tech Univ Denmark, Dept Civil & Mech Engn, DK-2800 Lyngby, Denmark.
+C3 Royal Institute of Technology; Technical University of Denmark
+RP Yu, SX (corresponding author), KTH Royal Inst Technol, Dept Micro & Nanosyst, S-10044 Stockholm, Sweden.
+EM suxian@kth.se
+FU European Space Agency through the High Frequency Internal Calibration
+   Subsystem for Radiometers [4000132841/20/NL/CT]
+FX This work was supported by European Space Agency through the High
+   Frequency Internal Calibration Subsystem for Radiometers under Contract
+   4000132841/20/NL/CT.
+NR 43
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2156-3950
+EI 2156-3985
+J9 IEEE T COMP PACK MAN
+JI IEEE Trans. Compon. Pack. Manuf. Technol.
+PD AUG
+PY 2026
+VL 16
+IS 8
+BP 1956
+EP 1966
+DI 10.1109/TCPMT.2026.3712118
+PG 11
+WC Engineering, Manufacturing; Engineering, Electrical & Electronic;
+   Materials Science, Multidisciplinary
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering; Materials Science
+GA NL8HA
+UT WOS:001862947700008
+OA hybrid
+DA 2026-09-24
+ER
+PT J
+AU $$$Zhang, P
+   $$$Petrov, V
+   Singh, A
+   $$$Björnson, E
+   Jornet, JM
+AF $$$Zhang, Peng
+   $$$Petrov, Vitaly
+   Singh, Arjun
+   $$$Bjornson, Emil
+   Jornet, Josep Miquel
+TI User Mobility Demands Near-Field Communications in Terahertz-Band
+   Wireless Networks Beyond 6G
+SO IEEE TRANSACTIONS ON COMMUNICATIONS
+LA English
+DT Article
+DE Bandwidth; Arrays; Distance measurement; Apertures; Modeling; Joining
+   processes; Limiting; Joints; Signal to noise ratio; Gain; Terahertz
+   communications; millimeter wave; near field; spherical wave propagation;
+   directional antennas
+ID MIMO COMMUNICATIONS; CHALLENGES; CHANNELS; ANTENNA
+AB Near-field propagation is often unavoidable at terahertz (THz) frequencies due to the large apertures needed for sufficient array gain, yet near-field operation complicates practical system design, especially under user mobility. This paper asks whether a mobile THz link can remain broadband and achieve the desired high rates and coverage while operating exclusively in the radiative far field. To answer this question, we develop a proof-by-contradiction feasibility framework that jointly enforces 1) a far-field requirement based on the Fraunhofer distance and 2) a reliability requirement specified by a target SNR at the worst-case link distance. We derive closed-form upper bounds on the far-field-feasible bandwidth for stationary and mobile links. We further incorporate practical misalignment through representative UE-rotation and mobility scenarios. Numerical results show that stationary THz links can remain far-field-only with physically realizable apertures while supporting extremely large bandwidths, whereas guaranteeing such operation for practical mobile THz systems becomes highly restrictive. In practically relevant mobile THz access settings, the far-field-feasible bandwidth becomes a severe limiting factor: achieving bandwidths of tens of gigahertz would require unrealistically high UE transmit power. A cross-band comparison further shows that far-field-only operation is largely attainable at sub-6 GHz and, to a significant extent, at mmWave for moderate bandwidths, while near-field effects should be accounted for in the design of mobile THz systems.
+C1 [Zhang, Peng; Petrov, Vitaly; Bjornson, Emil] KTH Royal Inst Technol, S-10044 Stockholm, Sweden.
+   [Singh, Arjun] SUNY Coll Technol Utica, Polytech Inst, Utica, NY 13502 USA.
+   [Jornet, Josep Miquel] Northeastern Univ, Boston, MA 02115 USA.
+C3 Royal Institute of Technology; Northeastern University
+RP Zhang, P (corresponding author), KTH Royal Inst Technol, S-10044 Stockholm, Sweden.
+EM pezhang@kth.se; vitalyp@kth.se; singha8@sunypoly.edu; emilbjo@kth.se;
+   j.jornet@northeastern.edu
+RI Jornet, Josep/B-3174-2013; Björnson, Emil/AAD-4840-2019
+FU Digital Futures at KTH; Swedish Research Council, Vinnova SweWIN
+   [2023-00572]; Swedish Foundation for Strategic Research SSF FFL-9
+   program, U.S. NSF [CNS-2451446, CNS-2504572]; SUNY TAF 2025
+   [CNS-2504572]
+FX This work was supported in part by Digital Futures at KTH, Grant
+   2022-04222 from the Swedish Research Council, Vinnova SweWIN Grant
+   2023-00572, the Swedish Foundation for Strategic Research SSF FFL-9
+   program, U.S. NSF under Grants CNS-2451446 and CNS-2504572, as well as
+   SUNY TAF 2025.
+NR 50
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0090-6778
+EI 1558-0857
+J9 IEEE T COMMUN
+JI IEEE Trans. Commun.
+PY 2026
+VL 74
+BP 13252
+EP 13268
+DI 10.1109/TCOMM.2026.3725318
+PG 17
+WC Engineering, Electrical & Electronic; Telecommunications
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering; Telecommunications
+GA NQ3QM
+UT WOS:001866035100024
+OA hybrid
+DA 2026-09-24
+ER
+EF
