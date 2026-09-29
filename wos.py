@@ -3,14 +3,14 @@
 
 DiVA import behaviour
 ----------------------
-* KTH authors are identified ONLY when an AF full name exactly matches a name
-  in a bracketed C1 entry whose affiliation is KTH.
-* AU remains unchanged.
-* Only those KTH authors receive $$$ in AF and in the same literal C1 names.
+* A C1 field can contain multiple [author group] affiliation associations.
+  Each association is inspected separately for KTH, so non-KTH coauthors in
+  the same multi-line C1 field are not incorrectly marked.
+* Only AF names explicitly linked to a KTH C1 association receive $$$.
+* The same literal full names receive $$$ in C1; AU is unchanged.
 * For records with > 30 authors, retain first author, last author and all
   detected KTH authors, plus complete C1 fields linked to retained authors.
-* C1 brackets, semicolons, affiliations and line wrapping are preserved; only
-  exact KTH names are prefixed with $$$.
+* C1 brackets, semicolons, affiliations and original line wrapping are kept.
 """
 from __future__ import annotations
 
@@ -54,7 +54,7 @@ small, .note { color:#444; }.error { border-left:4px solid #b00020; padding:.7re
 ul { padding-left:1.25rem; } li { margin:.55rem 0; } a.download { color:#0645ad; font-weight:600; }
 </style></head><body><main>
 <h1>WoS / KTH file processor</h1>
-<p>Upload a Web of Science tagged-text <code>.txt</code> export. Only authors explicitly linked to a KTH <code>C1</code> affiliation are marked with <code>$$$</code> in <code>AF</code> and <code>C1</code>; <code>AU</code> is unchanged.</p>
+<p>Upload a Web of Science tagged-text <code>.txt</code> export. Only authors explicitly linked to a KTH <code>C1</code> association are marked with <code>$$$</code> in <code>AF</code> and <code>C1</code>; <code>AU</code> is unchanged.</p>
 {% if error %}<p class="error">{{ error }}</p>{% endif %}
 {% if results %}<div class="success"><p><strong>Processing complete.</strong> Click a link to download its file.</p><ul>
 {% for result in results %}<li><a class="download" href="{{ result.url }}" download="{{ result.name }}">{{ result.name }}</a> <small>({{ result.size }} bytes)</small></li>{% endfor %}
@@ -77,6 +77,12 @@ class Record:
 class FieldBlock:
     tag: str
     lines: list[str]
+
+
+@dataclass(frozen=True)
+class C1Association:
+    names: frozenset[str]
+    address: str
 
 
 def clean_expired_results() -> None:
@@ -164,7 +170,7 @@ def normalise_name(name: str) -> str:
 
 
 def name_key(name: str) -> tuple[str, str]:
-    """Used only for C1 filtering after a >30-author reduction."""
+    """Loose key used only to decide whether a complete C1 field survives truncation."""
     cleaned = normalise_name(name)
     if "," not in cleaned:
         return cleaned, ""
@@ -174,34 +180,57 @@ def name_key(name: str) -> tuple[str, str]:
 
 
 def c1_text(block: FieldBlock) -> str:
-    """Unfold C1 for recognition only; never use it as output."""
+    """Unfold C1 for recognition only; output always uses original lines."""
     return " ".join(line[3:].rstrip("\r\n").strip() for line in block.lines)
+
+
+def c1_associations(block: FieldBlock) -> list[C1Association]:
+    """Split one C1 field into individual [authors] -> address associations.
+
+    WoS commonly writes several associations inside one C1 field using C1
+    continuation lines. Each bracketed author group belongs only to the text
+    after it and before the next bracketed group.
+    """
+    text = c1_text(block)
+    matches = list(re.finditer(r"\[([^\]]+)\]", text))
+    associations: list[C1Association] = []
+    for index, match in enumerate(matches):
+        next_start = matches[index + 1].start() if index + 1 < len(matches) else len(text)
+        names = frozenset(
+            normalise_name(name)
+            for name in match.group(1).split(";")
+            if normalise_name(name)
+        )
+        address = text[match.end():next_start].strip()
+        if names:
+            associations.append(C1Association(names, address))
+    return associations
 
 
 def names_in_c1_block(block: FieldBlock) -> set[str]:
     names: set[str] = set()
-    for group in re.findall(r"\[([^\]]+)\]", c1_text(block)):
-        for name in group.split(";"):
-            normalized = normalise_name(name)
-            if normalized:
-                names.add(normalized)
+    for association in c1_associations(block):
+        names.update(association.names)
     return names
 
 
-def is_kth_c1_block(block: FieldBlock) -> bool:
-    text = c1_text(block).casefold()
+def is_kth_address(address: str) -> bool:
+    text = address.casefold()
     return any(pattern in text for pattern in KTH_PATTERNS)
 
 
 def mark_kth(record: Record, blocks: list[FieldBlock]) -> None:
-    """Mark only exact AF full names explicitly linked to a KTH C1 block."""
+    """Mark exact AF names only when their own C1 association is KTH."""
     record.authors_au = values_from_blocks(blocks, "AU")
     record.authors_af = values_from_blocks(blocks, "AF")
 
     kth_c1_names: set[str] = set()
     for block in blocks:
-        if block.tag == "C1" and is_kth_c1_block(block):
-            kth_c1_names.update(names_in_c1_block(block))
+        if block.tag != "C1":
+            continue
+        for association in c1_associations(block):
+            if is_kth_address(association.address):
+                kth_c1_names.update(association.names)
 
     for index, af_name in enumerate(record.authors_af):
         if normalise_name(af_name) in kth_c1_names:
@@ -229,7 +258,11 @@ def retained_name_keys(record: Record, au_keep: list[int], af_keep: list[int]) -
 
 
 def c1_has_retained_author(block: FieldBlock, retained_keys: set[tuple[str, str]]) -> bool:
-    return any(name_key(name) in retained_keys for name in names_in_c1_block(block))
+    return any(
+        name_key(name) in retained_keys
+        for association in c1_associations(block)
+        for name in association.names
+    )
 
 
 def render_au(values: list[str], keep: list[int], newline: str) -> list[str]:
@@ -254,7 +287,7 @@ def render_af(values: list[str], keep: list[int], kth: set[int], newline: str) -
 
 
 def mark_c1_block_literal(block: FieldBlock, kth_full_names: set[str]) -> list[str]:
-    """Mark exact KTH AF names in C1 while preserving all C1 punctuation."""
+    """Mark exact KTH AF names in C1 while retaining original C1 syntax."""
     marked: list[str] = []
     for line in block.lines:
         changed = line
