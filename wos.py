@@ -126,7 +126,7 @@ def split_records(lines: Iterable[str]) -> tuple[list[str], list[Record]]:
                 records.append(Record(current))
             current = [line]
         elif current is None:
-            if not line.startswith("EF"):
+            if line.strip() and not line.startswith("EF"):
                 header.append(line)
         else:
             current.append(line)
@@ -363,12 +363,14 @@ def process_wos(data: bytes) -> dict[str, bytes]:
         ut = ut_values[0] if ut_values else ""
         kth_report.append(f"{number}\t{ut}\t{title}\t{'; '.join(kth_names)}")
 
+    newline = "\r\n" if "\r\n" in text else "\n"
     output_date = one_month_from_today().isoformat()
     base = f"Tas efter {output_date}"
     files: dict[str, bytes] = {}
     for batch_number, start in enumerate(range(0, len(processed), BATCH_SIZE), start=1):
         filename = f"{base}_UT_{batch_number:03d}.txt"
-        body = "".join(header) + "".join(processed[start:start + BATCH_SIZE]) + "EF\n"
+        batch = "".join(rendered + newline for rendered in processed[start:start + BATCH_SIZE])
+        body = "".join(header) + batch + "EF" + newline
         files[filename] = body.encode("utf-8")
 
     files[f"{base}_ANTAL_FF.txt"] = ("\n".join(report) + "\n").encode("utf-8")
