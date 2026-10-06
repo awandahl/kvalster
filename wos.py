@@ -39,6 +39,36 @@ KTH_PATTERNS = (
     "kungliga tekniska högskolan",
     "kungliga tekniska hogskolan",
 )
+TITLE_CASE_TAGS = frozenset({"TI", "SO", "SE", "BS", "CT", "PU", "PI"})
+SMALL_WORDS = frozenset({
+    "a", "an", "the", "and", "or", "nor", "but", "for", "of", "on", "in", "at",
+    "to", "by", "from", "with", "as", "via", "per", "vs", "into", "upon", "over",
+})
+UPPERCASE_WORDS = frozenset({
+    "AAAI", "ACM", "ACS", "AG", "AIAA", "AIP", "ASCE", "ASME", "BMC", "CAV", "CCS",
+    "CHI", "COVID", "CVPR", "ECCV", "EDP", "EMS", "EPJ", "ESA", "EU", "ICASSP", "ICC",
+    "ICCV", "ICLR", "ICML", "ICRA", "ICS", "IDC", "IEEE", "IET", "IFAC", "IFIP", "IJCAI",
+    "IMS", "IOP", "IOS", "IROS", "ISA", "ISBM", "ISCA", "ISIT", "ISPRS", "ITW", "IUI", "IWA",
+    "JACS", "JMLR", "KDD", "KSAE", "KTH", "MDPI", "NASA", "NATO", "NPJ", "PLOS", "RILEM", "RSC",
+    "SA", "SAE", "SIAM", "SIGCOMM", "SIGGRAPH", "SIGIR", "SIGMOD", "SIGOPS", "SODA",
+    "SOSA", "SPIE", "UK", "URSI", "USA", "VLDB", "WASPAA", "WSC",
+})
+SPECIAL_CASE_WORDS = {
+    "AICHE": "AIChE",
+    "GMBH": "GmbH",
+    "PEERJ": "PeerJ",
+    "SPRINGERNATURE": "SpringerNature",
+    "TRAC": "TrAC",
+}
+KEYWORD_UPPERCASE_WORDS = frozenset({
+    "ADMM", "ATLAS", "CFT", "COPD", "CTMP", "DNA", "GRS", "LBE", "MAE", "MIMO", "MRI",
+    "NK", "PAO", "RMSE", "RNA",
+})
+KEYWORD_SPECIAL_CASE_WORDS = {"HMSCS": "hMSCs", "KDV": "KdV", "RNAS": "RNAs"}
+ACRONYM_SEGMENT_TAGS = frozenset({"SO", "SE", "BS", "CT"})
+ACRONYM_SEGMENT = re.compile(r"\s*([^\W_][^\s,]*)(?:\s+\d{4})?\s*")
+ROMAN_NUMERAL = re.compile(r"(?=[IVXLC])M{0,3}(?:C[MD]|D?C{0,3})(?:X[CL]|L?X{0,3})(?:I[XV]|V?I{0,3})")
+WORD = re.compile(r"[^\W_]+(?:'[^\W_]+)*")
 RESULTS: dict[str, dict[str, object]] = {}
 
 PAGE = """<!doctype html>
@@ -239,6 +269,127 @@ def mark_kth(record: Record, blocks: list[FieldBlock]) -> None:
                 record.kth_au.add(index)
 
 
+def is_all_caps(text: str) -> bool:
+    letters = [char for char in text if char.isalpha()]
+    return len(letters) > 1 and all(char.isupper() for char in letters)
+
+
+def title_case_word(word: str, capitalise: bool) -> str:
+    upper = word.upper()
+    if upper in SPECIAL_CASE_WORDS:
+        return SPECIAL_CASE_WORDS[upper]
+    if upper in UPPERCASE_WORDS or ROMAN_NUMERAL.fullmatch(upper):
+        return upper
+    if len(word) == 1 and upper != "A":
+        return upper
+    lower = word.lower()
+    if lower in SMALL_WORDS and not capitalise:
+        return lower
+    return lower[0].upper() + lower[1:]
+
+
+def acronym_spans(text: str) -> list[tuple[int, int]]:
+    """Character spans of conference acronyms such as ", QOMEX" or ", IUI 2026".
+
+    A comma-separated segment (not the first) that is a single word, optionally
+    followed by a year, is kept uppercase if it is the last segment or a year follows.
+    """
+    spans: list[tuple[int, int]] = []
+    segments = list(re.finditer(r"[^,]+", text))
+    for index, segment in enumerate(segments[1:], start=1):
+        match = ACRONYM_SEGMENT.fullmatch(segment.group(0))
+        if (
+            match
+            and match.group(1).casefold() not in SMALL_WORDS
+            and (index == len(segments) - 1 or re.search(r"\d{4}\s*$", segment.group(0)))
+        ):
+            spans.append((segment.start() + match.start(1), segment.start() + match.end(1)))
+    return spans
+
+
+def title_case_block(block: FieldBlock) -> list[str]:
+    """Title-case an ALL-CAPS field, keeping its tag and line wrapping."""
+    if not is_all_caps(c1_text(block)):
+        return block.lines
+    bodies = [line[3:].rstrip("\r\n") for line in block.lines]
+    text = " ".join(bodies)
+    keep_upper = acronym_spans(text) if block.tag in ACRONYM_SEGMENT_TAGS else []
+    matches = list(WORD.finditer(text))
+    replacements: dict[int, str] = {}
+    for index, match in enumerate(matches):
+        before = text[:match.start()].rstrip()
+        after = text[match.end():match.end() + 1]
+        if any(start <= match.start() < end for start, end in keep_upper):
+            word = match.group(0).upper()
+        else:
+            capitalise = (
+                not before
+                or before.endswith(":")
+                or text[match.start() - 1:match.start()] == "-"
+                or after == "-"
+                or index == len(matches) - 1
+            )
+            word = title_case_word(match.group(0), capitalise)
+        replacements[match.start()] = word
+
+    output: list[str] = []
+    offset = 0
+    for line, body in zip(block.lines, bodies):
+        parts: list[str] = []
+        position = 0
+        for match in WORD.finditer(body):
+            parts.append(body[position:match.start()])
+            parts.append(replacements[offset + match.start()])
+            position = match.end()
+        parts.append(line[3 + position:])
+        output.append(line[:3] + "".join(parts))
+        offset += len(body) + 1
+    return output
+
+
+def title_case_country_block(block: FieldBlock) -> list[str]:
+    """Title-case an ALL-CAPS country after the last comma of a CL field (``Strasbourg, FRANCE``).
+
+    Two-letter codes such as US states (``Seattle, WA``, ``NY USA``) and ``UK`` are left unchanged.
+    """
+    last = block.lines[-1]
+    comma = last.rfind(",")
+    if comma < 3:
+        return block.lines
+    country = last[comma + 1:]
+    letters = [char for char in country if char.isalpha()]
+    if len(letters) <= 2 or not all(char.isupper() for char in letters):
+        return block.lines
+    words = list(WORD.finditer(country))
+    parts: list[str] = []
+    position = 0
+    for index, match in enumerate(words):
+        parts.append(country[position:match.start()])
+        word = match.group(0)
+        parts.append(word if len(word) == 2 else title_case_word(word, index in (0, len(words) - 1)))
+        position = match.end()
+    parts.append(country[position:])
+    return [*block.lines[:-1], last[:comma + 1] + "".join(parts)]
+
+
+def lowercase_keyword(word: str) -> str:
+    upper = word.upper()
+    if upper in KEYWORD_SPECIAL_CASE_WORDS:
+        return KEYWORD_SPECIAL_CASE_WORDS[upper]
+    if upper in UPPERCASE_WORDS or upper in KEYWORD_UPPERCASE_WORDS:
+        return upper
+    if len(word) == 1 or any(char.isdigit() for char in word):
+        return word
+    return word.lower()
+
+
+def lowercase_keywords_block(block: FieldBlock) -> list[str]:
+    """Lowercase an ALL-CAPS keyword field, keeping acronyms and formulas such as CO2."""
+    if not is_all_caps(c1_text(block)):
+        return block.lines
+    return [line[:3] + WORD.sub(lambda match: lowercase_keyword(match.group(0)), line[3:]) for line in block.lines]
+
+
 def selected_indices(count: int, kth: set[int]) -> list[int]:
     if count <= MAX_AUTHORS:
         return list(range(count))
@@ -332,6 +483,18 @@ def transform_record(record: Record) -> tuple[str, int, str, list[str]]:
         if block.tag == "C1":
             if not short_record or c1_has_retained_author(block, retained_keys):
                 output.extend(mark_c1_block_literal(block, kth_full_names))
+            continue
+
+        if block.tag == "CL":
+            output.extend(title_case_country_block(block))
+            continue
+
+        if block.tag == "ID":
+            output.extend(lowercase_keywords_block(block))
+            continue
+
+        if block.tag in TITLE_CASE_TAGS:
+            output.extend(title_case_block(block))
             continue
 
         output.extend(block.lines)
