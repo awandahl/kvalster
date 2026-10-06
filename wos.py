@@ -347,6 +347,31 @@ def title_case_block(block: FieldBlock) -> list[str]:
     return output
 
 
+def title_case_country_block(block: FieldBlock) -> list[str]:
+    """Title-case an ALL-CAPS country after the last comma of a CL field (``Strasbourg, FRANCE``).
+
+    Two-letter codes such as US states (``Seattle, WA``, ``NY USA``) and ``UK`` are left unchanged.
+    """
+    last = block.lines[-1]
+    comma = last.rfind(",")
+    if comma < 3:
+        return block.lines
+    country = last[comma + 1:]
+    letters = [char for char in country if char.isalpha()]
+    if len(letters) <= 2 or not all(char.isupper() for char in letters):
+        return block.lines
+    words = list(WORD.finditer(country))
+    parts: list[str] = []
+    position = 0
+    for index, match in enumerate(words):
+        parts.append(country[position:match.start()])
+        word = match.group(0)
+        parts.append(word if len(word) == 2 else title_case_word(word, index in (0, len(words) - 1)))
+        position = match.end()
+    parts.append(country[position:])
+    return [*block.lines[:-1], last[:comma + 1] + "".join(parts)]
+
+
 def lowercase_keyword(word: str) -> str:
     upper = word.upper()
     if upper in KEYWORD_SPECIAL_CASE_WORDS:
@@ -458,6 +483,10 @@ def transform_record(record: Record) -> tuple[str, int, str, list[str]]:
         if block.tag == "C1":
             if not short_record or c1_has_retained_author(block, retained_keys):
                 output.extend(mark_c1_block_literal(block, kth_full_names))
+            continue
+
+        if block.tag == "CL":
+            output.extend(title_case_country_block(block))
             continue
 
         if block.tag == "ID":
