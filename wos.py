@@ -60,6 +60,11 @@ SPECIAL_CASE_WORDS = {
     "SPRINGERNATURE": "SpringerNature",
     "TRAC": "TrAC",
 }
+KEYWORD_UPPERCASE_WORDS = frozenset({
+    "ADMM", "ATLAS", "CFT", "COPD", "CTMP", "DNA", "GRS", "LBE", "MAE", "MIMO", "MRI",
+    "NK", "PAO", "RMSE", "RNA",
+})
+KEYWORD_SPECIAL_CASE_WORDS = {"HMSCS": "hMSCs", "KDV": "KdV", "RNAS": "RNAs"}
 ACRONYM_SEGMENT_TAGS = frozenset({"SO", "SE", "BS", "CT"})
 ACRONYM_SEGMENT = re.compile(r"\s*([^\W_][^\s,]*)(?:\s+\d{4})?\s*")
 ROMAN_NUMERAL = re.compile(r"(?=[IVXLC])M{0,3}(?:C[MD]|D?C{0,3})(?:X[CL]|L?X{0,3})(?:I[XV]|V?I{0,3})")
@@ -342,6 +347,24 @@ def title_case_block(block: FieldBlock) -> list[str]:
     return output
 
 
+def lowercase_keyword(word: str) -> str:
+    upper = word.upper()
+    if upper in KEYWORD_SPECIAL_CASE_WORDS:
+        return KEYWORD_SPECIAL_CASE_WORDS[upper]
+    if upper in UPPERCASE_WORDS or upper in KEYWORD_UPPERCASE_WORDS:
+        return upper
+    if len(word) == 1 or any(char.isdigit() for char in word):
+        return word
+    return word.lower()
+
+
+def lowercase_keywords_block(block: FieldBlock) -> list[str]:
+    """Lowercase an ALL-CAPS keyword field, keeping acronyms and formulas such as CO2."""
+    if not is_all_caps(c1_text(block)):
+        return block.lines
+    return [line[:3] + WORD.sub(lambda match: lowercase_keyword(match.group(0)), line[3:]) for line in block.lines]
+
+
 def selected_indices(count: int, kth: set[int]) -> list[int]:
     if count <= MAX_AUTHORS:
         return list(range(count))
@@ -435,6 +458,10 @@ def transform_record(record: Record) -> tuple[str, int, str, list[str]]:
         if block.tag == "C1":
             if not short_record or c1_has_retained_author(block, retained_keys):
                 output.extend(mark_c1_block_literal(block, kth_full_names))
+            continue
+
+        if block.tag == "ID":
+            output.extend(lowercase_keywords_block(block))
             continue
 
         if block.tag in TITLE_CASE_TAGS:
