@@ -38,25 +38,29 @@ KTH_PATTERNS = (
     "royal inst technol kth",
     "kungliga tekniska högskolan",
     "kungliga tekniska hogskolan",
+    "kungliga tekn hogskolan",
 )
+KTH_ACRONYM = re.compile(r"\bkth\b")
 TITLE_CASE_TAGS = frozenset({"TI", "SO", "SE", "BS", "CT", "PU", "PI"})
 SMALL_WORDS = frozenset({
     "a", "an", "the", "and", "or", "nor", "but", "for", "of", "on", "in", "at",
     "to", "by", "from", "with", "as", "via", "per", "vs", "into", "upon", "over",
 })
 UPPERCASE_WORDS = frozenset({
-    "AAAI", "ACM", "ACS", "AG", "AIAA", "AIP", "ASCE", "ASME", "BMC", "CAV", "CCS",
-    "CHI", "COVID", "CVPR", "ECCV", "EDP", "EMS", "EPJ", "ESA", "EU", "ICASSP", "ICC",
-    "ICCV", "ICLR", "ICML", "ICRA", "ICS", "IDC", "IEEE", "IET", "IFAC", "IFIP", "IJCAI",
-    "IMS", "IOP", "IOS", "IROS", "ISA", "ISBM", "ISCA", "ISIT", "ISPRS", "ITW", "IUI", "IWA",
-    "JACS", "JMLR", "KDD", "KSAE", "KTH", "MDPI", "NASA", "NATO", "NPJ", "PLOS", "RILEM", "RSC",
+    "AAAI", "ACM", "ACS", "AG", "AI", "AIAA", "AIP", "ASCE", "ASME", "BMC", "CAV", "CCS",
+    "CHI", "COVID", "CVPR", "ECCV", "EDP", "EMS", "EPJ", "ESA", "EU", "HJB", "ICASSP", "ICC",
+    "ICCV", "ICLR", "ICML", "ICRA", "ICS", "IDC", "IEEE", "IID", "IET", "IFAC", "IFIP", "IJCAI",
+    "IMS", "IOP", "IOS", "IROS", "ISA", "ISBM", "ISCA", "ISIT", "ISME", "ISPRS", "ITW", "IUI", "IWA",
+    "JACS", "JMLR", "KDD", "KSAE", "KTH", "MDPI", "NASA", "NATO", "NPJ", "PET", "PLOS", "RILEM", "RSC",
     "SA", "SAE", "SIAM", "SIGCOMM", "SIGGRAPH", "SIGIR", "SIGMOD", "SIGOPS", "SODA",
     "SOSA", "SPIE", "UK", "URSI", "USA", "VLDB", "WASPAA", "WSC",
 })
 SPECIAL_CASE_WORDS = {
     "AICHE": "AIChE",
     "GMBH": "GmbH",
+    "MNPS": "MNPs",
     "PEERJ": "PeerJ",
+    "PETASE": "PETase",
     "SPRINGERNATURE": "SpringerNature",
     "TRAC": "TrAC",
 }
@@ -64,7 +68,11 @@ KEYWORD_UPPERCASE_WORDS = frozenset({
     "ADMM", "ATLAS", "CFT", "COPD", "CTMP", "DNA", "GRS", "LBE", "MAE", "MIMO", "MRI",
     "NK", "PAO", "RMSE", "RNA",
 })
-KEYWORD_SPECIAL_CASE_WORDS = {"HMSCS": "hMSCs", "KDV": "KdV", "RNAS": "RNAs"}
+KEYWORD_SPECIAL_CASE_WORDS = {
+    "AL": "Al", "CAO": "CaO", "CO": "CO", "CR": "Cr", "FE": "Fe", "GE": "Ge", "HMSCS": "hMSCs",
+    "IG": "Ig", "KDV": "KdV", "NI": "Ni", "PAHS": "PAHs", "PH": "pH", "RNAS": "RNAs",
+    "SIO2": "SiO2", "TI": "Ti", "TIO2": "TiO2",
+}
 ACRONYM_SEGMENT_TAGS = frozenset({"SO", "SE", "BS", "CT"})
 ACRONYM_SEGMENT = re.compile(r"\s*([^\W_][^\s,]*)(?:\s+\d{4})?\s*")
 ROMAN_NUMERAL = re.compile(r"(?=[IVXLC])M{0,3}(?:C[MD]|D?C{0,3})(?:X[CL]|L?X{0,3})(?:I[XV]|V?I{0,3})")
@@ -246,7 +254,7 @@ def names_in_c1_block(block: FieldBlock) -> set[str]:
 
 def is_kth_address(address: str) -> bool:
     text = address.casefold()
-    return any(pattern in text for pattern in KTH_PATTERNS)
+    return bool(KTH_ACRONYM.search(text)) or any(pattern in text for pattern in KTH_PATTERNS)
 
 
 def mark_kth(record: Record, blocks: list[FieldBlock]) -> None:
@@ -465,6 +473,7 @@ def transform_record(record: Record) -> tuple[str, int, str, list[str]]:
     newline = "\r\n" if any(line.endswith("\r\n") for line in record.lines) else "\n"
 
     output: list[str] = []
+    title_lines: list[str] = []
     au_rendered = False
     af_rendered = False
     for block in blocks:
@@ -494,12 +503,15 @@ def transform_record(record: Record) -> tuple[str, int, str, list[str]]:
             continue
 
         if block.tag in TITLE_CASE_TAGS:
-            output.extend(title_case_block(block))
+            lines = title_case_block(block)
+            if block.tag == "TI":
+                title_lines.extend(lines)
+            output.extend(lines)
             continue
 
         output.extend(block.lines)
 
-    title = " ".join(field_values(record.lines, "TI")).strip()
+    title = " ".join(field_values(title_lines, "TI")).strip()
     kth_names = [record.authors_af[index] for index in sorted(record.kth_af) if index < len(record.authors_af)]
     return "".join(output), author_count, title, kth_names
 
