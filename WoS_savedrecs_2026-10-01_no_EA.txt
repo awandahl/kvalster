@@ -1,0 +1,2858 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Yang, K
+   Pauletto, S
+AF Yang, Ke
+   Pauletto, Sandra
+TI Sounding different: Exploring attitudes towards digital voice
+   personalization in a conversational setting
+SO INTERNATIONAL JOURNAL OF HUMAN-COMPUTER STUDIES
+LA English
+DT Article
+DE Personalization; Voice; Self-presentation; Conversation; Empirical
+   study; Thematic analysis
+ID SPEECH; TRANSGENDER
+AB With the rapid advancement of voice generation and conversion technologies, the application of voice per sonalization in everyday communication is becoming increasingly possible. However, current studies on voice personalization have largely focused on tool design, while relatively little is known about the impact of these technologies on self-presentation and social interaction. To explore this, we conducted a qualitative study with 14 pairs of participants (28 in total, 15 females and 13 males) that integrated a voice personalization tool into natural conversation. In pairs, participants first engaged in a conversation using their original voices, and then reflected on this experience. After that, they personalized their voices using a voice modification tool and took part in a second conversation with the same partner in which they heard each other's modified voices in realtime. Finally, they participated in follow-up interviews. Our findings show that voice personalization prompted participants to reflect on their original and modified voices, to negotiate between authenticity and desired traits, and to consider both benefits and risks of voice personalization in different contexts. These insights indicate that voice personalization is intricately linked to self-perception while simultaneously functioning as a malleable social signal. Overall, this study contributes empirically grounded findings on how voice modification affects self-perception and impression management, and offers design directions for future personalization tools.
+C1 [Yang, Ke; Pauletto, Sandra] KTH Royal Inst Technol, Stockholm, Sweden.
+RP Pauletto, S (corresponding author), KTH Royal Inst Technol, Stockholm, Sweden.
+EM yangk@kth.se; pauletto@kth.se
+FU Digital Futures research internship programme - Swedish Research Council
+   [2022-03421]
+FX This study was supported by the Digital Futures research internship
+   programme (https:// www.digitalfutures.kth.se) , and by the project
+   Personalising Sonic Interactions funded by the Swedish Research Council
+   (PI Pauletto; ref: 2022-03421) .
+NR 50
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ACADEMIC PRESS LTD- ELSEVIER SCIENCE LTD
+PI LONDON
+PA 24-28 OVAL RD, LONDON NW1 7DX, ENGLAND
+SN 1071-5819
+EI 1095-9300
+J9 INT J HUM-COMPUT ST
+JI Int. J. Hum.-Comput. Stud.
+PD FEB
+PY 2027
+VL 218
+AR 103942
+DI 10.1016/j.ijhcs.2026.103942
+EA SEP 2026
+PG 12
+WC Computer Science, Cybernetics; Ergonomics; Psychology, Multidisciplinary
+WE Science Citation Index Expanded (SCI-EXPANDED); Social Science Citation Index (SSCI)
+SC Computer Science; Engineering; Psychology
+GA OL2CU
+UT WOS:001880179000001
+OA hybrid
+DA 2026-10-01
+ER
+
+PT C
+AU Raghavan, A
+   Johansson, KH
+AF Raghavan, Aneesh
+   Johansson, Karl H.
+BE Lindemann, L
+   Tu, S
+   Wierman, A
+   Atanasov, N
+   Sukhatme, G
+TI Trajectory-Level Experimental Design for Fast Safety Parameter
+   Estimation of Unknown Environments by Autonomous Systems
+SO ANNUAL LEARNING FOR DYNAMICS AND CONTROL CONFERENCE
+SE Proceedings of Machine Learning Research
+LA English
+DT Proceedings Paper
+CT 8th Conference on Learning for Dynamics and Control-L4DC-Annual
+CY JUN 17-19, 2026
+CL Los Angeles, CA
+DE Safety of Autonomous Systems; Parameter Estimation; Experiment Design
+AB We consider the problem of exploring an unknown environment to identify safe and unsafe regions, with the objective of minimizing the number of samples required. The safety of each region is parameterized, and these parameters must be estimated. The exploration problem is formulated as maximizing the spectral gap (or equivalently, minimizing the mixing time) of the Markov chain induced by the agent's policy and current parameter estimates. A closed-form solution to the resulting policy optimization problem is derived, leading to an adaptive exploration algorithm in which regions, once labeled as safe or unsafe, are no longer visited. We analyze the sample complexity required to complete the labeling task with high confidence, compare the proposed method against uniform random and Bayesian exploration strategies, and identify sufficient conditions under which the proposed algorithm achieves lower sample complexity.
+C1 [Raghavan, Aneesh; Johansson, Karl H.] KTH Royal Inst Technol, DCS Div, Stockholm, Sweden.
+C3 Royal Institute of Technology
+RP Raghavan, A (corresponding author), KTH Royal Inst Technol, DCS Div, Stockholm, Sweden.
+EM ANEESH@KTH.SE; KALLEJ@KTH.SE
+FU Swedish Research Council Distinguished Professor Grant [2017-01078];
+   Knut and Alice Wallenberg Foundation Wallenberg Scholar Grant; Swedish
+   Strategic Research Foundation FUSS SUCCESS Grant
+FX This work was supported in part by Swedish Research Council
+   Distinguished Professor Grant 2017-01078, Knut and Alice Wallenberg
+   Foundation Wallenberg Scholar Grant, and the Swedish Strategic Research
+   Foundation FUSS SUCCESS Grant. Aneesh Raghavan thanks Stefan Stojanovic
+   and Alexandre Proutiere for discussion on the problem considered in this
+   paper. The authors thank the anonymous reviewers for their valuable
+   feedback on the initial submission.
+NR 27
+TC 0
+Z9 0
+U1 0
+U2 0
+PU JMLR-JOURNAL MACHINE LEARNING RESEARCH
+PI SAN DIEGO
+PA 1269 LAW ST, SAN DIEGO, CA, UNITED STATES
+SN 2640-3498
+J9 PR MACH LEARN RES
+PY 2026
+VL 331
+BP 589
+EP 600
+PG 12
+WC Automation & Control Systems; Computer Science, Artificial Intelligence;
+   Computer Science, Interdisciplinary Applications
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems; Computer Science
+GA BB1QV
+UT WOS:001863802500028
+DA 2026-10-01
+ER
+
+PT C
+AU Sidrane, C
+   Tumova, J
+AF Sidrane, Chelsea
+   Tumova, Jana
+BE Lindemann, L
+   Tu, S
+   Wierman, A
+   Atanasov, N
+   Sukhatme, G
+TI BURNS: Backward Underapproximate Reachability for Neural-Feedback-Loop
+   Systems
+SO ANNUAL LEARNING FOR DYNAMICS AND CONTROL CONFERENCE
+SE Proceedings of Machine Learning Research
+LA English
+DT Proceedings Paper
+CT 8th Conference on Learning for Dynamics and Control-L4DC-Annual
+CY JUN 17-19, 2026
+CL Los Angeles, CA
+DE Neural Networks; Verification; Reachability; Control
+AB Learning-enabled planning and control algorithms are increasingly popular, but they often lack rigorous guarantees of performance or safety. Frameworks such as reachability analysis can be used to provide such guarantees. We introduce an algorithm for computing underapproximate backward reachable sets of nonlinear discrete time neural feedback loops. We then use the backward reachable sets to check goal-reaching properties. Our algorithm is based upon ideas from robustness analysis for vision networks, and on overapproximating the system dynamics function. Together these enable computation of underapproximate backward reachable sets through solutions of mixed-integer linear programs. We rigorously analyze the soundness of our algorithm and demonstrate it on a numerical example. Our work expands the class of properties that can be verified for learning-enabled systems.
+C1 [Sidrane, Chelsea; Tumova, Jana] KTH Royal Inst Technol, Digital Futures, Stockholm, Sweden.
+C3 Royal Institute of Technology
+RP Sidrane, C (corresponding author), KTH Royal Inst Technol, Digital Futures, Stockholm, Sweden.
+EM CHELSE@KTH.SE; TUMOVA@KTH.SE
+FU FMV; Wallenberg AI, Autonomous Systems and Software Program (WASP) -
+   Knut and Alice Wallenberg Foundation; Digital Futures; Sweden's
+   Innovation Agency Vinnova through the SHARCEX grant
+FX The authors would like to thank Professor Christiane Lemieux for helpful
+   discussion on dense sequences. This work was partially supported by
+   Digital Futures, FMV and Sweden's Innovation Agency Vinnova through the
+   SHARCEX grant and by the Wallenberg AI, Autonomous Systems and Software
+   Program (WASP) funded by the Knut and Alice Wallenberg Foundation.
+NR 24
+TC 0
+Z9 0
+U1 0
+U2 0
+PU JMLR-JOURNAL MACHINE LEARNING RESEARCH
+PI SAN DIEGO
+PA 1269 LAW ST, SAN DIEGO, CA, UNITED STATES
+SN 2640-3498
+J9 PR MACH LEARN RES
+PY 2026
+VL 331
+BP 965
+EP 981
+PG 17
+WC Automation & Control Systems; Computer Science, Artificial Intelligence;
+   Computer Science, Interdisciplinary Applications
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems; Computer Science
+GA BB1QV
+UT WOS:001863802500045
+DA 2026-10-01
+ER
+
+PT C
+AU Guerrero, MA
+   Rojas, CR
+AF Guerrero, Margarita A.
+   Rojas, Cristian R.
+BE Lindemann, L
+   Tu, S
+   Wierman, A
+   Atanasov, N
+   Sukhatme, G
+TI ACE: Adapting sampling for Counterfactual Explanations
+SO ANNUAL LEARNING FOR DYNAMICS AND CONTROL CONFERENCE
+SE Proceedings of Machine Learning Research
+LA English
+DT Proceedings Paper
+CT 8th Conference on Learning for Dynamics and Control-L4DC-Annual
+CY JUN 17-19, 2026
+CL Los Angeles, CA
+DE Explainable AI; Counterfactual Explanations; Bayesian Optimization
+AB Counterfactual Explanations (CFEs) interpret machine learning models by identifying the smallest change to input features needed to change the model's prediction to a desired output. For classification tasks, CFEs determine how close a given sample is to the decision boundary of a trained classifier. Existing methods are often sample-inefficient, requiring numerous evaluations of a black-box model, which can be impractical when access to the model is limited. We propose Adaptive sampling for Counterfactual Explanations (ACE), a sample-efficient algorithm combining Bayesian estimation and stochastic optimization to approximate the decision boundary with fewer queries. By prioritizing informative points, ACE minimizes evaluations while generating accurate and feasible CFEs. Across benchmarks, ACE delivers higher query efficiency than state-of-the-art methods, yielding minimal changes, and demonstrates effectiveness in a control-tuning application.
+C1 [Guerrero, Margarita A.; Rojas, Cristian R.] KTH Royal Inst Technol, Div Decis & Control, Stockholm, Sweden.
+C3 Royal Institute of Technology
+RP Guerrero, MA (corresponding author), KTH Royal Inst Technol, Div Decis & Control, Stockholm, Sweden.
+EM MAGS3@KTH.SE; CRRO@KTH.SE
+NR 57
+TC 0
+Z9 0
+U1 0
+U2 0
+PU JMLR-JOURNAL MACHINE LEARNING RESEARCH
+PI SAN DIEGO
+PA 1269 LAW ST, SAN DIEGO, CA, UNITED STATES
+SN 2640-3498
+J9 PR MACH LEARN RES
+PY 2026
+VL 331
+BP 242
+EP 264
+PG 23
+WC Automation & Control Systems; Computer Science, Artificial Intelligence;
+   Computer Science, Interdisciplinary Applications
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems; Computer Science
+GA BB1QV
+UT WOS:001863802500011
+DA 2026-10-01
+ER
+
+PT J
+AU Kitagishi, A
+   Mastrofini, A
+   Bergman, O
+   Matic, L
+   Buckler, A
+   Gasser, T
+   Hedin, U
+   Marino, M
+   Marlevi, D
+AF Kitagishi, Arisa
+   Mastrofini, Alessandro
+   Bergman, Otto
+   Matic, Ljubica
+   Buckler, Andrew
+   Gasser, Thomas
+   Hedin, Ulf
+   Marino, Michele
+   Marlevi, David
+TI BIOMECHANICAL AND BIOLOGICAL INTERPLAY IN CAROTID ATHEROSCLEROSIS:
+   INSIGHTS FOR MORE EFFECTIVE RISK STRATIFICATION AND EVALUATION OF PLAQUE
+   INSTABILITY
+SO ATHEROSCLEROSIS
+LA English
+DT Meeting Abstract
+CT 94th Congress of the European-Atherosclerosis-Society (EAS)
+CY MAY 24-27, 2026
+CL Athens, GREECE
+SP European Atherosclerosis Soc
+C1 [Kitagishi, Arisa; Bergman, Otto; Buckler, Andrew; Hedin, Ulf; Marlevi, David] Karolinska Inst, Mol Med & Surg, Stockholm, Sweden.
+   [Mastrofini, Alessandro; Marino, Michele] Univ Roma Tor Vergata, Dept Civil Engn & Comp Sci Engn, Rome, Italy.
+   [Matic, Ljubica] Karolinska Inst, Stockholm, Sweden.
+   [Gasser, Thomas] Royal Inst Technol KTH, Stockholm, Sweden.
+C3 Karolinska Institutet; University of Rome Tor Vergata; Karolinska
+   Institutet; Royal Institute of Technology
+NR 0
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ELSEVIER IRELAND LTD
+PI CLARE
+PA ELSEVIER HOUSE, BROOKVALE PLAZA, EAST PARK SHANNON, CO, CLARE, 00000,
+   IRELAND
+SN 0021-9150
+EI 1879-1484
+J9 ATHEROSCLEROSIS
+JI Atherosclerosis
+PD AUG
+PY 2026
+VL 419
+SU 1
+MA P125 / #12
+AR 121054
+DI 10.1016/j.atherosclerosis.2026.121054
+EA SEP 2026
+PG 1
+WC Cardiac & Cardiovascular Systems; Peripheral Vascular Disease
+WE Science Citation Index Expanded (SCI-EXPANDED); Conference Proceedings Citation Index - Science (CPCI-S)
+SC Cardiovascular System & Cardiology
+GA OJ3QM
+UT WOS:001878926000083
+DA 2026-10-01
+ER
+
+PT C
+AU Raghavan, A
+   Mavridis, CN
+   Johansson, KH
+   Baras, JS
+AF Raghavan, Aneesh
+   Mavridis, Christos N.
+   Johansson, Karl H.
+   Baras, John S.
+BE Lindemann, L
+   Tu, S
+   Wierman, A
+   Atanasov, N
+   Sukhatme, G
+TI Convergence of Vector Quantization-Based Classifiers to the Bayes
+   Optimal Classifier with Applications to Hybrid System Identification
+SO ANNUAL LEARNING FOR DYNAMICS AND CONTROL CONFERENCE
+SE Proceedings of Machine Learning Research
+LA English
+DT Proceedings Paper
+CT 8th Conference on Learning for Dynamics and Control-L4DC-Annual
+CY JUN 17-19, 2026
+CL Los Angeles, CA
+DE Statistical learning for dynamical and control systems; Optimization for
+   machine learning; System identification
+AB Vector quantization techniques have been extensively explored as interpretable, data-driven approaches within machine learning, demonstrating significant utility in hybrid system identification. In this study, we establish convergence guarantees for a general framework of quantization-based classifiers, encompassing histogram-based methods, variants of the generalized Lloyd's algorithm, learning vector quantization, and online deterministic annealing techniques. Utilizing principles from histogram estimation, we analyze the conditions under which these algorithms converge to the Bayes optimal error. These findings provide a rigorous theoretical foundation for the application of quantization-based algorithms in machine learning tasks associated with cyber-physical systems. An illustrative application in hybrid system identification is also presented.
+C1 [Raghavan, Aneesh; Mavridis, Christos N.; Johansson, Karl H.] KTH Royal Inst Technol, DCS Div, Stockholm, Sweden.
+   [Baras, John S.] Univ Maryland, Dept Elect & Comp Engn, College Pk, MD USA.
+C3 Royal Institute of Technology; University System of Maryland; University
+   of Maryland College Park
+RP Raghavan, A (corresponding author), KTH Royal Inst Technol, DCS Div, Stockholm, Sweden.
+EM ANEESH@KTH.SE; MAVRIDIS@KTH.SE; KALLEJ@KTH.SE; BARAS@UMD.EDU
+FU Swedish Research Council Distinguished Professor Grant [2017-01078];
+   Knut and Alice Wallenberg Foundation Wallenberg Scholar Grant; Swedish
+   Strategic Research Foundation FUSS SUCCESS Grant; Swedish Foundation for
+   Strategic Research (SSF) [IPD23-0019]
+FX This work was supported in part by Swedish Research Council
+   Distinguished Professor Grant 2017-01078, Knut and Alice Wallenberg
+   Foundation Wallenberg Scholar Grant, the Swedish Strategic Research
+   Foundation FUSS SUCCESS Grant, and the Swedish Foundation for Strategic
+   Research (SSF) grant IPD23-0019.
+NR 27
+TC 0
+Z9 0
+U1 0
+U2 0
+PU JMLR-JOURNAL MACHINE LEARNING RESEARCH
+PI SAN DIEGO
+PA 1269 LAW ST, SAN DIEGO, CA, UNITED STATES
+SN 2640-3498
+J9 PR MACH LEARN RES
+PY 2026
+VL 331
+BP 472
+EP 483
+PG 12
+WC Automation & Control Systems; Computer Science, Artificial Intelligence;
+   Computer Science, Interdisciplinary Applications
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems; Computer Science
+GA BB1QV
+UT WOS:001863802500022
+DA 2026-10-01
+ER
+
+PT J
+AU Hansson, SO
+AF Hansson, Sven Ove
+TI Gate-keeping or fence-breaking? How to defend science against
+   pseudoscience
+SO SYNTHESE
+LA English
+DT Article
+DE Science; Pseudoscience; Gate-keeping; Fence-breaking
+ID STRUCTURAL EXPERIMENTATION; GATEKEEPERS; APPOINTMENTS; TECHNOLOGY;
+   INNOVATION; SELECTION; INDUSTRY; FAILURE; RIGHTS; RAQQA
+AB A gate is an object used to limit and control passage. Previous uses of the term "gate-keeping" as a metaphor align closely with the concrete functioning of a gate. The metaphor refers either to the exclusion of persons from something desirable or to limitations in the flow of information. These connotations make the gate-keeping metaphor unsuitable for strivings to improve the relation between science and the surrounding society. The term "fence-breaking" is much better suited to this purpose. It is strongly connected with a long tradition of popular defence of common lands. Like the common lands, science should be freely available to all. In particular, the fences around corporate science that prevent access to important information about public health, safety and the environment should be torn down.
+C1 [Hansson, Sven Ove] Royal Inst Technol KTH, Div Philosophy, Teknikringen 76, S-10044 Stockholm, Sweden.
+C3 Royal Institute of Technology
+RP Hansson, SO (corresponding author), Royal Inst Technol KTH, Div Philosophy, Teknikringen 76, S-10044 Stockholm, Sweden.
+EM soh@kth.se
+FU Royal Institute of Technology
+FX Open access funding provided by Royal Institute of Technology.
+NR 120
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 0039-7857
+EI 1573-0964
+J9 SYNTHESE
+JI Synthese
+PD SEP 22
+PY 2026
+VL 208
+IS 4
+AR 177
+DI 10.1007/s11229-026-05824-2
+PG 16
+WC History & Philosophy Of Science; Philosophy
+WE Science Citation Index Expanded (SCI-EXPANDED); Social Science Citation Index (SSCI); Arts &amp; Humanities Citation Index (A&amp;HCI)
+SC History & Philosophy of Science; Philosophy
+GA OO7SU
+UT WOS:001882597800004
+OA hybrid
+DA 2026-10-01
+ER
+
+PT J
+AU Hansson, SO
+AF Hansson, Sven Ove
+TI Does capitalist risk-taking justify profits?
+SO SYNTHESE
+LA English
+DT Article
+DE Risk-taking; Capitalism; Incorporation; Limited liability; Diversified
+   investment
+ID LIMITED-LIABILITY; JUSTIFICATION; ILLUSION; AGENCY; MARX
+AB The profits collected by owners of companies are commonly taken to be a just and rightful compensation for the economic risks that they take. However, in the last two-and-a-half centuries, the risk-taking that follows with ownership has been drastically reduced as a consequence of legal and organizational changes, including incorporation, limited liability, and diversified investment. Investing money in companies is no longer per se a particularly risky activity. Therefore, the argument that profits are justified as a rightful reward for the investor's risk-taking has lost its bite and should be laid to rest. Furthermore, limited liability should be reconsidered and possibly reformed since it encourages socially irresponsible risk-taking.
+C1 [Hansson, Sven Ove] Royal Inst Technol KTH, Div Philosophy, Teknikringen 76, S-10044 Stockholm, Sweden.
+C3 Royal Institute of Technology
+RP Hansson, SO (corresponding author), Royal Inst Technol KTH, Div Philosophy, Teknikringen 76, S-10044 Stockholm, Sweden.
+EM soh@kth.se
+FU Royal Institute of Technology
+FX Open access funding provided by Royal Institute of Technology.
+NR 70
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 0039-7857
+EI 1573-0964
+J9 SYNTHESE
+JI Synthese
+PD SEP 22
+PY 2026
+VL 208
+IS 4
+AR 176
+DI 10.1007/s11229-026-05817-1
+PG 21
+WC History & Philosophy Of Science; Philosophy
+WE Science Citation Index Expanded (SCI-EXPANDED); Social Science Citation Index (SSCI); Arts &amp; Humanities Citation Index (A&amp;HCI)
+SC History & Philosophy of Science; Philosophy
+GA OO7SU
+UT WOS:001882597800016
+OA hybrid
+DA 2026-10-01
+ER
+
+PT C
+AU Fan, YL
+   Davis, RL
+   Viberg, O
+AF Fan, Yueling
+   Davis, Richard Lee
+   Viberg, Olga
+BE Blanchard, EG
+   Chen, G
+   Chi, M
+   Isotani, S
+TI From Intention to Text: AI-Supported Goal Setting in Academic Writing
+SO ARTIFICIAL INTELLIGENCE IN EDUCATION, AIED 2026, PT IV
+SE Lecture Notes in Artificial Intelligence
+LA English
+DT Proceedings Paper
+CT 27th International Conference on Artificial Intelligence in
+   Education-AIED
+CY JUN 27-JUL 03, 2026
+CL Seoul, SOUTH KOREA
+SP Google LLC, ELICE LIMITED, Vital Source Technologies Inc
+DE Academic writing; Goal setting; AI; Reflection-in-action; Metacognition
+AB This study presents WriteFlow, an AI voice-based writing assistant designed to support reflective academic writing through goal-oriented interaction. Academic writing involves iterative reflection and evolving goal regulation, yet prior research and a formative study with 17 participants show that writers often struggle to articulate and manage changing goals. While commonly used AI writing tools emphasize efficiency, they offer limited support for metacognition and writer agency. WriteFlow frames AI interaction as a dialogic space for ongoing goal articulation, monitoring, and negotiation grounded in writers' intentions. Findings from a Wizard-of-Oz study with 12 expert users show that WriteFlow scaffolds metacognitive regulation and reflection-in-action by supporting iterative goal refinement, maintaining goal text alignment during drafting, and prompting evaluation of goal fulfillment. We discuss design implications for AI writing systems that prioritize reflective dialogue, flexible goal structures, and multi-perspective feedback to support intentional and agentic writing.
+C1 [Fan, Yueling; Viberg, Olga] KTH Royal Inst Technol, Dept Media Technol & Interact Design, Stockholm, Sweden.
+   [Davis, Richard Lee] KTH Royal Inst Technol, Dept Digital Learning, Stockholm, Sweden.
+   [Davis, Richard Lee; Viberg, Olga] Digital Futures, Stockholm, Sweden.
+RP Viberg, O (corresponding author), KTH Royal Inst Technol, Dept Media Technol & Interact Design, Stockholm, Sweden.; Viberg, O (corresponding author), Digital Futures, Stockholm, Sweden.
+EM yueling@kth.se; rldavis@kth.se; oviberg@kth.se
+FU STINT grant: "Capitalizing on the potentials of technology to promote
+   self-regulation" [MG2018-7984]
+FX We thank all the study participants for their engagement in this study.
+   The work has in part been supported by the STINT grant: "Capitalizing on
+   the potentials of technology to promote self-regulation" (MG2018-7984).
+NR 31
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 2945-9133
+EI 1611-3349
+BN 978-3-032-29762-4; 978-3-032-29763-1
+J9 LECT NOTES ARTIF INT
+PY 2027
+VL 16584
+BP 305
+EP 319
+DI 10.1007/978-3-032-29763-1_21
+PG 15
+WC Computer Science, Artificial Intelligence; Computer Science,
+   Interdisciplinary Applications; Education & Educational Research;
+   Education, Scientific Disciplines
+WE Conference Proceedings Citation Index - Science (CPCI-S); Conference Proceedings Citation Index - Social Science &amp; Humanities (CPCI-SSH)
+SC Computer Science; Education & Educational Research
+GA BA9TT
+UT WOS:001828727800021
+DA 2026-10-01
+ER
+
+PT C
+AU Courteville, F
+   Henderson, I
+   Matignon, D
+   Dubreuil, S
+AF Courteville, Florian
+   Henderson, Iain
+   Matignon, Denis
+   Dubreuil, Sylvain
+BE Lindemann, L
+   Tu, S
+   Wierman, A
+   Atanasov, N
+   Sukhatme, G
+TI PFEM-GP-dPHS : a finite element framework for combining Gaussian
+   processes and infinite-dimensional port-Hamiltonian systems
+SO ANNUAL LEARNING FOR DYNAMICS AND CONTROL CONFERENCE
+SE Proceedings of Machine Learning Research
+LA English
+DT Proceedings Paper
+CT 8th Conference on Learning for Dynamics and Control-L4DC-Annual
+CY JUN 17-19, 2026
+CL Los Angeles, CA
+DE Physics-informed Machine Learning; Distributed Parameter
+   Port-Hamiltonian System; Partitioned Finite element Method; System
+   Identification
+AB In order to learn distributed port-Hamiltonian systems (dPHS) using Gaussian processes (GPs), the partitioned finite element method (PFEM) is combined with the Gp-dPHS method. By following a late lumping approach, the discretization of the functional hyperparameters of the GP prior over the Hamiltonian functional is chosen independently from the discretization of the dPHS, thus reducing the numerical complexity of our method. We next model the mean of the GP prior of the Hamiltonian as a quadratic form, enabling the GP kernel to focus on the nonlinear part of a given dPHS. We illustrate our method on a nonlinear one dimensional wave equation with unknown physical parameters (tension and linear mass).
+C1 [Courteville, Florian] KTH Royal Inst Technol, Stockholm, Sweden.
+   [Courteville, Florian] Inst Laue Langevin, F-38000 Grenoble, France.
+   [Henderson, Iain; Matignon, Denis; Dubreuil, Sylvain] Univ Toulouse, Federat ENAC ISAE SUPAERO ONERA, F-31000 Toulouse, France.
+   [Dubreuil, Sylvain] Univ Toulouse, ONERA, DTIS, F-31000 Toulouse, France.
+C3 Royal Institute of Technology; Institut Laue-Langevin (ILL); Communaute
+   d'universites et etablissements de Toulouse (Comue); National Office for
+   Aerospace Studies & Research (ONERA); Communaute d'universites et
+   etablissements de Toulouse (Comue)
+RP Courteville, F (corresponding author), KTH Royal Inst Technol, Stockholm, Sweden.; Courteville, F (corresponding author), Inst Laue Langevin, F-38000 Grenoble, France.
+EM FBCO@KTH.SE; IAIN.HENDERSON@ISAE-SUPAERO.FR;
+   DENIS.MATIGNON@ISAE-SUPAERO.FR; SYLVAIN.DUBREUIL@ONERA.FR
+FU DRRP (Direction de la Recherche et des Ressources Pedagogiques) of
+   ISAE-Supaero
+FX Iain Henderson would like to thank the DRRP (Direction de la Recherche
+   et des Ressources Pedagogiques) of ISAE-Supaero for funding the
+   internship of Florian Courteville. The authors would like to the
+   reviewers for their helpful comments which improved the quality of the
+   paper.
+NR 16
+TC 0
+Z9 0
+U1 0
+U2 0
+PU JMLR-JOURNAL MACHINE LEARNING RESEARCH
+PI SAN DIEGO
+PA 1269 LAW ST, SAN DIEGO, CA, UNITED STATES
+SN 2640-3498
+J9 PR MACH LEARN RES
+PY 2026
+VL 331
+BP 1396
+EP 1417
+PG 22
+WC Automation & Control Systems; Computer Science, Artificial Intelligence;
+   Computer Science, Interdisciplinary Applications
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems; Computer Science
+GA BB1QV
+UT WOS:001863802500070
+DA 2026-10-01
+ER
+
+PT C
+AU Neshaei, SP
+   Davis, RL
+   Käser, T
+AF Neshaei, Seyed Parsa
+   Davis, Richard Lee
+   Kaser, Tanja
+BE Blanchard, EG
+   Chen, G
+   Chi, M
+   Isotani, S
+TI Moving Beyond Review: Applying Language Models to Planning and
+   Translation in Reflection
+SO ARTIFICIAL INTELLIGENCE IN EDUCATION, AIED 2026, PT IV
+SE Lecture Notes in Artificial Intelligence
+LA English
+DT Proceedings Paper
+CT 27th International Conference on Artificial Intelligence in
+   Education-AIED
+CY JUN 27-JUL 03, 2026
+CL Seoul, SOUTH KOREA
+SP Google LLC, ELICE LIMITED, Vital Source Technologies Inc
+DE metacognition; reflective writing; cognitive process theory; large
+   language models; intelligent and interactive writing assistants; AI
+   support in writing; conversational agents
+AB Reflective writing is known to support the development of students' metacognitive skills, yet learners often struggle to engage in deep reflection, limiting learning gains. Although large language models (LLMs) have been shown to improve writing skills, their use as conversational agents for reflective writing has produced mixed results and has largely focused on providing feedback on reflective texts, rather than support during planning and organizing. In this paper, inspired by the Cognitive Process Theory of writing (CPT), we propose the first application of LLMs to the planning and translation steps of reflective writing. We introduce Pensee, a tool to explore the effects of explicit AI support during these stages by scaffolding structured reflection planning using a conversational agent, and supporting translation by automatically extracting key concepts. We evaluate Pensee in a controlled between-subjects experiment (N = 93), manipulating AI support across writing phases. Results show significantly greater reflection depth and structural quality when learners receive support during planning and translation stages of CPT, though these effects reduce in a delayed post-test. Analyses of learner behavior and perceptions further illustrate how CPT-aligned conversational support shapes reflection processes and learner experience, contributing empirical evidence for theory-driven uses of LLMs in AI-supported reflective writing.
+C1 [Neshaei, Seyed Parsa; Kaser, Tanja] Ecole Polytech Fed Lausanne, Lausanne, Switzerland.
+   [Davis, Richard Lee] KTH Royal Inst Technol, Stockholm, Sweden.
+RP Neshaei, SP (corresponding author), Ecole Polytech Fed Lausanne, Lausanne, Switzerland.
+EM seyed.neshaei@epfl.ch; rldavis@kth.se; tanja.kaser@epfl.ch
+FU Swiss State Secretariat for Education, Research, and Innovation (SERI)
+FX This project was substantially financed by the Swiss State Secretariat
+   for Education, Research, and Innovation (SERI). We thank the teachers
+   who enabled us run our study, as well as Dominik Glandorf, Ekaterina
+   Shved, and Peter Bilhlmann for their assistance with data collection,
+   Fatma Betul Gures for proofreading the manuscript, and Roman Rietsche
+   and Thiemo Wambsganss for their contributions to ideation and providing
+   valuable feedback.
+NR 30
+TC 0
+Z9 1
+U1 0
+U2 0
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 2945-9133
+EI 1611-3349
+BN 978-3-032-29762-4; 978-3-032-29763-1
+J9 LECT NOTES ARTIF INT
+PY 2027
+VL 16584
+BP 75
+EP 90
+DI 10.1007/978-3-032-29763-1_6
+PG 16
+WC Computer Science, Artificial Intelligence; Computer Science,
+   Interdisciplinary Applications; Education & Educational Research;
+   Education, Scientific Disciplines
+WE Conference Proceedings Citation Index - Science (CPCI-S); Conference Proceedings Citation Index - Social Science &amp; Humanities (CPCI-SSH)
+SC Computer Science; Education & Educational Research
+GA BA9TT
+UT WOS:001828727800006
+DA 2026-10-01
+ER
+
+PT J
+AU Tercero, M
+   Mesa, F
+   Van Hoang, TQ
+   Bertrand, M
+   Quevedo-Teruel, O
+AF Tercero, Moises
+   Mesa, Francisco
+   Van Hoang, Thi Quynh
+   Bertrand, Matthieu
+   Quevedo-Teruel, Oscar
+TI Retrieval of the Effective Refractive Index and Impedance Under Oblique
+   Incidence Using the Multimodal Transfer-Matrix Method (vol 6, pg 1102,
+   2026)
+SO IEEE JOURNAL OF MICROWAVES
+LA English
+DT Correction
+DE Indexes; Indexing; Licenses; Artificial dielectric; homogenization;
+   impedance; multimodal analysis; numerical methods; periodic structures;
+   permeability; permittivity; refractive index
+C1 [Tercero, Moises; Mesa, Francisco; Quevedo-Teruel, Oscar] KTH Royal Inst Technol, SE-10044 Stockholm, Sweden.
+   [Tercero, Moises; Van Hoang, Thi Quynh; Bertrand, Matthieu] Thales Res & Technol, F-91767 Palaiseau, France.
+   [Mesa, Francisco] Univ Seville, Seville 41005, Spain.
+C3 Royal Institute of Technology; Thales Group
+RP Tercero, M (corresponding author), KTH Royal Inst Technol, SE-10044 Stockholm, Sweden.; Tercero, M (corresponding author), Thales Res & Technol, F-91767 Palaiseau, France.
+EM moisestn@kth.se
+FU Horizon Europe Programme for research and innovation [PRX23/00102]; UK
+   Research and Innovation through Marie Sklodowska-Curie Action Doctoral
+   Network GENIUS [101072560]; MICIU/AEI [PID2023-148281NB-I00]; ERDF/EU;
+   Programa Movilidad Senior - Spanish Ministerio de Ciencia, Innovacion y
+   Universidades [PRX23/00102]
+FX The work of Moises Tercero was supported in part by the Horizon Europe
+   Programme for research and innovation and in part by UK Research and
+   Innovation through Marie Sklodowska-Curie Action Doctoral Network GENIUS
+   under Grant 101072560. The work of Francisco Mesa was supported in part
+   by Project PID2023-148281NB-I00 funded by
+   MICIU/AEI/10.13039/501100011033 and by ERDF/EU, and in part by the
+   Programa Movilidad Senior under Grant PRX23/00102 funded by the Spanish
+   Ministerio de Ciencia, Innovacion y Universidades.
+NR 1
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+EI 2692-8388
+J9 IEEE J MICROW
+JI IEEE J. Microw.
+PD SEP
+PY 2026
+VL 6
+IS 5
+BP 1440
+EP 1440
+DI 10.1109/JMW.2026.3718607
+PG 1
+WC Engineering, Electrical & Electronic
+WE Emerging Sources Citation Index (ESCI)
+SC Engineering
+GA OQ0LG
+UT WOS:001883457000002
+OA gold
+DA 2026-10-01
+ER
+
+PT J
+AU Wagner, S
+   Vyas, SA
+   Lundstrom, L
+   Wildsoet, CF
+AF Wagner, Sandra
+   Vyas, Sonal Aswin
+   Lundstrom, Linda
+   Wildsoet, Christine Frances
+TI A customized red light therapy device for use in guinea pig myopia
+   model: Feasibility and pote application
+SO INVESTIGATIVE OPHTHALMOLOGY & VISUAL SCIENCE
+LA English
+DT Meeting Abstract
+CT Annual Meeting of the
+   Association-for-Research-in-Vision-and-Ophthalmology (ARVO)
+CY MAY 03-07, 2026
+CL Denver, CO
+SP Assoc Res Vis & Ophthalmol
+C1 [Wagner, Sandra; Vyas, Sonal Aswin; Wildsoet, Christine Frances] Univ Calif Berkeley, Herbert Wertheim Sch Optometry & Vis Sci, Berkeley, CA USA.
+   [Wagner, Sandra; Lundstrom, Linda] Kungliga Tekn Hogskolan, Sch Engn Sci, Dept Appl Phys, AlbaNova, Stockholm, Sweden.
+C3 University of California System; University of California Berkeley;
+   Royal Institute of Technology
+FU European Union [HORIZON-MSCA-2023-PF-01]
+FX Support European Union HORIZON-MSCA-2023-PF-01
+NR 0
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ASSOC RESEARCH VISION OPHTHALMOLOGY INC
+PI ROCKVILLE
+PA 12300 TWINBROOK PARKWAY, ROCKVILLE, MD 20852-1606 USA
+SN 0146-0404
+EI 1552-5783
+J9 INVEST OPHTH VIS SCI
+JI Invest. Ophthalmol. Vis. Sci.
+PD JUN
+PY 2026
+VL 67
+IS 7
+AR 274
+PG 2
+WC Ophthalmology
+WE Science Citation Index Expanded (SCI-EXPANDED); Conference Proceedings Citation Index - Science (CPCI-S)
+SC Ophthalmology
+GA OI3TB
+UT WOS:001878254400030
+DA 2026-10-01
+ER
+
+PT J
+AU Eggestrand, H
+AF Eggestrand, Hanna
+TI Mobilising values in municipal governance? A case study of Gothenburg's
+   Sustainable Lifestyles Strategy
+SO ENVIRONMENTAL INNOVATION AND SOCIETAL TRANSITIONS
+LA English
+DT Article
+DE Sustainable lifestyles; Values; Governance; Transitions; Municipal
+ID LOCAL-GOVERNMENT; SOCIAL VALUES; CONSUMPTION
+AB Sustainability transitions research has increasingly "turned to values" as central to shaping and legitimising transformative change, often implying a reorientation away from dominant logics of individualism and economic growth towards sustainability-aligned values (SAVs) such as collectivism, care, and justice. Yet empirical accounts of how such values are mobilised through governance arrangements and practices remain limited. This article examines how SAVs are mobilised through municipal strategy work, drawing on an in-depth qualitative case study of the City of Gothenburg's Sustainable Lifestyles Strategy. The article operationalises four modes of value mobilisation (enabling, including, shifting, and reflecting) through an interpretive analysis of municipal transition governance, understood as coconstituted through everyday governance practices. Empirically, the analysis draws on policy documents, observations, and group interviews with public officials involved in the strategy's development and implementation. The findings show how different modes of value mobilisation operate in tandem in practice, unfolding through processes of coordination, deliberation, and experimentation, while simultaneously being shaped by institutional constraints that limit more far-reaching value shifts. In this sense, the strategy functions as a performative and exploratory governance device, altering the conditions under which actors interpret and negotiate responsibility, agency, and possibilities for change. The article contributes to sustainability transitions research by foregrounding value mobilisation as a constitutive dimension of transition governance. By showing how governance arrangements reshape both the material and interpretive conditions for action, and thus which values become actionable in practice, the study advances understandings of how sustainability transitions are governed, negotiated, and sometimes circumscribed.
+C1 [Eggestrand, Hanna] KTH Royal Inst Technol, Dept Urban Planning & Environm, SE-10044 Stockholm, Sweden.
+C3 Royal Institute of Technology
+RP Eggestrand, H (corresponding author), KTH Royal Inst Technol, Dept Urban Planning & Environm, SE-10044 Stockholm, Sweden.
+EM hannaegg@kth.se
+FU Formas - A Swedish Research Council for Sustainable Development
+   [2020-00793]; Mistra; Swedish Foundation for Strategic Environmental
+   Research
+FX This work was supported by Formas - A Swedish Research Council for
+   Sustainable Development under Grant 2020-00793. The research was carried
+   out in connection with the programme Mistra Sustainable Consumption -
+   From Niche to Mainstream, funded by Mistra, The Swedish Foundation for
+   Strategic Environmental Research. The author gratefully acknowledges the
+   City of Gothenburg for enabling and facilitating this research within
+   the framework of the Sustainable Lifestyle Strategy. The author also
+   wishes to thank the public officials who generously contributed their
+   time and insights to the study. The author further wishes to thank
+   Pernilla Hagbert, Karin Bradley, and Emilia Smeds (KTH Royal Institute
+   of Technology) for their valuable feedback and support with language and
+   manuscript development. This paper was presented at the workshop
+   "Towards a less material intensive economy: Strategies and practices for
+   bridging the gap" at the 17th Nordic Environmental Social Science
+   Conference (NESS) , 2026. The author thanks the organisers and
+   participants for their constructive comments.
+NR 59
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 2210-4224
+EI 2210-4232
+J9 ENVIRON INNOV SOC TR
+JI Environ. Innov. Soc. Trans.
+PD JAN
+PY 2027
+VL 62
+AR 101194
+DI 10.1016/j.eist.2026.101194
+EA SEP 2026
+PG 17
+WC Environmental Sciences; Environmental Studies
+WE Science Citation Index Expanded (SCI-EXPANDED); Social Science Citation Index (SSCI)
+SC Environmental Sciences & Ecology
+GA ON3VN
+UT WOS:001881653300001
+OA hybrid
+DA 2026-10-01
+ER
+
+PT J
+AU Piahanau, A
+AF Piahanau, Aliaksandr
+TI Anger and injustice. Assessing legitimacy through homicide rates in
+   Hungary in 1867-1918
+SO COGENT ARTS & HUMANITIES
+LA English
+DT Article
+DE Homicide; trust; modernization; loyalty; Habsburg; Central Europe;
+   Social Sciences; Humanities
+ID STATE LEGITIMACY; PERSPECTIVE; INEQUALITY; VIOLENCE; EMPIRE
+AB This article examines dynamics of killings among civilians in Hungary from 1867 to 1918, while it was an autonomous part of the dualist Austro-Hungarian Empire. Drawing on a new dataset of legal convictions and recorded murders, the study calculates Hungary's homicide rates per population and interprets them as a proxy indicator for generalized trust towards state authorities (according to the LaFree theory of losing legitimacy). This study finds out that Hungary's homicide rate decreased in long-term, but saw many short-term fluctuations. During the dualist period violence dynamic ressembled a M-curve with two peaks in the mid-1880s (amid the wave of rural and urban crime) and in 1904-10 (during the constitutional crisis). During the First World War, the number of murders among civilians plummeted but then surged in 1919, when the Hungarian state failed and disintegrated. The peaks in fatal assaults, reaching over 10 homicides per 100,000 inhabitants in 1886 and 1919 (as well as in 1946) were the most violent episodes in Hungary's history for the last 150 years. These and smaller booms in violence occurred at the times of political instability, suggesting losing legitimacy in those moments.
+C1 [Piahanau, Aliaksandr] KTH Royal Inst Technol, Dept Philosophy & Hist, Stockholm, Sweden.
+   [Piahanau, Aliaksandr] Nova Univ Lisbon, Inst Contemporary Hist iHC, Lisbon, Portugal.
+C3 Royal Institute of Technology; Universidade Nova de Lisboa
+RP Piahanau, A (corresponding author), KTH Royal Inst Technol, Dept Philosophy & Hist, Stockholm, Sweden.; Piahanau, A (corresponding author), Nova Univ Lisbon, Inst Contemporary Hist iHC, Lisbon, Portugal.
+EM piahanau@kth.se
+FU European Research Council (ERC) under the European Union [101163723]
+FX This paper was supported by the European Research Council (ERC) under
+   the European Union's Horizon Europe programme through the project "The
+   Constitutional Road to Dictatorship: States of Exception and
+   Authoritarianism in Europe, 1900-39" (STEXEU; Grant Agreement No.
+   101163723).
+NR 74
+TC 0
+Z9 0
+U1 0
+U2 0
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN 2331-1983
+J9 COGENT ARTS HUMANITE
+JI Cogent Art Humanities
+PD DEC 31
+PY 2026
+VL 13
+IS 1
+AR 2730485
+DI 10.1080/23311983.2026.2730485
+PG 14
+WC Humanities, Multidisciplinary
+WE Emerging Sources Citation Index (ESCI)
+SC Arts & Humanities - Other Topics
+GA OM3PF
+UT WOS:001880959400001
+OA gold
+DA 2026-10-01
+ER
+
+PT J
+AU Bautista-Puig, N
+   Sandström, U
+AF Bautista-Puig, Nuria
+   Sandstrom, Ulf
+TI The concentration/dispersal debate: Swedish higher education
+   institutions 2008-2020
+SO JOURNAL OF INFORMETRICS
+LA English
+DT Article
+DE Research policy; Input-output studies; Performance-based funding;
+   Bibliometrics; Citations; Sweden
+ID EXCELLENCE; SIZE
+AB It has been argued that concentrating research resources is necessary to maintain Sweden's competitiveness as a research nation. Critics from representatives of industry and academia suggest that weak-impact research tends to be concentrated in smaller universities and colleges, and that the Swedish higher education system is too fragmented, with too many institutions attempting to cover a broad range of research areas rather than developing distinctive strengths. In this context, the aim of this article is to investigate how Swedish researchers' achievements are distributed across different types of institutions, using bibliometric methods. The study is based on publications indexed in Clarivate's Web of Science from 2017 to 2020, with citation data up to June 2022. Document types analyzed include Articles, Letters, Proceedings Papers, and Reviews from the Web of Science Core Collection, specifically SCI-Expanded, SSCI, and A&HCI. A percentile-based model is employed to aggregate individual researchers' publication output and impact, accounting for citation frequency. Findings show that quality differences between specialized colleges and the newer universities and colleges are relatively small, although there are discrepancies for a few institutions. Previous funding streams by the Swedish Alliance government disproportionately benefited established and discipline-focused universities, which may have influenced these patterns. The study concludes that research performance is not inherently superior at larger universities. New universities and colleges can achieve comparable results. These findings challenge prevailing assumptions and support a more equitable allocation of research funding, contributing to a broader and more sustainable research ecosystem in Sweden.
+C1 [Bautista-Puig, Nuria] CSIC, Inst Philosophy IFS, Madrid, Spain.
+   [Sandstrom, Ulf] KTH Royal Inst Technol, INDEK, Stockholm, Sweden.
+C3 Consejo Superior de Investigaciones Cientificas (CSIC); CSIC - Instituto
+   de Filosofia (IFS); Royal Institute of Technology
+RP Bautista-Puig, N (corresponding author), CSIC, Inst Philosophy IFS, Madrid, Spain.
+EM nuria.bautista@cchs.csic.es
+FU Ramon y Cajal (RyC) grant from the Spanish Ministry of Science
+   [RYC2022-037076-I]; KK Foundation
+FX Erik Sandstrom, affiliated with Osier Legal Tech in Stockholm, assisted
+   in the work with disambiguation of authors and contributed to parts of
+   the statistical analysis. Funding for the research was given by the KK
+   Foundation. Nuria Bautista-Puig is funded by a Ramon y Cajal (RyC) grant
+   from the Spanish Ministry of Science (Ref: RYC2022-037076-I).
+NR 50
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 1751-1577
+EI 1875-5879
+J9 J INFORMETR
+JI J. Informetr.
+PD DEC
+PY 2026
+VL 20
+IS 4
+AR 101879
+DI 10.1016/j.joi.2026.101879
+EA SEP 2026
+PG 14
+WC Computer Science, Interdisciplinary Applications; Information Science &
+   Library Science
+WE Science Citation Index Expanded (SCI-EXPANDED); Social Science Citation Index (SSCI)
+SC Computer Science; Information Science & Library Science
+GA OP3PE
+UT WOS:001882994000001
+OA hybrid
+DA 2026-10-01
+ER
+
+PT J
+AU Hu, X
+   Yao, YH
+   Zhang, ZH
+   Sun, Y
+   Zou, Z
+   Hu, XM
+AF Hu, Xin
+   Yao, Yuhua
+   Zhang, Zihe
+   Sun, Yang
+   Zou, Zhuo
+   Hu, Xiaoming
+TI Evolvable physics-informed digital twin for real-time modeling and
+   adaptation
+SO ENGINEERING APPLICATIONS OF ARTIFICIAL INTELLIGENCE
+LA English
+DT Article
+DE Dynamic adaptation; Experimental digital twin; Iterative prediction;
+   Physics-informed neural networks; System identification
+AB This paper proposes an evolvable physics-informed neural network (PINN) for experimental digital twins (EDTs) of industrial systems for real-time modeling and adaptation. The framework integrates three components: system identification with dynamic modeling PINN, stable prediction using temporal contrastive learning, and adaptive parameter learning based on residual adapters. Experiments on permanent magnet synchronous motors (PMSMs) demonstrate high data efficiency, improved robustness, and strong generalizability over conventional models, with up to 1.82 & times; improvement in goodness of fit (R-2) under extreme data constraints while maintaining mean squared errors (MSEs) at 10(-1)-10(-2) under parameter drift. The framework provides a foundation for evaluating system behavior and optimal strategies in dynamic industrial environments.
+C1 [Hu, Xin; Yao, Yuhua; Zhang, Zihe; Sun, Yang; Zou, Zhuo] Fudan Univ, Sch Informat Sci & Technol, Shanghai 200433, Peoples R China.
+   [Yao, Yuhua; Hu, Xiaoming] KTH Royal Inst Technol, Dept Math, S-10044 Stockholm, Sweden.
+C3 Fudan University; Royal Institute of Technology
+RP Yao, YH (corresponding author), Fudan Univ, Sch Informat Sci & Technol, Shanghai 200433, Peoples R China.; Yao, YH (corresponding author), KTH Royal Inst Technol, Dept Math, S-10044 Stockholm, Sweden.
+EM hux21@m.fudan.edu.cn; yuhuay@kth.se; 23210720317@m.fudan.edu.cn;
+   25213090200@m.fudan.edu.cn; zhuo@fudan.edu.cn; hu@kth.se
+FU Science and Technology Commission of Shanghai Municipality
+   [2021SHZDZX0103]; National Natural Science Foundation of China
+   [62076066]
+FX This work was supported by the Science and Technology Commission of
+   Shanghai Municipality (Grant No. 2021SHZDZX0103) and the National
+   Natural Science Foundation of China (Grant No. 62076066) .
+NR 15
+TC 0
+Z9 0
+U1 0
+U2 0
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0952-1976
+EI 1873-6769
+J9 ENG APPL ARTIF INTEL
+JI Eng. Appl. Artif. Intell.
+PD NOV 15
+PY 2026
+VL 184
+AR 116171
+DI 10.1016/j.engappai.2026.116171
+EA SEP 2026
+PN 1
+PG 8
+WC Automation & Control Systems; Computer Science, Artificial Intelligence;
+   Engineering, Multidisciplinary; Engineering, Electrical & Electronic
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Automation & Control Systems; Computer Science; Engineering
+GA ON2FL
+UT WOS:001881543600001
+DA 2026-10-01
+ER
+
+PT J
+AU Fu, YQ
+   Fan, Y
+   Yang, Z
+AF Fu, Yuqi
+   Fan, Ying
+   Yang, Zan
+TI Filling in the gaps: Digital platform economies and the agglomeration of
+   urban consumption amenities
+SO JOURNAL OF DEVELOPMENT ECONOMICS
+LA English
+DT Article
+DE Digital platform economies; Consumer search; Merchant relocation; Urban
+   agglomeration; Consumption amenities
+ID DIFFERENTIATED PRODUCTS; CONSUMER SEARCH; MARKET; VARIETY; CITY
+AB The spatial agglomeration of restaurants and retail establishments provides a physical platform for consumers searching for differentiated local goods and services. However, the rapid penetration of digital platforms, such as Yelp and Meituan, has substantially lowered search frictions and fundamentally changed the search behavior of consumers. This paper establishes a directed consumer search model to investigate the impact of the introduction and merger of digital platforms on urban agglomeration and provides empirical evidence with novel datasets on merchant relocation, platform registration, and consumer reviews. It is found that (1) digital platforms drive merchants to locate in cluster locations with lower horizontal and vertical accessibility; (2) digital platforms complement urban agglomerations regarding business density, diversity, and clustering patterns.
+C1 [Fu, Yuqi] Soochow Univ, Business Sch, Suzhou, Peoples R China.
+   [Fan, Ying] Hong Kong Polytech Univ, Hong Kong, Peoples R China.
+   [Yang, Zan] KTH Royal Inst Technol, Stockholm, Sweden.
+C3 Soochow University - China; Hong Kong Polytechnic University; Royal
+   Institute of Technology
+RP Fan, Y (corresponding author), Hong Kong Polytech Univ, Hong Kong, Peoples R China.
+EM yqfu@suda.edu.cn; yingfan@polyu.edu.hk; zan@kth.se
+FU Research Grants Council of the Hong Kong Special Administrative Region,
+   China [25226423]; National Natural Science Foundation of China
+   [72203191, 72503161]; Peking University-Lincoln Institute Center for
+   Urban Development and Land Policy Research Paper Fellowship Program
+FX The work described in this paper was substantially supported by a grant
+   from the Research Grants Council of the Hong Kong Special Administrative
+   Region, China (Project No. PolyU 25226423) and National Natural Science
+   Foundation of China (Grant No. 72203191 and 72503161) . The work is also
+   partially supported by the Peking University-Lincoln Institute Center
+   for Urban Development and Land Policy Research Paper Fellowship Program.
+NR 48
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0304-3878
+EI 1872-6089
+J9 J DEV ECON
+JI J. Dev. Econ.
+PD FEB
+PY 2027
+VL 185
+AR 103933
+DI 10.1016/j.jdeveco.2026.103933
+EA SEP 2026
+PG 18
+WC Economics
+WE Social Science Citation Index (SSCI)
+SC Business & Economics
+GA OO2AI
+UT WOS:001882210300001
+DA 2026-10-01
+ER
+
+PT J
+AU Cha, IH
+   Jang, Y
+   Kim, H
+   Park, JY
+   Park, S
+   Cheon, E
+AF Cha, Inha
+   Jang, Yeonju
+   Kim, Haesoo
+   Park, Joo Young
+   Park, Seora
+   Cheon, EunJeong
+TI "My body is not your Porn": Identifying Trends of Harm and Oppression
+   through a Sociotechnical Genealogy of Digital Sexual Violence in South
+   Korea
+SO PROCEEDINGS OF THE ACM ON HUMAN COMPUTER INTERACTION
+LA English
+DT Article
+DE gender-based violence; deepfake; technology-facilitated sexual violence;
+   sociotechnical genealogy; non-consensual image-based abuse;
+   sociotechnical systems
+ID TECHNOLOGY; DOOR
+AB Ever since the introduction of internet technologies in South Korea, digital sexual violence (DSV) has been a persistent and pervasive problem. Evolving alongside digital technologies, the severity and scale of violence have grown consistently, leading to widespread public concern. In this paper, we present four eras of image-based DSV in South Korea, spanning from the early internet era of the 1990s to the deepfake scandals in the mid-2020s. Drawing from media coverage, legal documents, and academic literature, we elucidate forms and characteristics of DSV cases in each era, tracing how entrenched misogyny is reconfigured and amplified through evolving technologies, alongside shifting legislative measures. Taking a genealogical approach to read prominent cases of different eras, our analysis identifies three constitutive and interconnected dimensions of DSV: (1) the homo-social fabrication of "obscenity", wherein victims' imagery becomes collectively framed as obscene through participatory practices in male-dominant networks; (2) the increasing imperceptibility of violence, as technologies foreclose victims' ability to perceive harm; and (3) the commercialization of abuse through decentralized economic infrastructures. We suggest future directions for CSCW research, and further reflect on the value of the genealogical method in enabling non-linear understanding of DSV as dynamically evolving sociotechnical configurations of harm.
+C1 [Cha, Inha] Georgia Inst Technol, Atlanta, GA USA.
+   [Jang, Yeonju; Kim, Haesoo] Cornell Univ, Ithaca, NY USA.
+   [Park, Joo Young] KTH Royal Inst Technol, Stockholm, Sweden.
+   [Park, Seora] Indiana Univ Bloomington, Bloomington, IN USA.
+   [Cheon, EunJeong] Syracuse Univ, Syracuse, NY 13244 USA.
+C3 University System of Georgia; Georgia Institute of Technology; Cornell
+   University; Royal Institute of Technology; Indiana University System;
+   Indiana University Bloomington; Syracuse University
+RP Cheon, E (corresponding author), Syracuse Univ, Syracuse, NY 13244 USA.
+EM icha9@gatech.edu; yj376@cornell.edu; hk778@cornell.edu; jooyoung@kth.se;
+   seorpark@iu.edu; echeon@syr.edu
+FU European Union (ERC, Intimate Touch) [101043637]
+FX This work was co-funded by the European Union (ERC, Intimate Touch,
+   101043637) . Views and opinions expressed are however those of the
+   author (s) only and do not necessarily reflect those of the European
+   Union nor the European Research Council and other funding bodies.
+   Neither the European Union nor the granting authority can be held
+   responsible for them.
+NR 100
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ASSOC COMPUTING MACHINERY
+PI NEW YORK
+PA 1601 Broadway, 10th Floor, NEW YORK, NY USA
+EI 2573-0142
+J9 P ACM HUM COMPUT INT
+JI Proc. ACM Hum. Comput. Interact.
+PD APR
+PY 2026
+VL 10
+IS 2
+AR CSCW030
+DI 10.1145/3788066
+PG 32
+WC Computer Science, Cybernetics; Computer Science, Information Systems
+WE Emerging Sources Citation Index (ESCI)
+SC Computer Science
+GA OR1QG
+UT WOS:001884215000001
+OA Green Submitted, hybrid
+DA 2026-10-01
+ER
+
+PT J
+AU Wu, JY
+   Niedermayr, A
+   Cao, GL
+   Grånäs, O
+   Weissenrieder, J
+AF Wu, Jianyu
+   Niedermayr, Arthur
+   Cao, Gaolong
+   Granas, Oscar
+   Weissenrieder, Jonas
+TI Ultrafast laser-driven topological phase patterning
+SO SCIENCE ADVANCES
+LA English
+DT Article
+AB Microscopic and dynamic control over quantum states is essential for bridging fundamental studies of material properties to device function. Realizing such control at combined high spatial resolution and ultrafast temporal precision remains a major challenge. Here, we demonstrate femtosecond laser-driven patterning of topological quantum states in the Weyl semimetal WTe2. By engineering the excitation field into a transient optical grating, we create spatially selective and reversible structural distortions that induce local transitions between topological and topologically trivial states. Using ultrafast transmission electron microscopy, we directly visualize the formation of a periodic Td/1T* heterostructure, observe the propagation of a phase front, and analyze nanoscale confinement of coherently excited optical phonon modes. Our findings establish a platform for all-optical, spatially programmable, and reconfigurable control of quantum states, paving the way for optically addressable topological devices.
+C1 [Wu, Jianyu; Niedermayr, Arthur; Cao, Gaolong; Weissenrieder, Jonas] KTH Royal Inst Technol, Sch Engn Sci, Light & Matter Phys, SE-10044 Stockholm, Sweden.
+   [Granas, Oscar] Uppsala Univ, Dept Phys & Astron, Mat Theory, Uppsala, Sweden.
+C3 Royal Institute of Technology; Uppsala University
+RP Weissenrieder, J (corresponding author), KTH Royal Inst Technol, Sch Engn Sci, Light & Matter Phys, SE-10044 Stockholm, Sweden.
+EM jonas@kth.se
+FU Swiss National Science Foundation (SNSF) [P500PT_214469]; Knut and Alice
+   Wallenberg Foundation [2012.0321, 2018.0104]; Swedish Research Council
+   [VR 2021-04379, VR 2025-06120, 2018-05973, 2022-06725, 201805973];
+   ARTEMI national infrastructure [2021-00171]; Strategic Research Council
+   (SSF) [RIF21-0026]; European Research Council [854843-FASTCORR]
+FX A.N. acknowledges funding from the Swiss National Science Foundation
+   (SNSF) (P500PT_214469). This research was supported by the Knut and
+   Alice Wallenberg Foundation (2012.0321 and 2018.0104 to J.We), the
+   Swedish Research Council (VR 2021-04379 to J.We), the ARTEMI national
+   infrastructure (through VR grant 2021-00171 to J.We), and the Strategic
+   Research Council (SSF) (RIF21-0026 to J.We). O.G. acknowledges funding
+   from the European Research Council (Synergy Grant 854843-FASTCORR) and
+   the Swedish Research Council (VR 2025-06120). The computations were
+   enabled by resources provided by the National Academic Infrastructure
+   for Supercomputing in Sweden (NAISS) and the Swedish National
+   Infrastructure for Computing (SNIC) at NSC and PDC and Uppmax partially
+   funded by the Swedish Research Council (grant agreement nos. 2018-05973,
+   2022-06725, and 201805973 to O.G.).
+NR 42
+TC 0
+Z9 0
+U1 0
+U2 0
+PU AMER ASSOC ADVANCEMENT SCIENCE
+PI WASHINGTON
+PA 1200 NEW YORK AVE, NW, WASHINGTON, DC 20005 USA
+EI 2375-2548
+J9 SCI ADV
+JI Sci. Adv.
+PD SEP 18
+PY 2026
+VL 12
+IS 38
+AR eaee8907
+DI 10.1126/sciadv.aee8907
+EA SEP 2026
+PG 8
+WC Multidisciplinary Sciences
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Science & Technology - Other Topics
+GA OK0IR
+UT WOS:001879380400040
+OA Green Submitted, gold
+DA 2026-10-01
+ER
+
+PT J
+AU González-Oliveras, P
+   Engwall, O
+   Majlesi, AR
+AF Gonzalez-Oliveras, Pablo
+   Engwall, Olov
+   Majlesi, Ali Reza
+TI Persuasion, pride and prejudice: factors associated with students'
+   resistance to a social robot's incorrect mathematical solution
+SO FRONTIERS IN ROBOTICS AND AI
+LA English
+DT Article
+DE cognitive dissonance; conformity; educational robots; informational
+   trust; persuasion; self-consistency; self-efficacy; social influence
+ID COGNITIVE-DISSONANCE THEORY; SELF-EFFICACY; TRUST; CONFORMITY; GENDER;
+   ME; CREDIBILITY; INFORMATION; PERSONALITY; CONSISTENCY
+AB This exploratory study investigates how secondary school students resist or align with a social robot that challenges their reasoning in a curriculum-based mathematics task. Twenty-two students collaborated with a Furhat robot on a geometry problem whose three parts were familiar from class. In the critical part, all students produced task-relevant evidence for the correct solution, while the robot proposed and defended an incorrect solution through argument-based persuasion, without deliberately invoking peripheral persuasive cues. We examined resistance to the robot's informational social influence in two ways. First, as an endpoint outcome, 14/22 students aligned with the robot: three immediately after dissent and eleven after a persuasion debate, while eight resisted. Second, as a process index, we introduce an approach to quantify early expressed resistance: students' responses within the first two persuasion debate exchanges were descriptively coherent with endpoint outcomes. Rather than testing causal or predictive relations among endpoint outcomes, early resistance, and questionnaire or interaction measures, we interpret observed patterns, prior theory, and interactional design to formulate seven hypotheses for future research: Students' resistance may be stronger with higher self-perceived competence (1), with behavioural patterns consistent with self-efficacy when cognitive demands are higher (2), and with stronger task-directed attention before conflict, suggesting that early engagement may provide descriptive markers of later resistance (3). Resistance may be weaker among students reporting more frequent conversational AI/LLM use and stronger preferences for human-like robot attributes (4). For the robot, incorrect arguments may appear more objective and credible when they are delivered through neutral wording, tone, and facial expressions without explicit uncertainty cues (5), and when the arguments, while incorrect, are heuristically plausible (6). Finally, students who aligned may be more vulnerable to later robot influence (7), since uncertainty and trust in the robot's information appeared to rise together during debate until alignment. These hypotheses suggest that calibrated robot behaviours (e.g., signalling uncertainty when the information is less reliable) may help sustain students' resilience and self-efficacy when they engage with persuasive yet fallible educational robots.
+C1 [Gonzalez-Oliveras, Pablo; Engwall, Olov] KTH Royal Inst Technol, Sch Elect Engn & Comp Sci, Div Speech Mus & Hearing, Stockholm, Sweden.
+   [Majlesi, Ali Reza] Karolinska Inst, Div Speech & Language Pathol, Stockholm, Sweden.
+C3 Royal Institute of Technology; Karolinska Institutet
+RP González-Oliveras, P (corresponding author), KTH Royal Inst Technol, Sch Elect Engn & Comp Sci, Div Speech Mus & Hearing, Stockholm, Sweden.
+EM pablool@kth.se
+FU Marcus and Amalia Wallenberg foundation [MAW 2020.0052, MAW2024.0051];
+   Swedish Research Council (VR) [2022-03265]
+FX The author(s) declared that financial support was received for this work
+   and/or its publication. This work is supported by Marcus and Amalia
+   Wallenberg foundation under grants MAW 2020.0052 and MAW2024.0051, and
+   Swedish Research Council (VR) under grant 2022-03265.
+NR 162
+TC 0
+Z9 0
+U1 0
+U2 0
+PU FRONTIERS MEDIA SA
+PI LAUSANNE
+PA AVENUE DU TRIBUNAL FEDERAL 34, LAUSANNE, CH-1015, SWITZERLAND
+SN 2296-9144
+J9 FRONT ROBOT AI
+JI Front. Robot. AI
+PD SEP 10
+PY 2026
+VL 13
+AR 1901093
+DI 10.3389/frobt.2026.1901093
+PG 26
+WC Robotics
+WE Emerging Sources Citation Index (ESCI)
+SC Robotics
+GA OP9CW
+UT WOS:001883367600001
+OA Green Submitted, gold
+DA 2026-10-01
+ER
+
+PT J
+AU Yuan, J
+   Wang, TY
+   Wang, XV
+   Wang, LH
+   Gao, JM
+   Chiachío, M
+   Sbarufatti, C
+   Li, TZ
+AF Yuan, Jing
+   Wang, Tianyu
+   Wang, Xi Vincent
+   Wang, Lihui
+   Gao, Jianmin
+   Chiachio, Manuel
+   Sbarufatti, Claudio
+   Li, Tianzhi
+TI Prior information-aided severity-graded fatigue delamination prognostics
+   in composites
+SO ADVANCED ENGINEERING INFORMATICS
+LA English
+DT Article
+DE Structural health monitoring; Composites; Fatigue damage; Delamination
+   prognostics; Deep learning
+AB Fatigue prognostic studies in composites often model the delamination evolution over time in one or two dimensions, for example, by depicting one-dimensional (1D) length or two-dimensional (2D) shape contour. However, these representations generally provide limited information about the spatial variation in damage severity within the delaminated region. In this context, this work proposes a prognostic framework for severity-graded fatigue delamination maps in composite laminates. Firstly, to facilitate downstream prognostic modeling, ultrasonic C-scan images are processed through pixel-intensity-based discretization, where pixel intensity values are transformed into discrete damage severity levels and replaced with integer class labels, resulting in severity-graded feature maps that simultaneously characterize the spatial extent and severity distribution of delamination-related damage. Then, a U-Net-transformer model is trained with prior-information-aided loss functions and employed to perform long-horizon prognostics of future severity-graded delamination maps. The framework is demonstrated through fatigue experiments on composite laminates monitored using ultrasonic C-scan inspections. The codes and data are publicly available at https://github.com/JingYuan93/3D-delamination-prognostics.
+C1 [Yuan, Jing; Gao, Jianmin] Xi An Jiao Tong Univ, State Key Lab Mfg Syst Engn, Xian, Peoples R China.
+   [Yuan, Jing; Wang, Tianyu; Wang, Xi Vincent; Wang, Lihui; Li, Tianzhi] KTH Royal Inst Technol, Dept Prod Engn, Stockholm, Sweden.
+   [Wang, Tianyu] Shanghai Jiao Tong Univ, Global Inst Future Technol, Shanghai, Peoples R China.
+   [Chiachio, Manuel] Univ Granada, Dept Struct Mech & Hydraul Engn, Granada, Spain.
+   [Chiachio, Manuel] Andalusian Res Inst Data Sci & Computat Intelligen, Granada, Spain.
+   [Sbarufatti, Claudio] Politecn Milan, Dipartimento meccan, Milan, Italy.
+C3 Xi'an Jiaotong University; Royal Institute of Technology; Shanghai Jiao
+   Tong University; University of Granada; Polytechnic University of Milan
+RP Li, TZ (corresponding author), KTH Royal Inst Technol, Dept Prod Engn, Stockholm, Sweden.
+EM tianzhil@kth.se
+NR 77
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ELSEVIER SCI LTD
+PI London
+PA 125 London Wall, London, ENGLAND
+SN 1474-0346
+EI 1873-5320
+J9 ADV ENG INFORM
+JI Adv. Eng. Inform.
+PD JAN
+PY 2027
+VL 77
+AR 105224
+DI 10.1016/j.aei.2026.105224
+EA SEP 2026
+PN 1
+PG 20
+WC Computer Science, Artificial Intelligence; Engineering,
+   Multidisciplinary
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Computer Science; Engineering
+GA OL0MG
+UT WOS:001880068200001
+OA hybrid
+DA 2026-10-01
+ER
+
+PT J
+AU Musi, M
+   Zhou, T
+   Borggren, U
+   Guehairia, S
+   Blankenburg, M
+   Conway, P
+   Hedström, P
+AF Musi, Michael
+   Zhou, Tao
+   Borggren, Ulrika
+   Guehairia, Sonia
+   Blankenburg, Malte
+   Conway, Patrick
+   Hedstrom, Peter
+TI Quantitative characterisation of γ′ precipitation and its role in
+   governing robust properties in the Alloy 925 material system
+SO ACTA MATERIALIA
+LA English
+DT Article
+DE Ni-based superalloy; Precipitation behaviour; High-energy X-ray
+   diffraction; Small-angle X-ray scattering; Mechanical properties
+ID ATOM-PROBE TOMOGRAPHY; DEBYE-WALLER FACTORS; X-RAY DETERMINATION;
+   MICROSTRUCTURE EVOLUTION; MECHANICAL-PROPERTIES; NI; TI; TEMPERATURE;
+   TRANSFORMATION; SUPERALLOYS
+AB This work quantitatively investigates the gamma ' precipitation behaviour and mechanical properties of the Alloy 925 (UNS N09925) material system to elucidate its resilience to compositional variations and aging treatments. Using advanced characterisation techniques, it is shown that both composition and aging parameters have a distinct influence on the volume fraction and size of gamma ' precipitates during production-relevant heat treatments, including one-step aging at 720-760 degrees C and subsequent second aging steps at 621-635 degrees C. Quantitative analysis of the gamma ' volume fraction, implementing a novel analysis procedure for high-energy X-ray diffraction data proposed in this work, shows that minor changes to the Ti and Al contents result in changes of up to 2 vol.% in the gamma ' phase during aging. In addition, the introduction of a second aging step at lower temperatures increases the gamma ' fraction by approximately 2.5 vol.%. Small-angle X-ray scattering captures not only the progressive coarsening with increasing temperature and time during one-and two-step aging, resulting in precipitate diameters ranging from 4 to 22 nm, but also the compositional effect on precipitate size. The experimentally obtained quantitative data for the gamma ' precipitates allow the prediction of the yield strength increase associated with precipitation strengthening as well as the validation of precipitation kinetics modelling. Comparison with the results of hardness measurements reveals a strong correlation between the gamma ' precipitation behaviour and the mechanical properties due to order-type strengthening associated with the weakly coupled dislocations mechanism.
+C1 [Musi, Michael; Zhou, Tao; Guehairia, Sonia; Hedstrom, Peter] KTH Royal Inst Technol, Dept Mat Sci & Engn, Brinellvagen 23, SE, S-10044 Stockholm, Sweden.
+   [Borggren, Ulrika; Conway, Patrick] Alleima EMEA AB, Jarnverksleden 8,SE, S-81134 Sandviken, Sweden.
+   [Blankenburg, Malte] DESY, Notkestr 85, D-22607 Hamburg, Germany.
+C3 Royal Institute of Technology; Helmholtz Association; Deutsches
+   Elektronen-Synchrotron (DESY)
+RP Musi, M (corresponding author), KTH Royal Inst Technol, Dept Mat Sci & Engn, Brinellvagen 23, SE, S-10044 Stockholm, Sweden.
+EM micm@kth.se
+FU Hugo Carlsson's research foundation [101058414, 10039728]; European
+   Union [101058414]; UK Research and Innovation (UKRI) under the UK
+   government's Horizon Europe funding guarantee [10039728]; Swiss State
+   Secretariat for Education, Research and Innovation (SERI) [22.00187];
+   VINNOVA (Sweden's Innovation Agency); Swedish Research Council (VR)
+FX We gratefully acknowledge DESY (Hamburg, Germany), a member of the
+   Helmholtz Association HGF, for providing experimental facilities. The
+   synchrotron X-ray measurements were carried out at the PETRA III P21.2
+   beamline, with beamtime allocated for proposal I-20240428 EC. The atom
+   probe work was conducted at the Hultgren Laboratory, KTH, with funding
+   for the atom probe instrument provided by Hugo Carlsson's research
+   foundation under Jernkontoret, KTH research infrastructure, and KTH
+   Department of Materials Science and Engineering. This project is partly
+   funded by the European Union as part of the Horizon Europe call
+   HORIZON-INFRA-2021-SERV-01 under grant agreement number 101058414 and
+   co-funded by UK Research and Innovation (UKRI) under the UK government's
+   Horizon Europe funding guarantee (grant number 10039728) and by the
+   Swiss State Secretariat for Education, Research and Innovation (SERI)
+   under contract number 22.00187. Views and opinions expressed are however
+   those of the author(s) only and do not necessarily reflect those of the
+   European Union or the UK Science and Technology Facilities Council or
+   the Swiss State Secretariat for Education, Research and Innovation
+   (SERI). Neither the European Union nor the granting authorities can be
+   held responsible for them. We also thank Swedish Research Council (VR)
+   for their financial support, along with the NEXT-Neutron and X-ray
+   science for industrial technology transitions, partially funded by
+   VINNOVA (Sweden's Innovation Agency).
+NR 55
+TC 0
+Z9 0
+U1 0
+U2 0
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 1359-6454
+EI 1873-2453
+J9 ACTA MATER
+JI Acta Mater.
+PD DEC 1
+PY 2026
+VL 321
+AR 122723
+DI 10.1016/j.actamat.2026.122723
+EA SEP 2026
+PG 15
+WC Materials Science, Multidisciplinary; Metallurgy & Metallurgical
+   Engineering
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Materials Science; Metallurgy & Metallurgical Engineering
+GA OO9RQ
+UT WOS:001882730000001
+OA hybrid
+DA 2026-10-01
+ER
+
+PT J
+AU Cox, AMG
+   Kallblad, S
+   Wang, CR
+AF Cox, Alexander m. g.
+   Kallblad, Sigrid
+   Wang, Chaorui
+TI A MEASURE-VALUED HJB PERSPECTIVE ON BAYESIAN OPTIMAL ADAPTIVE CONTROL
+SO SIAM JOURNAL ON CONTROL AND OPTIMIZATION
+LA English
+DT Article
+DE optimal adaptive control; Bayesian search problems; measure-valued
+   martingales; viscosity theory; infinite-dimensional HJB equations;
+   stochastic control under partial information
+ID EQUATIONS
+AB We consider a Bayesian adaptive optimal stochastic control problem where a hidden static signal has a nonseparable influence on the drift of a noisy observation. Being allowed to control the specific form of this dependence, we aim at optimizing a cost functional depending on the posterior distribution of the hidden signal. Our setup is in sharp contrast to existing work: we include costs that depend on the full posterior distribution in a form that admits a large class of nonlinear relationships. Expressing the dynamics of this posterior distribution in the observation filtration, we embed our problem into a genuinely infinite-dimensional stochastic control problem using measure-valued martingales. We address this problem by use of viscosity theory and approximation arguments. Specifically, we show equivalence to a corresponding weak formulation, characterize the optimal value of the problem in terms of the unique continuous viscosity solution of an associated HJB equation, and construct a piecewise constant and arbitrarily-close-to-optimal control to our main problem of study. As a by-product of our analysis, we also provide a novel stability result for a class of measure-valued SDEs which we believe is of independent interest.
+C1 [Cox, Alexander m. g.; Wang, Chaorui] Univ Bath, Dept Math Sci, Bath BA2 7AY, England.
+   [Kallblad, Sigrid] KTH Royal Inst Technol, Dept Math, S-10044 Stockholm, Sweden.
+C3 University of Bath; Royal Institute of Technology
+RP Cox, AMG (corresponding author), Univ Bath, Dept Math Sci, Bath BA2 7AY, England.
+EM a.m.g.cox@bath.ac.uk; cw2581@bath.ac.uk; sigrid.kallblad@math.kth.se
+FU Swedish Research Council (VR) [2020-03449]; Scholarship from the EPSRC
+   Centre for Doctoral Training in Statistical Applied Mathematics at Bath
+   (SAMBa) [EP/S022945/1]; Chinese Council Scholarship
+FX The second author gratefully acknowledges financial support from the
+   Swedish Research Council (VR) under grant 2020-03449. The third author
+   was supported by a scholarship from the EPSRC Centre for Doctoral
+   Training in Statistical Applied Mathematics at Bath (SAMBa) under
+   project EP/S022945/1 and by a Chinese Council Scholarship.
+NR 39
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SIAM PUBLICATIONS
+PI PHILADELPHIA
+PA 3600 UNIV CITY SCIENCE CENTER, PHILADELPHIA, PA 19104-2688 USA
+SN 0363-0129
+EI 1095-7138
+J9 SIAM J CONTROL OPTIM
+JI SIAM J. Control Optim.
+PY 2026
+VL 64
+IS 4
+BP 3050
+EP 3079
+DI 10.1137/25M1735081
+PG 30
+WC Automation & Control Systems; Mathematics, Applied
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Automation & Control Systems; Mathematics
+GA OQ1XU
+UT WOS:001883557400002
+OA Green Submitted
+DA 2026-10-01
+ER
+
+PT C
+AU Yin, H
+   Verginis, CK
+   Kragic, D
+AF Yin, Hang
+   Verginis, Christos K.
+   Kragic, Danica
+BE Lindemann, L
+   Tu, S
+   Wierman, A
+   Atanasov, N
+   Sukhatme, G
+TI Learning Multi-Robot Coordination with Invariant Consensus Stabilization
+SO ANNUAL LEARNING FOR DYNAMICS AND CONTROL CONFERENCE
+SE Proceedings of Machine Learning Research
+LA English
+DT Proceedings Paper
+CT 8th Conference on Learning for Dynamics and Control-L4DC-Annual
+CY JUN 17-19, 2026
+CL Los Angeles, CA
+DE Multi-robot coordination; Equivariant representation; Reinforcement
+   learning
+ID MULTIAGENT SYSTEMS
+AB Coordinating multi-robot systems for highly dexterous tasks is challenging due to the complexity of inducing desired interactions among robots with high-dimensional dynamics. This paper introduces a learning-based multi-robot control algorithm that generates complex trajectories for executing such tasks. In particular, we design a controller that achieves multi-robot consensus; unlike standard consensus protocols, the controller is parametrized by neural networks that are derived from convex potentials and represent diffeomorphic functions of the robots' relative states. The algorithm trains the neural networks to learn consensus policies that enable coordinated, high-precision multi-robot behaviors. A key feature of our approach is translation invariance, which ensures generalization to untrained state spaces. We prove the theoretical correctness of the proposed algorithm for an arbitrary number of robots and validate its effectiveness in two dynamic tasks, namely cooperative object transportation and forceful peg insertion. The results show that the proposed controller and policy learning significantly outperform baseline methods in terms of learning efficiency and generalization under untrained task configurations.
+C1 [Yin, Hang] Univ Copenhagen, Dept Comp Sci, Copenhagen, Denmark.
+   [Verginis, Christos K.] Uppsala Univ, Dept Elect Engn, Uppsala, Sweden.
+   [Kragic, Danica] KTH Royal Inst Technol, Robot Percept & Learning Grp, Stockholm, Sweden.
+C3 University of Copenhagen; Uppsala University; Royal Institute of
+   Technology
+RP Yin, H (corresponding author), Univ Copenhagen, Dept Comp Sci, Copenhagen, Denmark.
+EM HAYI@DI.KU.DK; CHRISTOS.VERGINIS@ANGSTROM.UU.SE; DANI@KTH.SE
+FU Innovation Foundation Denmark under the Grand Solutions project Fast and
+   Efficient Robotic Automation via Reuse of Data (FERA); Sweden's
+   Innovation Agency; Centre for Interdisciplinary Mathematics (CIM) at
+   Uppsala University
+FX The authors would like to show their gratitude to the European Research
+   Council, Swedish Research Council, and Knut and Alice Wallenberg
+   Foundation. Hang Yin acknowledges the support from Innovation Foundation
+   Denmark under the Grand Solutions project Fast and Efficient Robotic
+   Automation via Reuse of Data (FERA). Christos K. Verginis further
+   acknowledges the support of the Centre for Interdisciplinary Mathematics
+   (CIM) at Uppsala University and Sweden's Innovation Agency within the
+   research and innovation program Advanced Digitalization via the
+   Competence Center SEDDIT-Sensor Informatics and Decision making for the
+   Digital Transformation.
+NR 41
+TC 0
+Z9 0
+U1 0
+U2 0
+PU JMLR-JOURNAL MACHINE LEARNING RESEARCH
+PI SAN DIEGO
+PA 1269 LAW ST, SAN DIEGO, CA, UNITED STATES
+SN 2640-3498
+J9 PR MACH LEARN RES
+PY 2026
+VL 331
+BP 1981
+EP 1994
+PG 14
+WC Automation & Control Systems; Computer Science, Artificial Intelligence;
+   Computer Science, Interdisciplinary Applications
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems; Computer Science
+GA BB1QV
+UT WOS:001863802500098
+DA 2026-10-01
+ER
+
+PT J
+AU Nascimento, PC
+   Vieira, JCM
+   Topel, M
+   Trevisan, S
+   Laumert, B
+AF Nascimento, Priscila Costa
+   Vieira, Jose Carlos Melo
+   Topel, Monika
+   Trevisan, Silvia
+   Laumert, Bjorn
+TI Peak demand estimation in distribution systems: impacts of plug-in
+   electric vehicle charging on load coincidence
+SO APPLIED ENERGY
+LA English
+DT Article
+DE Plug-in electric vehicles; Distribution system planning; Load
+   coincidence; Peak demand estimation; Velander formula; Generalized
+   additive models; Monte Carlo simulation
+AB Increasing transport electrification is expected to substantially alter electricity demand patterns in distribution systems (DSs). In particular, large-scale adoption of plug-in electric vehicles (PEVs) may modify the temporal coincidence of customer loads, challenging peak-demand estimation methods calibrated under historical demand conditions, such as Velander's formula. This study investigates how PEV charging affects load coincidence and peak-demand estimation in a real urban DS in Stockholm County, Sweden. A probabilistic Monte Carlo framework is used to generate stochastic PEV charging demand across penetration scenarios ranging from the 2023 baseline conditions to full fleet electrification. The resulting charging profiles are integrated into a detailed DS model, enabling the analysis of system operation, coincidence factors, and the performance of the Velander formulation across different aggregation levels, customer groups, and seasons. The results show that increasing PEV pene tration markedly alters coincidence behaviour, with secondary substations exhibiting a pronounced U-shaped response across the penetration range: the median coincidence factor falls from about 0.96 at the 2023 baseline to 0.61-0.62 near 15-20% penetration, and recovers to about 0.91 at full electrification. Consequently, the re lationship between annual energy consumption and coincident peak demand changes substantially, leading to systematic errors in peak-demand estimation. To address these shortcomings, a set of analytical and data-driven formulations that explicitly account for PEV demand characteristics are developed and evaluated. These models improve predictive accuracy by up to 70% relative to the classical approach and provide more robust performance across PEV penetration scenarios. Overall, the findings provide new insights into how PEV charging affects co incidence behaviour across DS aggregation levels, reveal limitations of the classical Velander formulation, and demonstrate how alternative formulations can improve peak-demand estimation under transport electrification.
+C1 [Nascimento, Priscila Costa; Trevisan, Silvia; Laumert, Bjorn] KTH Royal Inst Technol, Dept Energy Technol, Brinellvagen 68, S-11428 Stockholm, Stockholm Count, Sweden.
+   [Vieira, Jose Carlos Melo] Univ Sao Paulo, Dept Elect & Comp Engn, Ave Trabalhador sao-carlense 400, BR-13566690 Sao Carlos, SP, Brazil.
+   [Topel, Monika] Svenska kraftnat, Dept Power Syst, Sturegatan 1, S-17224 Sundbyberg, Stockholm Count, Sweden.
+RP Nascimento, PC (corresponding author), KTH Royal Inst Technol, Dept Energy Technol, Brinellvagen 68, S-11428 Stockholm, Stockholm Count, Sweden.
+EM pcn@kth.se
+FU Swedish Energy Agency [P2020-90143]
+FX This research was funded by the Swedish Energy Agency (project
+   P2020-90143) . The authors thank Ellevio AB, especially Linus Hansson,
+   for providing the grid-related data used in this study.
+NR 24
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ELSEVIER SCI LTD
+PI London
+PA 125 London Wall, London, ENGLAND
+SN 0306-2619
+EI 1872-9118
+J9 APPL ENERG
+JI Appl. Energy
+PD JAN
+PY 2027
+VL 427
+AR 128837
+DI 10.1016/j.apenergy.2026.128837
+EA SEP 2026
+PN B
+PG 22
+WC Energy & Fuels; Engineering, Chemical
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Energy & Fuels; Engineering
+GA OM4YO
+UT WOS:001881052000001
+OA hybrid
+DA 2026-10-01
+ER
+
+PT J
+AU Miniotaite, U
+   Forslund, OK
+   Luetkens, H
+   Rai, V
+   Persson, J
+   Morris, GD
+   Zuhair, D
+   Tam, DW
+   Nandi, S
+   Sassa, Y
+   Månsson, M
+AF Miniotaite, U.
+   Forslund, O. K.
+   Luetkens, H.
+   Rai, V.
+   Persson, J.
+   Morris, G. D.
+   Zuhair, D.
+   Tam, D. W.
+   Nandi, S.
+   Sassa, Y.
+   Mansson, M.
+TI Microscopic magnetic phase evolution in the Weyl semimetal
+   Mn3Sn revealed by µ plus SR
+SO PHYSICAL REVIEW B
+LA English
+DT Article
+ID WEAK FERROMAGNETISM; SPIN RELAXATION; NEUTRON; ANTIFERROMAGNET;
+   POLARIZATION; FIELD
+AB We report a comprehensive muon spin relaxation (mu+SR) and bulk magnetization study of the antiferromagnetic (AFM) Weyl semimetal Mn3Sn (composition Mn2.99Sn). Mn3Sn is reported to exhibit a commensurate inverse triangular (IT) AFM phase, an incommensurate (IC) helical AFM phase, and a proposed low-temperature spin-glass-like state. In our sample, we identify the characteristic temperatures associated with these regimes as N & eacute;el temperature (TN = 418 K), a macroscopic bulk transition temperature between IT-AFM to IC helical phase (Tt approximate to 275 K), and low-temperature transition Tf = 21 K. Investigating the low-temperature regime below Tf, we find no evidence of a static spin-glass state. Instead, the sample exhibits an increasing ferromagnetic component accompanied by a localized slowing of spin fluctuations, indicating that these phenomena may be decoupled. In the IC helical AFM phase, the zero-field spectra are best described by damped oscillations with an empirical phase offset, consistent with anharmonic and amplitude-modulated order reported by scattering studies. Upon warming above 150 K, a continuous redistribution of muon spectral weight reveals a broad, homogeneous magnetic crossover between the IC helical and IT-AFM phases. In the commensurate IT-AFM phase above Tt, a persistent missing fraction in the initial asymmetry indicates that a subset of implanted muons, corresponding to roughly 20% of the sample-related asymmetry, undergoes unresolved ultrafast depolarization. Finally, we observe temperature-driven shifts in muon site populations above 325 K. Ultimately, our results show a highly dynamic magnetic landscape in Mn3Sn, demonstrating how its complex magnetic orders often coexist and evolve continuously with temperature.
+C1 [Miniotaite, U.; Zuhair, D.; Tam, D. W.; Sassa, Y.; Mansson, M.] KTH Royal Inst Technol, Dept Appl Phys, SE-10691 Stockholm, Sweden.
+   [Forslund, O. K.] Uppsala Univ, Dept Phys & Astron, Uppsala, Sweden.
+   [Luetkens, H.] PSI Ctr Neutron & Muon Sci CNM, Villigen, Switzerland.
+   [Rai, V.] Univ Luxembourg, Dept Phys & Mat Sci, 162A Ave Faiencerie, L-1511 Luxembourg, Luxembourg.
+   [Rai, V.; Persson, J.; Nandi, S.] Forschungszentrum Julich, Julich Ctr Neutron Sci JCNS 2, JARAFIT, D-52425 Julich, Germany.
+   [Morris, G. D.] TRIUMF, Ctr Mol & Mat Sci, Vancouver, BC V6T 2A3, Canada.
+   [Tam, D. W.] Inst Laue Langevin, F-38042 Grenoble 9, France.
+   [Nandi, S.] Rhein Westfal TH Aachen, Lehrstuhl Experimentalphys IVc, Julich Aachen Res Alliance JARA FIT, D-52074 Aachen, Germany.
+C3 Royal Institute of Technology; Uppsala University; University of
+   Luxembourg; Helmholtz Association; Julich Research Centre; University of
+   British Columbia; Institut Laue-Langevin (ILL); RWTH Aachen University
+RP Miniotaite, U; Sassa, Y; Månsson, M (corresponding author), KTH Royal Inst Technol, Dept Appl Phys, SE-10691 Stockholm, Sweden.
+EM ugnem@kth.se; sassa@kth.se; condmat@kth.se
+FU KTH-SCI Doctoral Excellence Program; Swedish Research Council (VR)
+   [2022-06217]; AForsk repatriation [25-1]; Ruth and Nils-Erik Stenback
+   Foundation; Swedish Research Council, VR [2021-06157, 2022-03936,
+   2025-07622, 2025-08127]; Swedish Foundation for Strategic Research (SSF)
+   within the Swedish national graduate school in neutron scattering
+   (SwedNess) [2021.0150]; Alice Wallenberg Foundation [2021.0150]
+FX We gratefully acknowledge S. Jana for the sample synthesis.U.M.
+   acknowledges funding from the KTH-SCI Doctoral Excellence Program.
+   O.K.F. is supported by the Swedish Research Council (VR) through Grant
+   No. 2022-06217, AForsk repatriation grant (Grant No. 25-1) , and the
+   Ruth and Nils-Erik Stenback Foundation. We acknowledge funding from the
+   Swedish Research Council, VR (Dnr. 2021-06157, 2022-03936, 2025-07622
+   and 2025-08127) , the Swedish Foundation for Strategic Research (SSF)
+   within the Swedish national graduate school in neutron scattering
+   (SwedNess) and Alice Wallenberg Foundation through the grant 2021.0150.
+NR 46
+TC 0
+Z9 0
+U1 0
+U2 0
+PU AMER PHYSICAL SOC
+PI COLLEGE PK
+PA ONE PHYSICS ELLIPSE, COLLEGE PK, MD 20740-3844 USA
+SN 2469-9950
+EI 2469-9969
+J9 PHYS REV B
+JI Phys. Rev. B
+PD SEP 21
+PY 2026
+VL 114
+IS 14
+AR 144419
+DI 10.1103/t9y2-h8th
+PG 11
+WC Materials Science, Multidisciplinary; Physics, Applied; Physics,
+   Condensed Matter
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Materials Science; Physics
+GA OP8HY
+UT WOS:001883313200001
+OA hybrid
+DA 2026-10-01
+ER
+
+PT C
+AU Ge, CW
+   Chen, F
+   Xu, LL
+   Zhang, K
+   Duwig, C
+AF Ge, Chaowei
+   Chen, Fang
+   Xu, Leilei
+   Zhang, Kai
+   Duwig, Christophe
+BE Jing, Z
+   Xu, W
+   Hong, H
+   Srigrarom, S
+   Hermanutz, A
+TI Multi-dimensional Evaluation of Chemical Kinetic Mechanisms for Ammonia
+   and Ammonia/Hydrogen Combustion
+SO PROCEEDINGS OF THE INTERNATIONAL CONFERENCE ON AEROSPACE SYSTEM SCIENCE
+   AND ENGINEERING 2025
+SE Lecture Notes in Electrical Engineering
+LA English
+DT Proceedings Paper
+CT 9th International Conference on Aerospace System Science and
+   Engineering-ICASSE
+CY JUL 29-31, 2025
+CL National University of Singapore, SINGAPORE
+SP Shanghai Jiao Tong University
+HO National University of Singapore
+DE Ammonia; Ammonia/hydrogen blends; Chemical kinetic mechanism; Ignition
+   delay time; laminar burning velocity
+ID LAMINAR BURNING VELOCITY; MARKSTEIN LENGTH; PREMIXED FLAMES; OXIDATION
+AB The development of renewable zero-carbon fuels contributes to industrial decarbonization, and ammonia as a chemical and agricultural product has attracted attention due to its high energy density and carbon-free properties. In this paper, the mainstream ammonia combustion mechanisms in recent years are evaluated in detail, and a multidimensional mechanism evaluation system is established using statistical methods. In order to make the results more accurate, as many experimental data as possible are selected for cross-validation. Finally, the recommended mechanisms for ammonia and ammonia-hydrogen mixtures are given for the prediction of ignition delay time and laminar burning velocity.
+C1 [Ge, Chaowei; Chen, Fang; Xu, Leilei] Shanghai Jiao Tong Univ, Sch Aeronaut & Astronaut, Shanghai 200240, Peoples R China.
+   [Zhang, Kai; Duwig, Christophe] KTH Royal Inst Technol, Dept Chem Engn, Brinellvagen 8, S-11428 Stockholm, Sweden.
+RP Chen, F (corresponding author), Shanghai Jiao Tong Univ, Sch Aeronaut & Astronaut, Shanghai 200240, Peoples R China.
+EM fangchen@sjtu.edu.cn
+FU National Natural Science Founda tion of China [52406150]; Shanghai
+   Pujiang Program [23PJ1406100]
+FX This work was supported by National Natural Science Founda tion of China
+   (Grant ID: 52406150) and Shanghai Pujiang Program (ID: 23PJ1406100).
+NR 38
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SPRINGER-VERLAG SINGAPORE PTE LTD
+PI SINGAPORE
+PA 152 BEACH ROAD, #21-01/04 GATEWAY EAST, SINGAPORE, 189721, SINGAPORE
+SN 1876-1100
+EI 1876-1119
+BN 978-981-95-6368-5; 978-981-95-6366-1; 978-981-95-6365-4
+J9 LECT NOTES ELECTR EN
+PY 2026
+VL 1532
+BP 171
+EP 188
+DI 10.1007/978-981-95-6366-1_14
+PG 18
+WC Engineering, Aerospace
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Engineering
+GA BB1YJ
+UT WOS:001867134200014
+DA 2026-10-01
+ER
+
+PT J
+AU Dhore, AR
+   Rajak, AK
+   Sarangi, PK
+   Karuna, MSL
+   Srivastava, V
+AF Dhore, Ameya Ramesh
+   Rajak, Amit Kumar
+   Sarangi, Prakash Kumar
+   Karuna, M. S. L.
+   Srivastava, Vaibhav
+TI Synthesis and improvement of pearl millet-based CaO-SiO2/TiO2 catalysts
+   for effective transesterification of blended oil towards biodiesel
+   production
+SO RESULTS IN ENGINEERING
+LA English
+DT Article
+DE Biomass-derived catalyst; CaO-SiO2/TiO2; Transesterification;
+   Heterogeneous catalysis; Catalyst reusability; Circular economy;
+   Renewable fuels
+ID OLEIC-ACID; CAO
+AB Affordable, environmentally friendly heterogeneous catalysts derived from biomass are necessary to increase biodiesel production within a circular economy. In this study, pearl millet biomass was used to produce a CaO-SiO2/TiO2 catalyst, a rich source of calcium and silica, via wet impregnation followed by high-temperature calcination. Methanol was used for the transesterification of a mixed-oil feedstock under optimised reaction conditions: a 15:1 molar ratio, 5% catalyst loading, 6 h reaction time, and 70 degrees C, yielding 98.69% biodiesel. Surface and structural features were examined using CHN, FTIR, BET, TGA, and XRD analyses, confirming the presence of a thermally stable, predominantly basic catalyst with well-distributed active phases. The catalyst exhibited high efficiency, achieving biodiesel yields above 95% under mild conditions. Reusability over four successive cycles showed good stability, with a slight decrease in activity attributed to surface carbonation and hydroxylation observed in FTIR analysis. CHN data indicated minimal organic fouling and low nitrogen adsorption, suggesting resistance to catalyst poisoning. Negligible calcium leaching demonstrated strong support-metal interactions promoted by the SiO2-TiO2 matrix. Catalytic activity and structural integrity were maintained without requiring extensive regeneration. Overall, CaO-SiO2/TiO2 catalysts derived from biomass offer an economical, eco-friendly alternative to conventional catalysts for biodiesel production, encouraging sustainable fuel production and the economic evaluation of waste. These findings highlight the potential of agrobiomass residues as scalable catalytic precursors for renewable energy.
+C1 [Dhore, Ameya Ramesh; Karuna, M. S. L.] CSIR Indian Inst Chem Technol, Dept Oils Lipid Sci & Technol, Hyderabad 500007, Telangana, India.
+   [Rajak, Amit Kumar] CSIR Indian Inst Chem Technol, Dept Energy & Environm Engn, Hyderabad 500007, Telangana, India.
+   [Sarangi, Prakash Kumar] Cent Agr Univ, Coll Agr, Imphal 795004, Manipur, India.
+   [Karuna, M. S. L.] Acad Sci & Innovat Res AcSIR, Ghaziabad, Uttar Pradesh, India.
+   [Srivastava, Vaibhav] KTH Royal Inst Technol, AlbaNova Univ Ctr, Dept Chem, Div Glycosci, Stockholm, Sweden.
+C3 Council of Scientific & Industrial Research (CSIR) - India; CSIR -
+   Indian Institute of Chemical Technology (IICT); Council of Scientific &
+   Industrial Research (CSIR) - India; CSIR - Indian Institute of Chemical
+   Technology (IICT); Academy of Scientific & Innovative Research (AcSIR);
+   Royal Institute of Technology
+RP Karuna, MSL (corresponding author), CSIR Indian Inst Chem Technol, Dept Oils Lipid Sci & Technol, Hyderabad 500007, Telangana, India.; Karuna, MSL (corresponding author), Acad Sci & Innovat Res AcSIR, Ghaziabad, Uttar Pradesh, India.; Srivastava, V (corresponding author), KTH Royal Inst Technol, AlbaNova Univ Ctr, Dept Chem, Div Glycosci, Stockholm, Sweden.
+EM karuna.iict@csir.res.in; vasri@kth.se
+NR 70
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+EI 2590-1230
+J9 RESULTS ENG
+JI Results Eng.
+PD DEC
+PY 2026
+VL 32
+AR 112791
+DI 10.1016/j.rineng.2026.112791
+EA SEP 2026
+PG 17
+WC Engineering, Multidisciplinary
+WE Emerging Sources Citation Index (ESCI)
+SC Engineering
+GA ON8JO
+UT WOS:001881960900001
+OA gold
+DA 2026-10-01
+ER
+
+PT J
+AU Swensson, B
+   Jaworski, A
+   Ek, M
+AF Swensson, Beatrice
+   Jaworski, Aleksander
+   Ek, Monica
+TI Sustainable synthesis of cellulose malate ester to prepare nanocellulose
+   paired with zwitterionic amino acid counterion
+SO CARBOHYDRATE POLYMERS
+LA English
+DT Article
+DE Cellulose; Nanocellulose; Malic acid; CNF; Lysine; Ester
+ID COTTON CELLULOSE; ESTERIFICATION; MICROFIBRILS; NANOFIBRILS; OXIDATION
+AB State of the art chemistry for preparation of cellulose nanofibrils (CNF) has mainly been TEMPO-mediated oxidation or carboxymethylation. In this study, CNF of high aspect ratio at high yield is prepared through synthesis of cellulose ester by using malic acid coupled with mechanical processing, yielding transparent gels and films. Ester formation is performed in an oven-based process and catalyzed by basic salts which allows for easy synthesis, without organic solvents or toxic chemicals, while on average reaching a maximum degree of substitution of 0.3 and a total charge of 1.5 mmol/g. Hydrolysis of the cellulose is limited, retaining a high molecular weight. The results indicate that crosslinking of the cellulose does not occur, even at elevated temperatures of 130 degrees C. A novel concept to utilize unconventional weak bases such as the amino acid lysine as counterion to the carboxylic acid in the nanocellulose is also presented, thereby introducing zwitterionic counterions. It is also shown that other organic acids such as e.g. tartaric-and glutaric acid may also be used through the same process as malic acid, opening up for a library of organic cellulose esters.
+C1 [Swensson, Beatrice; Ek, Monica] KTH Royal Inst Technol, Div Wood Chem & Pulp Technol, Dept Fibre & Polymer Technol, Teknikringen 56-58, SE-10044 Stockholm, Sweden.
+   [Jaworski, Aleksander] Stockholm Univ, Dept Chem, SE-10691 Stockholm, Sweden.
+   [Ek, Monica] Wallenberg Wood Sci Ctr, Teknikringen 56-58, SE-10044 Stockholm, Sweden.
+C3 Royal Institute of Technology; Stockholm University
+RP Swensson, B (corresponding author), KTH Royal Inst Technol, Div Wood Chem & Pulp Technol, Dept Fibre & Polymer Technol, Teknikringen 56-58, SE-10044 Stockholm, Sweden.
+EM swebea@kth.se; aleksander.jaworski@su.se; monicaek@kth.se
+NR 52
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ELSEVIER SCI LTD
+PI London
+PA 125 London Wall, London, ENGLAND
+SN 0144-8617
+EI 1879-1344
+J9 CARBOHYD POLYM
+JI Carbohydr. Polym.
+PD NOV 1
+PY 2026
+VL 391
+AR 125857
+DI 10.1016/j.carbpol.2026.125857
+EA SEP 2026
+PG 10
+WC Chemistry, Applied; Chemistry, Organic; Polymer Science
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Chemistry; Polymer Science
+GA ON1ML
+UT WOS:001881493900001
+OA hybrid
+DA 2026-10-01
+ER
+
+PT J
+AU Wang, BB
+   Gui, BS
+   Zheng, LY
+   Wang, YW
+   Wang, LH
+AF Wang, Binbin
+   Gui, Baoshan
+   Zheng, Lianyu
+   Wang, Yiwei
+   Wang, Lihui
+TI LLM-agent-based explicit-implicit interaction fusion for human-robot
+   collaborative Assembly
+SO ROBOTICS AND COMPUTER-INTEGRATED MANUFACTURING
+LA English
+DT Article
+DE Human-robot interaction (HRI); Implicit interaction; Explicit
+   interaction; LLM-agent; Augmented reality
+AB In human-robot collaboration (HRC), explicit and implicit interactions typically follow distinct workflows: explicit interactions are actively initiated by the operator to convey task objectives, while implicit interactions are continuously perceived and responded to by the system to adapt robot behavior to the current collaboration context. Existing HRC systems often handle these interaction types separately, lacking a unified cognitive and decision-making mechanism, which can lead to interaction conflicts, execution interruptions, or delayed safety responses in complex scenarios. Although large language models (LLMs) demonstrate tremendous potential in reasoning, they have yet to effectively integrate explicit and implicit interactions into robotic decision-making. To address this, this paper proposes an LLM-Agent-based framework for explicit-implicit interaction fusion, which models both types of input within a unified semantic space and incorporates a two-stage fusion decision mechanism in LLM reasoning. This framework helps robots maintain consistent responses to task objectives and mitigate potential collaborative safety risks. Preliminary small-scale experimental results on representative HRC tasks reveal favorable trends in task completion ratio, collaborative safety performance and decision consistency when compared with the baseline scheme without explicit-implicit fusion. The proposed method provides an interpretable and scalable approach for deploying LLM-based HRC systems in real-world settings.
+C1 [Wang, Binbin; Gui, Baoshan; Zheng, Lianyu; Wang, Yiwei] Beihang Univ, Sch Mech Engn & Automat, Beijing 100191, Peoples R China.
+   [Zheng, Lianyu; Wang, Yiwei] Minist Ind & Informat Technol, MIIT Key Lab Intelligent Mfg Technol Aeronaut Adv, Beijing 100191, Peoples R China.
+   [Wang, Lihui] KTH Royal Inst Technol, Dept Prod Engn, Stockholm, Sweden.
+C3 Beihang University; Royal Institute of Technology
+RP Zheng, LY; Wang, YW (corresponding author), Beihang Univ, Sch Mech Engn & Automat, Beijing 100191, Peoples R China.; Zheng, LY; Wang, YW (corresponding author), Minist Ind & Informat Technol, MIIT Key Lab Intelligent Mfg Technol Aeronaut Adv, Beijing 100191, Peoples R China.
+EM lyzheng@buaa.edu.cn; wangyiwei@buaa.edu.cn
+FU National Natural Science Foundation of China [52375476]; Advanced
+   Manufacturing Technology Development Program of China [62402010352];
+   National Defense Fundamental Research Foundation of China
+   [JCKY2018601C011]
+FX This research received support from the National Natural Science
+   Foundation of China under Grant No. 52375476, the Advanced Manufacturing
+   Technology Development Program of China (No. 62402010352) , and the
+   National Defense Fundamental Research Foundation of China under Grant
+   No. JCKY2018601C011. The authors gratefully acknowledge to the members
+   of the digital and intelligent manufacturing research group in Beihang
+   University who provide satisfactory work for this research.
+NR 37
+TC 0
+Z9 0
+U1 0
+U2 0
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0736-5845
+EI 1879-2537
+J9 ROBOT CIM-INT MANUF
+JI Robot. Comput.-Integr. Manuf.
+PD APR
+PY 2027
+VL 104
+AR 103430
+DI 10.1016/j.rcim.2026.103430
+EA SEP 2026
+PG 16
+WC Computer Science, Interdisciplinary Applications; Engineering,
+   Manufacturing; Robotics
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Computer Science; Engineering; Robotics
+GA OL7MP
+UT WOS:001880543700001
+DA 2026-10-01
+ER
+
+PT J
+AU Johansson, E
+   Nilsson, P
+   Larsson, JP
+   Naldi, L
+   Westlund, H
+AF Johansson, Eleanor
+   Nilsson, Pia
+   Larsson, Johan P.
+   Naldi, Lucia
+   Westlund, Hans
+TI Exposure to remote work and probability of long-distance commuting:
+   evidence from pandemic lockdowns
+SO ANNALS OF REGIONAL SCIENCE
+LA English
+DT Article
+DE R23; J61; R12
+ID MIGRATION; MOBILITY; SWEDEN; TRAVEL
+AB In this paper, we investigate how the lockdown-induced exposure to remote work affected the likelihood of switching to longer commutes using a longitudinal full-population register of Swedish employees. We find that employees with little experience of longer commutes were more likely to start commuting longer if they had occupations with high potential for remote work. Examining heterogeneity across sectors, this is especially evident among high-skilled workers in sectors with low pre-existing shares of remote work and longer commutes. Our findings are important for understanding regional expansion and spatial extensions of labour markets in a world where more work can be done remotely.
+C1 [Johansson, Eleanor] Res Inst Ind Econ, Stockholm, Sweden.
+   [Nilsson, Pia] Univ Helsinki, Dept econ & management, Helsinki, Finland.
+   [Larsson, Johan P.] Univ Cambridge, Dept Land Econ, Cambridge, England.
+   [Naldi, Lucia] Jonkoping Univ, CeFEO, Jonkoping, Sweden.
+   [Westlund, Hans] KTH Royal Inst Technol, Dept Urban & Reg Studies, Stockholm, Sweden.
+   [Johansson, Eleanor] Swedish Univ Agr Sci, Dept Econ, Uppsala, Sweden.
+C3 Research Institute of Industrial Economics (IFN); University of
+   Helsinki; University of Cambridge; Jonkoping University; ; Swedish
+   University of Agricultural Sciences
+RP Johansson, E (corresponding author), Res Inst Ind Econ, Stockholm, Sweden.; Nilsson, P (corresponding author), Univ Helsinki, Dept econ & management, Helsinki, Finland.; Johansson, E (corresponding author), Swedish Univ Agr Sci, Dept Econ, Uppsala, Sweden.
+EM eleanor.johansson@slu.se; pia.a.nilsson@slu.se; jpl66@cam.ac.uk;
+   lucia.naldi@ju.se; hans.westlund@abe.kth.se
+FU University of Helsinki (including Helsinki University Central Hospital);
+   Formas [2021-02223]
+FX Open Access funding provided by University of Helsinki (including
+   Helsinki University Central Hospital).
+NR 42
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SPRINGER
+PI NEW YORK
+PA ONE NEW YORK PLAZA, SUITE 4600, NEW YORK, NY, UNITED STATES
+SN 0570-1864
+EI 1432-0592
+J9 ANN REGIONAL SCI
+JI Ann. Reg. Sci.
+PD SEP 22
+PY 2026
+VL 75
+IS 4
+AR 128
+DI 10.1007/s00168-026-01567-7
+EA SEP 2026
+PG 25
+WC Economics; Environmental Studies; Geography; Regional & Urban Planning
+WE Social Science Citation Index (SSCI)
+SC Business & Economics; Environmental Sciences & Ecology; Geography;
+   Public Administration
+GA OL1OE
+UT WOS:001880140800001
+OA hybrid
+DA 2026-10-01
+ER
+
+PT J
+AU Oliveros, W
+   Ramirez, JM
+   Sopena-Rios, M
+   Clavell-Revelles, P
+   Melé, M
+AF Oliveros, Winona
+   Ramirez, Jose Miguel
+   Sopena-Rios, Maria
+   Clavell-Revelles, Pau
+   Mele, Marta
+TI The impact of sex, age, and genetic ancestry on DNA methylation across
+   tissues
+SO GENOME RESEARCH
+LA English
+DT Article
+ID EPIGENOME-WIDE ASSOCIATION; BODY-MASS INDEX; GENOME; EXPRESSION;
+   HYPERMETHYLATION; BINDING; MODELS; CELLS
+AB Understanding the consequences of individual DNA methylation variation is crucial for advancing our knowledge of human biology and disease, yet the collective impact of individual traits on DNA methylation and their downstream effects on gene expression across human tissues remains poorly understood. Here, we quantify the contributions of sex, age, genetic ancestry, and BMI on autosomal DNA methylation variation across nine human tissues and 424 individuals from the Genotype-Tissue Expression project. We show that genetic ancestry and age have a greater impact on DNA methylation compared with sex, with aging effects being more widespread but less pronounced. On average, <10% of the gene expression variation in sex, age, and ancestry is mediated by DNA methylation differences, with ancestry showing the largest proportion of mediation. We further show that ancestry-associated DNA methylation differences accumulate at CpG sites with extreme methylation states and are largely under genetic control. The female autosomal genome exhibits consistent hypermethylation across tissues at Polycomb-repressed regions. Ultimately, we show that age-related Polycomb target hypermethylation is observed across multiple tissues but not in the gonads. Our multi-individual, multitissue approach defines the key drivers of human DNA methylation variation in healthy conditions, establishing a baseline for the interpretation of DNA methylation changes in disease contexts.
+C1 [Oliveros, Winona; Ramirez, Jose Miguel; Sopena-Rios, Maria; Clavell-Revelles, Pau; Mele, Marta] Barcelona Supercomp Ctr BCN CNS, Dept Life Sci, Barcelona 08034, Catalonia, Spain.
+   [Oliveros, Winona; Ramirez, Jose Miguel; Sopena-Rios, Maria; Clavell-Revelles, Pau] Univ Barcelona, Barcelona 08034, Catalonia, Spain.
+   [Oliveros, Winona] KTH Royal Inst Technol, Dept Gene Technol, Sci Life Lab, S-17165 Solna, Sweden.
+C3 University of Barcelona; Royal Institute of Technology
+RP Melé, M (corresponding author), Barcelona Supercomp Ctr BCN CNS, Dept Life Sci, Barcelona 08034, Catalonia, Spain.
+EM marta.mele@bsc.es
+FU "Formacin Personal Investigador (FPI)" from "el Ministerio de Ciencia,
+   Innovacin y Universidades (MCIN)" and "la Agencia Estatal de
+   Investigacin (AEI)"; MCIN/AEI FPI [PREP2022-000663]; "la Caixa"
+   Foundation [100010434, LCF/BQ/DR22/11950022]; Secretaria d'Universitats
+   i Recerca, Departament de Recerca i Universitats, Generalitat de
+   Catalunya, and the European Social Fund Plus [FI-3 2024-0065];
+   Ministerio de Ciencia e Innovacin [PID2019-107937GA-I00,
+   MCIN/AEI/10.13039/501100011033,, RYC-2017-22249,
+   MCIN/AEI/10.13039/501100011033]
+FX J.M.R. was supported by a predoctoral fellowship from the "la Caixa"
+   Foundation (ID 100010434) with the code LCF/BQ/DR22/11950022. M.M. was
+   supported by Ministerio de Ciencia e Innovacion grant
+   PID2019-107937GA-I00 funded by MCIN/AEI/10.13039/501100011033, grant
+   RYC-2017-22249 funded by MCIN/AEI/10.13039/501100011033, and by "ESF
+   investing in your future." M.S.-R. was supported by a predoctoral
+   AGAUR-FI Joan Oro fellowship from the Secretaria d'Universitats i
+   Recerca, Departament de Recerca i Universitats, Generalitat de
+   Catalunya, and the European Social Fund Plus (FI-3 2024-0065). P.C.-R.
+   was supported by a predoctoral fellowship "Formacion Personal
+   Investigador (FPI)" from "el Ministerio de Ciencia, Innovacion y
+   Universidades (MCIN)" and "la Agencia Estatal de Investigacion (AEI)"
+   (MCIN/AEI FPI with code PREP2022-000663). We thank Aida Ripoll-Cladellas
+   and Fairlie Reese for useful discussions at the end of the work.
+NR 113
+TC 0
+Z9 0
+U1 0
+U2 0
+PU COLD SPRING HARBOR LAB PRESS, PUBLICATIONS DEPT
+PI COLD SPRING HARBOR
+PA 1 BUNGTOWN RD, COLD SPRING HARBOR, NY 11724 USA
+SN 1088-9051
+EI 1549-5469
+J9 GENOME RES
+JI Genome Res.
+PD SEP
+PY 2026
+VL 36
+IS 9
+BP 1725
+EP 1741
+DI 10.1101/gr.281428.125
+PG 17
+WC Biochemistry & Molecular Biology; Biotechnology & Applied Microbiology;
+   Genetics & Heredity
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Biochemistry & Molecular Biology; Biotechnology & Applied Microbiology;
+   Genetics & Heredity
+GA OR1CS
+UT WOS:001884179800001
+PM 42448427
+OA Green Accepted
+DA 2026-10-01
+ER
+
+PT C
+AU Akinwande, IS
+   Sidrane, C
+   Kochenderfer, MJ
+   Barrett, C
+AF Akinwande, I. Samuel
+   Sidrane, Chelsea
+   Kochenderfer, Mykel J.
+   Barrett, Clark
+BE Lindemann, L
+   Tu, S
+   Wierman, A
+   Atanasov, N
+   Sukhatme, G
+TI Verifying Nonlinear Neural Feedback Systems using Polyhedral Enclosures
+SO ANNUAL LEARNING FOR DYNAMICS AND CONTROL CONFERENCE
+SE Proceedings of Machine Learning Research
+LA English
+DT Proceedings Paper
+CT 8th Conference on Learning for Dynamics and Control-L4DC-Annual
+CY JUN 17-19, 2026
+CL Los Angeles, CA
+DE Formal Verification; Neural Networks; Control Systems; Feedback Systems
+AB As dynamical systems controlled by neural networks become increasingly prevalent, it is critical to ensure their safe operation. Although efficient techniques exist to handle neural systems with linear transition functions, few scalable methods address the nonlinear case. We propose a novel algorithm for verifying nonlinear neural feedback systems using forward reachability analysis. Our algorithm leverages the structure of the nonlinear transition functions to compute tight linear abstractions which we call polyhedral enclosures. These are then encoded as mixed-integer linear programs (MILPs) and solved to yield a sound over-approximation of the forward-reachable set. We evaluate our algorithm on representative benchmarks and demonstrate significant improvements over the previous state of the art.
+C1 [Akinwande, I. Samuel; Kochenderfer, Mykel J.] Stanford Univ, Dept Aeronaut & Astronaut, Stanford, CA 94305 USA.
+   [Sidrane, Chelsea] KTH Royal Inst Technol, Div Robot Percept & Learning, Intelligent Syst Dept, Sch Elect Engn & Comp Sci, Stockholm, Sweden.
+   [Barrett, Clark] Stanford Univ, Dept Comp Sci, Stanford, CA USA.
+C3 Stanford University; Royal Institute of Technology; Stanford University
+RP Akinwande, IS (corresponding author), Stanford Univ, Dept Aeronaut & Astronaut, Stanford, CA 94305 USA.
+EM SAMAKIN@STANFORD.EDU; CHELSE@KTH.SE; MYKEL@STANFORD.EDU;
+   BARRETTC@STANFORD.EDU
+FU National Science Foundation Graduate Research Fellowship Program
+   [2146755]; NSF [2211505]; Stanford Center for Automated Reasoning
+FX This material is based upon work supported by the National Science
+   Foundation Graduate Research Fellowship Program under Grant No.
+   (2146755). Any opinions, findings, and conclusions or recommendations
+   expressed in this material are those of the author(s) and do not
+   necessarily reflect the views of the National Science Foundation.
+   Additional support was provided by NSF Grant No. 2211505 and by the
+   Stanford Center for Automated Reasoning.
+NR 38
+TC 0
+Z9 0
+U1 0
+U2 0
+PU JMLR-JOURNAL MACHINE LEARNING RESEARCH
+PI SAN DIEGO
+PA 1269 LAW ST, SAN DIEGO, CA, UNITED STATES
+SN 2640-3498
+J9 PR MACH LEARN RES
+PY 2026
+VL 331
+BP 737
+EP 760
+PG 24
+WC Automation & Control Systems; Computer Science, Artificial Intelligence;
+   Computer Science, Interdisciplinary Applications
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems; Computer Science
+GA BB1QV
+UT WOS:001863802500035
+DA 2026-10-01
+ER
+
+PT J
+AU Masys, S
+   Jonauskas, V
+   Rinkevicius, Z
+AF Masys, S.
+   Jonauskas, V.
+   Rinkevicius, Z.
+TI DANGLING BONDS IN HYDROXYLATED AND AMINATED NANODIAMONDS: APPLICATION OF
+   THE GLOBAL OPTIMIZATION ALGORITHM
+SO LITHUANIAN JOURNAL OF PHYSICS
+LA English
+DT Article
+DE nanodiamonds; dangling bonds; geometry optimization; electronic g
+   -tensor
+ID MOLECULAR-ORBITAL METHODS; EFFECTIVE NUCLEAR CHARGES; EFFICIENT
+AB The geometric configuration of dangling bonds (DBs) - one of the most abundant paramagnetic defects in nanodiamonds (NDs) - is investigated by applying the global optimization algorithm (GOAT). A total of more than five million geometry optimization runs are carried out to search for the lowest-energy conformers of DBs introduced into hydroxylated and aminated NDs. An analysis of over 3,000 electronic g-tensor calculations performed for the obtained structures shows that only three unique DB types are present in octahedrally shaped C35(OH)36 and C35(NH2)36 nanoparticles, enabling future studies on similar NDs with fully functionalized surfaces to consider a relatively small number of DBs and thereby save computational time and resources. It is also revealed that the arithmetically averaged isotropic g-shifts from the geometries of the standard optimization agree well with the GOAT results, although the behaviour of individual DBs is not properly captured.
+C1 [Masys, S.; Jonauskas, V.] Vilnius Univ, Fac Phys, Inst Theoret Phys & Astron, Saultekio 3, LT-10257 Vilnius, Lithuania.
+   [Rinkevicius, Z.] KTH Royal Inst Technol, Sch Engn Sci Chem Biotechnol & Hlth, Dept Theoret Chem & Biol, SE-10691 Stockholm, Sweden.
+C3 Vilnius University; Royal Institute of Technology
+RP Masys, S (corresponding author), Vilnius Univ, Fac Phys, Inst Theoret Phys & Astron, Saultekio 3, LT-10257 Vilnius, Lithuania.
+EM sarunas.masys@tfai.vu.lt
+NR 35
+TC 0
+Z9 0
+U1 0
+U2 0
+PU LITHUANIAN PHYSICAL SOC
+PI VILNIUS
+PA 3 GEDIMINIO AVE, VILNIUS, LT-01103, LITHUANIA
+SN 1648-8504
+J9 LITH J PHYS
+JI Lith. J. Phys.
+PY 2026
+VL 66
+IS 3
+BP 154
+EP 163
+DI 10.3952/physics.2026.66.3.3
+PG 10
+WC Physics, Multidisciplinary
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Physics
+GA OK8LC
+UT WOS:001879930000003
+OA gold
+DA 2026-10-01
+ER
+
+PT J
+AU Adjim, FLN
+   Pliatsikas, N
+   Karabinaki, O
+   Koutsokostas, K
+   Granberg, F
+   Brzhezinskaya, M
+   Arvanitidis, J
+   Christofilos, D
+   Sarakinos, K
+AF Adjim, Franck L. Nadji
+   Pliatsikas, Nikolaos
+   Karabinaki, Olga
+   Koutsokostas, Konstantinos
+   Granberg, Fredric
+   Brzhezinskaya, Maria
+   Arvanitidis, John
+   Christofilos, Dimitrios
+   Sarakinos, Kostas
+TI Unravelling the effect of hyperthermal species on defect generation in
+   single-layer graphene upon sputter deposition of thin metal films
+SO VACUUM
+LA English
+DT Article
+ID NANOPARTICLES; GRAPHITE; ENERGY
+AB In the present work, we explore the effect of hyperthermal species-sputtered particles and backscattered argon (Ar) atoms-on defect generation during sputter-deposition of thin metal films in single-layer-graphene (SLG). Gold (Au), silver (Ag), copper (Cu), and aluminium (Al) targets are magnetron-sputtered at various Ar gas working pressures and respective 2 nm thick films are grown on SLG supported on silicon dioxide. The selected target materials: (i) have distinctly different atomic mass numbers Atarget and thereby different propensities to backscatter and transfer energy to Ar+ plasma ions; and (ii) exhibit differences in their surface binding energy, the latter being the quantity that largely determines the most probable energy of the sputtered particles ejected from the target surface. Raman spectroscopy measurements show that decrease of the working (Ar gas) pressure Au and Ag deposition leads to a higher defect density in graphene, while defect formation during Cu and Al deposition is seemingly independent from the working pressure. Moreover, increase of Atarget generally induces more damage in graphene. To understand the origin of defect generation and correlate it with energy and flux of hyperthermal sputtered and backscattered species at various deposition conditions, we use two complementary computational approaches: Molecular Dynamics to model the target sputtering process and Test-particle Monte Carlo simulations to model the gas phase transport of species from the target to the single-layer-graphene substrate. Our analysis shows that defects are primarily caused by energetic backscattered Ar species, such that targets that are less efficient in backscattering Ar+ ions along with relatively high working pressures lead to a minimization of ballistic damage on graphene. The findings presented herein pave the way for developing strategies to achieve defect-free growth of thin metal films on graphene and other van der Waals crystals and thereby enable magnetron sputtering for scalable fabrication of multifunctional metal contacts in two-dimensional-materials-based heterostructure devices.
+C1 [Adjim, Franck L. Nadji; Koutsokostas, Konstantinos; Granberg, Fredric; Sarakinos, Kostas] Univ Helsinki, Dept Phys, POB 43, FI-00014 Helsinki, Finland.
+   [Adjim, Franck L. Nadji; Sarakinos, Kostas] KTH Royal Inst Technol, Dept Phys, Roslagstullsbacken 21, S-11421 Stockholm, Sweden.
+   [Brzhezinskaya, Maria] Helmholtz Zentrum Berlin Materialien & Energie, Hahn Meitner Pl 1, D-14109 Berlin, Germany.
+   [Pliatsikas, Nikolaos; Arvanitidis, John] Aristotle Univ Thessaloniki, Phys Dept, GR-54124 Thessaloniki, Greece.
+   [Karabinaki, Olga; Christofilos, Dimitrios] Aristotle Univ Thessaloniki, Fac Engn, Sch Chem Engn, GR-54124 Thessaloniki, Greece.
+   [Karabinaki, Olga; Christofilos, Dimitrios] Aristotle Univ Thessaloniki, Fac Engn, Phys Lab, GR-54124 Thessaloniki, Greece.
+C3 University of Helsinki; Royal Institute of Technology; Helmholtz
+   Association; Helmholtz-Zentrum fuer Materialien und Energie GmbH (HZB);
+   Aristotle University of Thessaloniki; Aristotle University of
+   Thessaloniki; Aristotle University of Thessaloniki
+RP Adjim, FLN (corresponding author), Univ Helsinki, Dept Phys, POB 43, FI-00014 Helsinki, Finland.
+EM franck.nadjiadjim@helsinki.fi
+FU Swedish Research Council [VR-2021-04113]; Aforsk foundation [22-150]
+FX <br /> FLNA and KS acknowledge financial support by the Swedish Research
+   Council (Grant No. VR-2021-04113) and the aforsk foundation (Grant No.
+   22-150) . FLNA, KK, and KS acknowledge Helmholtz-Zentrum Berlin (HZB) in
+   Germany for the allocation of synchrotron radiation beamtime at BESSY
+   II.
+NR 54
+TC 0
+Z9 0
+U1 0
+U2 0
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0042-207X
+EI 1879-2715
+J9 VACUUM
+JI Vacuum
+PD JAN
+PY 2027
+VL 255
+AR 115822
+DI 10.1016/j.vacuum.2026.115822
+EA SEP 2026
+PG 10
+WC Materials Science, Multidisciplinary; Physics, Applied
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Materials Science; Physics
+GA ON9UL
+UT WOS:001882057300001
+OA hybrid
+DA 2026-10-01
+ER
+
+PT J
+AU Chen, T
+   Li, KJ
+   Li, AG
+AF Chen, Tao
+   Li, Kaijun
+   Li, Aigen
+TI Anharmonic infrared emission of cyano-substituted polycyclic aromatic
+   hydrocarbon molecules: Cyanonaphthalenes as a case study
+SO ASTRONOMY & ASTROPHYSICS
+LA English
+DT Article
+DE astrochemistry; dust, extinction; ISM: lines and bands; ISM: molecules
+ID SPECTRA; SPECTROSCOPY; BANDS; DISCOVERY; DUST; PAHS
+AB Context. The recent radio-spectroscopic detection of nitrile-bearing aromatic species has identified cyano-substituted polycyclic aromatic hydrocarbons as key tracers of nitrogen heterocycles in the interstellar medium. Despite this, it remains challenging to identify them in the infrared (IR) because this requires high-fidelity anharmonic vibrational radiative models that account for dynamic cooling processes in diverse astrophysical environments. Aims. We provide IR cascade model emission spectra for the anion, neutral, and cation states of 1- and 2-cyanonaphthalene in representative astrophysical regions. We investigate how charge states and substitution sites (position 1 vs. position 2) modulate the anharmonic vibrational profiles and energy redistribution during the IR cascade process. Methods. We employed B3LYP/N07D in conjunction with the second-order vibrational perturbation theory. To simulate the emission under astrophysical conditions, we used an optimized microcanonical sampling algorithm to determine the vibrational density of states and generate IR cascade emission spectra for different astrophysical environments. Results. Our results reveal that compared to neutrals, the intensity of the C equivalent to N nitrile band of anions is dramatically enhanced by an order of magnitude, while the C equivalent to N band intensity of cations is somewhat weaker than that of neutrals. We show that 1- and 2-cyanonaphthalene exhibit distinct isomeric signatures: 1-cyanonaphthalene induces a complex red-wing structure in the 3.3 & micro;m C-H stretch due to peri-hydrogen interactions, whereas 2-cyanonaphthalene displays a more symmetric profile. We evaluated the fractional energy emitted via the C equivalent to N stretch relative to the total IR cascade intrinsic emissivity for neutral, cationic, and anionic 1- and 2-cyanonaphthalene in different astrophysical environments and demonstrated that they can be used to probe their presence in space when they are combined with the observationally detected C equivalent to N stretch flux. Conclusions. By bridging the gap between static laboratory benchmarks and dynamic interstellar emission, we provide accurate anharmonic cascade emission spectra for cyanonaphthalenes. The spectral fingerprints for different charge states and isomers offer essential tools for interpreting high-resolution observations from the James Webb Space Telescope.
+C1 [Chen, Tao] Chinese Acad Sci, Xinjiang Astron Observ, 150 Sci 1-St, Urumqi 830011, Xinjiang, Peoples R China.
+   [Chen, Tao] KTH Royal Inst Technol, Sch Engn Sci Chem Biotechnol & Hlth, Div Theoret Chem & Biol, S-10044 Stockholm, Sweden.
+   [Li, Kaijun] Xiangtan Univ, Hunan Key Lab Stellar & Interstellar Phys, Xiangtan 411105, Hunan, Peoples R China.
+   [Li, Kaijun] Xiangtan Univ, Sch Phys & Optoelect, Xiangtan 411105, Hunan, Peoples R China.
+   [Li, Kaijun; Li, Aigen] Univ Missouri, Dept Phys & Astron, Columbia, MO 65211 USA.
+C3 Chinese Academy of Sciences; Xinjiang Astronomy Observatory, CAS; Royal
+   Institute of Technology; Xiangtan University; Xiangtan University;
+   University of Missouri System; University of Missouri Columbia
+RP Chen, T (corresponding author), Chinese Acad Sci, Xinjiang Astron Observ, 150 Sci 1-St, Urumqi 830011, Xinjiang, Peoples R China.; Chen, T (corresponding author), KTH Royal Inst Technol, Sch Engn Sci Chem Biotechnol & Hlth, Div Theoret Chem & Biol, S-10044 Stockholm, Sweden.; Li, KJ (corresponding author), Xiangtan Univ, Hunan Key Lab Stellar & Interstellar Phys, Xiangtan 411105, Hunan, Peoples R China.; Li, KJ (corresponding author), Xiangtan Univ, Sch Phys & Optoelect, Xiangtan 411105, Hunan, Peoples R China.; Li, KJ; Li, AG (corresponding author), Univ Missouri, Dept Phys & Astron, Columbia, MO 65211 USA.
+EM chentao@xao.ac.cn; likj@xtu.edu.cn; lia@missouri.edu
+FU NSFC [12503032]; Swedish Research Council [2022-06725]
+FX We thank B. Yang and the anonymous referee for helpful comments. KJL is
+   supported in part by NSFC 12503032. The computations were enabled by
+   resources provided by the National Academic Infrastructure for
+   Supercomputing in Sweden (NAISS), partially funded by the Swedish
+   Research Council through grant agreement no. 2022-06725.
+NR 57
+TC 0
+Z9 0
+U1 0
+U2 0
+PU EDP SCIENCES S A
+PI LES ULIS CEDEX A
+PA 17, AVE DU HOGGAR, PA COURTABOEUF, BP 112, F-91944 LES ULIS CEDEX A,
+   FRANCE
+SN 0004-6361
+EI 1432-0746
+J9 ASTRON ASTROPHYS
+JI Astron. Astrophys.
+PD SEP 24
+PY 2026
+VL 713
+AR A304
+DI 10.1051/0004-6361/202659343
+PG 9
+WC Astronomy & Astrophysics
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Astronomy & Astrophysics
+GA OR9AU
+UT WOS:001884717000001
+OA gold
+DA 2026-10-01
+ER
+
+PT J
+AU Namar, A
+   Roondhe, B
+   Baronio, S
+   De Col, M
+   Jugovac, M
+   Scardamaglia, M
+   Giannozzi, P
+   Vesselli, E
+AF Namar, A.
+   Roondhe, B.
+   Baronio, S.
+   De Col, M.
+   Jugovac, M.
+   Scardamaglia, M.
+   Giannozzi, P.
+   Vesselli, E.
+TI Ligation of Carbon Monoxide at Iron and Cobalt Single-Metal-Atom Sites:
+   Competition for the+1 Oxidation State in a Surface-Confined Organic
+   Network
+SO JOURNAL OF PHYSICAL CHEMISTRY C
+LA English
+DT Article
+ID HOT-BAND EXCITATION; AMBIENT-PRESSURE; CO ADSORPTION; COORDINATION;
+   SPECTROSCOPY; CATALYSTS; SPECTRA; OXYGEN; FE; REDUCTION
+AB Cobalt coordination to a FeTPyP monolayer on graphene yields a two-dimensional FeTPyP-Co metal-organic network, stabilizing highly reactive Fe(I) sites within a biomimetic coordination architecture. The assembly process triggers an electronic reorganization that activates the pristine Fe(II) centers, enabling competitive CO ligation. A thorough synergistic investigation combining in situ photon-in/photon-out and photon-in/electron-out methods with density-functional theory simulations is presented. Distinct vibronic fingerprints reveal the complexity of the system, with anharmonic hot-band features associated with CO ligation at Co sites and a red-shifted mode uniquely assigned to CO ligation at Fe sites. Spectroscopic and theoretical results consistently indicate pronounced charge transfer and oxidation-state changes induced by adsorption. The bonding nature is site-specific, with linear CO at Co and tilted coordination at Fe. Quantitative pressure-dependent measurements uncover weak, fully reversible adsorption at room temperature, highlighting dynamic ligand-exchange processes and mild anti-cooperativity driven by indirect long-range, network-mediated interactions.
+C1 [Namar, A.; Baronio, S.; De Col, M.; Jugovac, M.; Vesselli, E.] Univ Trieste, Dept Phys, I-34127 Trieste, Italy.
+   [Roondhe, B.; Giannozzi, P.] Univ Udine, Dept Math Comp Sci & Phys, I-33100 Udine, Italy.
+   [Roondhe, B.] KTH Royal Inst Technol, Dept Mat Sci & Engn, SE-10044 Stockholm, Sweden.
+   [Scardamaglia, M.] Lund Univ, MAX Lab 4, S-22100 Lund, Sweden.
+   [Giannozzi, P.] CNR, IOM Ist Officina Mat, SISSA, I-34136 Trieste, Italy.
+   [Vesselli, E.] CNR, IOM Ist Officina Mat, I-34149 Trieste, Italy.
+   [Vesselli, E.] Univ Trieste, Ctr Energy Environm & Transport Giacomo Ciamician, I-34127 Trieste, Italy.
+C3 University of Trieste; University of Udine; Royal Institute of
+   Technology; Lund University; International School for Advanced Studies
+   (SISSA); Consiglio Nazionale delle Ricerche (CNR); Consiglio Nazionale
+   delle Ricerche (CNR); Istituto Officina dei Materiali (IOM-CNR);
+   University of Trieste
+RP Vesselli, E (corresponding author), Univ Trieste, Dept Phys, I-34127 Trieste, Italy.; Vesselli, E (corresponding author), CNR, IOM Ist Officina Mat, I-34149 Trieste, Italy.; Vesselli, E (corresponding author), Univ Trieste, Ctr Energy Environm & Transport Giacomo Ciamician, I-34127 Trieste, Italy.
+EM evesselli@units.it
+RI Vesselli, Erik/D-2798-2013
+FU Carl Tryggers Stiftelse f?r Vetenskaplig Forskning [CTS 24:3562];
+   Swedish Research Council (VR) [2018-07152]; Swedish Research Council for
+   Sustainable Development (FORMAS) [2019-02496]; NextGenerationEU
+   [J53D23001510006]; VINNOVA [2018-04969]
+FX This work was funded by Unione Europea - Next Generation EU through the
+   project PRIN2022 XXJNRS 2DOrNotToBe (CUP J53D23001510006) and by Next
+   Generation EU, Missione 4, Componente 1 CUP J53D23016180001, PRIN PNRR
+   P2022B3WCB 2Dgo3D. We acknowledge MAX IV Laboratory for time on Beamline
+   HIPPIE under Proposals 20230232, 20231301, and 20241097. Research
+   conducted at MAX IV, a Swedish national user facility, is supported by
+   the Swedish Research Council under contract 2018-07152, the Swedish
+   Governmental Agency for Innovation Systems under contract 2018-04969,
+   and Formas under contract 2019-02496. PG acknowledges ISCRA for access
+   to the LEONARDO supercomputer, owned by the EuroHPC Joint Undertaking
+   hosted by CINECA (Italy). BR acknowledges the Carl Tryggers Stiftelse
+   for Vetenskaplig Forskning (CTS 24:3562), Sweden.
+NR 74
+TC 0
+Z9 0
+U1 0
+U2 0
+PU AMER CHEMICAL SOC
+PI WASHINGTON
+PA 1155 16TH ST, NW, WASHINGTON, DC 20036 USA
+SN 1932-7447
+EI 1932-7455
+J9 J PHYS CHEM C
+JI J. Phys. Chem. C
+PD SEP 24
+PY 2026
+VL 130
+IS 38
+BP 13458
+EP 13468
+DI 10.1021/acs.jpcc.6c04980
+EA SEP 2026
+PG 11
+WC Chemistry, Physical; Nanoscience & Nanotechnology; Materials Science,
+   Multidisciplinary
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Chemistry; Science & Technology - Other Topics; Materials Science
+GA OR8FL
+UT WOS:001876199600001
+OA hybrid
+DA 2026-10-01
+ER
+
+PT J
+AU Jang, Y
+   Lee, J
+   Kim, J
+   Tanaka, T
+   Shim, H
+AF Jang, Yeongjun
+   Lee, Joowon
+   Kim, Junsoo
+   Tanaka, Takashi
+   Shim, Hyungbo
+TI A Learning With Errors-Based Encryption Scheme for Dynamic Controllers
+   That Discloses Residue Signal for Anomaly Detection
+SO IEEE TRANSACTIONS ON CONTROL OF NETWORK SYSTEMS
+LA English
+DT Article
+DE Encryption; Matrices; Security; Poles and zeros; Zinc; Educational
+   institutions; Dynamics; Industrial plants; Plants (biology); Standards;
+   Control system security; encrypted control; homomorphic encryption;
+   networked control systems
+ID SYSTEMS
+AB Although encrypted control systems ensure the confidentiality of private data, it is challenging to detect anomalies without the secret key, as all signals remain encrypted. To address this issue, we propose a homomorphic encryption scheme for dynamic controllers that automatically discloses the residue signal for anomaly detection while keeping all other signals private. To this end, we characterize the zero-dynamics of an encrypted dynamic system defined over a finite field of integers and incorporate it into a learning with errors-based encryption scheme. We then present a method to further utilize the disclosed residue signal for implementing dynamic controllers over encrypted data, without requiring re-encryption even when they have noninteger state matrices.
+C1 [Jang, Yeongjun; Shim, Hyungbo] Seoul Natl Univ, ASRI, Dept Elect & Comp Engn, Seoul 08826, South Korea.
+   [Lee, Joowon] KTH Royal Inst Technol, Sch Elect Engn & Comp Sci, Dept Decis & Control Syst, S-11428 Stockholm, Sweden.
+   [Kim, Junsoo] Seoul Natl Univ Sci & Technol, Dept Elect & Informat Engn, Seoul 01811, South Korea.
+   [Tanaka, Takashi] Purdue Univ, Sch Aeronaut & Astronaut, W Lafayette, IN 47907 USA.
+   [Tanaka, Takashi] Purdue Univ, Elmore Family Sch Elect & Comp Engn, W Lafayette, IN 47907 USA.
+C3 Seoul National University (SNU); Royal Institute of Technology; Seoul
+   National University of Science & Technology; Purdue University System;
+   Purdue University; Purdue University System; Purdue University
+RP Kim, J (corresponding author), Seoul Natl Univ Sci & Technol, Dept Elect & Informat Engn, Seoul 01811, South Korea.
+EM jangyj0512@snu.ac.kr; joowon@kth.se; junsookim@seoultech.ac.kr;
+   tanaka16@purdue.edu; hshim@snu.ac.kr
+FU Institute of Information & communications Technology Planning &
+   Evaluation (IITP) - Korea government(MSIT) (Global Advanced
+   Cybersecurity Human Resources Development) [2024-00441762]
+FX This work was supported by the Institute of Information & communications
+   Technology Planning & Evaluation (IITP) grant funded by the Korea
+   government(MSIT) (Global Advanced Cybersecurity Human Resources
+   Development) under Grant 2024-00441762.
+NR 34
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2325-5870
+EI 2372-2533
+J9 IEEE T CONTROL NETW
+JI IEEE Trans. Control Netw. Syst.
+PD SEP
+PY 2026
+VL 13
+IS 3
+BP 1715
+EP 1727
+DI 10.1109/TCNS.2026.3698371
+PG 13
+WC Automation & Control Systems; Computer Science, Information Systems
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Automation & Control Systems; Computer Science
+GA OK2NC
+UT WOS:001879528100035
+DA 2026-10-01
+ER
+
+PT J
+AU Hawthorn, AC
+   Rivera, A
+   Carrasco, SA
+   Leis, E
+   Villacampa, MLC
+   Zubillaga, AL
+   Garcia-Camps, R
+   Croquer, A
+AF Hawthorn, Aine C.
+   Rivera, Andreina
+   Anseeuw Carrasco, Shamwari
+   Leis, Eric
+   Ceballos Villacampa, Maria L.
+   Zubillaga, Ainhoa L.
+   Garcia-Camps, Rebecca
+   Croquer, Aldo
+TI First report of the flatworm Convolutriloba longifissura (Acoela)
+   affecting a Caribbean coral species in a land-based nursery
+SO DISEASES OF AQUATIC ORGANISMS
+LA English
+DT Article
+DE Flatworms; Convolutriloba longifissura; Caribbean corals;
+   Microfragmentation; Coral restoration; Coral stress
+ID RESTORATION; DISEASES
+AB Flatworms are widespread in the marine realm, but only a few species parasitize corals. Several of these are considered pests in the aquarium trade, and the invasive potential of these species is a concern. In the Caribbean there are no records to date of flatworms naturally occurring in coral nurseries and/or parasitizing corals in the wild. Here we report, for the first time, a flatworm identified as Convolutriloba longifissura affecting a Caribbean coral and include a phylogenetic and histological analyses. Flatworms were collected from nursery corals and artificial recruitment units (bioballs) suspended in the water column at Punta Cana reef. Sequencing and morphology of individuals from both indicate that C. longifissura is present in the wild as well as the nursery. Experiments were conducted to investigate the effect of flatworm exposure on signs of macroscopic stress (i.e. mucus production, paleness, bleaching, and tissue loss) on microfragments of Pseudodiploria clivosa. Standard histopathological techniques were applied to describe microscopic alterations of the coral exposed to C. longifissura. We found corals exposed to 30 individuals of C. longifissura had a 2.5-fold increased probability of developing macroscopic stress signs compared to controls after 14 d of exposure to different flatworm densities. While the actual impacts of these flatworms on coral restoration and microfragmentation programs or wild corals in the Caribbean remain to be determined, our results indicate that flatworms are no longer an exclusive problem of Indo-Pacific corals.
+C1 [Hawthorn, Aine C.] US Geol Survey, Natl Wildlife Hlth Ctr, Madison, WI 53711 USA.
+   [Rivera, Andreina; Anseeuw Carrasco, Shamwari; Ceballos Villacampa, Maria L.; Zubillaga, Ainhoa L.; Garcia-Camps, Rebecca] Puntacana Fdn, Ctr Marine Innovat, Punta Cana 23000, Dominican Rep.
+   [Leis, Eric] La Crosse Fish Hlth Ctr, Midwest Fisheries Ctr, US Fish & Wildlife Serv, Madison, WI 54650 USA.
+   [Croquer, Aldo] Nature Conservancy, Caribbean Div, Ave los Proceres esq Euclides Morillo Diamond Mall, Santo Domingo 105010, Dominican Rep.
+   [Anseeuw Carrasco, Shamwari] Rutgers State Univ, Dept Biochem & Microbiol, New Brunswick, NJ 08901 USA.
+   [Ceballos Villacampa, Maria L.] KTH Royal Inst Technol, Sch Engn Sci Chem Biotechnol & Hlth CBH, S-10044 Stockholm, Sweden.
+C3 United States Department of the Interior; United States Geological
+   Survey; Rutgers University System; Rutgers University New Brunswick;
+   Royal Institute of Technology
+RP Croquer, A (corresponding author), Nature Conservancy, Caribbean Div, Ave los Proceres esq Euclides Morillo Diamond Mall, Santo Domingo 105010, Dominican Rep.
+EM aldo.croquer@tnc.org
+FU IKI Coral Carib; Marine Innovation Hub; Nature Conservancy Caribbean
+   Division; Central Caribbean Program [20 IV 106]; US Geological Survey
+   Biological Threats and Invasive Species Research Program [P120868]
+FX Acknowledgements. The authors thank the Oceankind and IKI Coral Carib
+   for providing financial support through the Marine Innovation Hub.
+   Thanks go to the Nature Conservancy Caribbean Division and the Central
+   Caribbean Program for supporting coral restoration in the Dominican
+   Republic and the staff of the Center of Marine Innovation (Juan
+   Francisco Gomez, Fausto Guerrero, Geuri Guerrero, Jose A. Guerrero), the
+   technicians Lizeth Cruz and Adonias Lizardo, and the aquarist
+   coordinator Daniel Veras for their permanent support. We also thank
+   Carla Conway for histotechnological support. Finally, we thank the
+   Dominican Ministry of Environment and Natural Resources for providing
+   the permits to complete this study. This work was supported by Fundacion
+   Puntacana, IKI CoralCarib Grant number: 20 IV 106 Caribbean A_ Coral
+   Carib. Title: CoralCarib: Pioneering a new strategic approach for
+   conserving and restoring Caribbean coral reef ecosystems that target
+   Climate Resilient Refuges, The US Geological Survey Biological Threats
+   and Invasive Species Research Program, and Dominican Republic Marine
+   Innovation Hub Id: P120868 CA Coral.
+NR 35
+TC 0
+Z9 0
+U1 0
+U2 0
+PU INTER-RESEARCH
+PI OLDENDORF LUHE
+PA NORDBUNTE 23, D-21385 OLDENDORF LUHE, GERMANY
+SN 0177-5103
+EI 1616-1580
+J9 DIS AQUAT ORGAN
+JI Dis. Aquat. Org.
+PD JUL 16
+PY 2026
+VL 167
+BP 1
+EP 9
+DI 10.3354/dao03921
+PG 9
+WC Fisheries; Veterinary Sciences
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Fisheries; Veterinary Sciences
+GA OP6BB
+UT WOS:001883160100001
+PM 42460754
+OA Green Accepted, hybrid
+DA 2026-10-01
+ER
+
+PT J
+AU Feng, C
+   Wen, DQ
+   Gudmundsson, JT
+   Verboncoeur, JP
+   Schulze, J
+   Wang, YN
+AF Feng, Chan
+   Wen, De-Qi
+   Gudmundsson, Jon Tomas
+   Verboncoeur, John P.
+   Schulze, Julian
+   Wang, You-Nian
+TI Ion energy distribution transitions in capacitive discharges caused by
+   abnormal dc self-bias formation induced by very-low-frequency voltage
+   waveform tailoring
+SO APPLIED PHYSICS LETTERS
+LA English
+DT Article
+ID COUPLED PLASMAS; FLUX; CONSEQUENCES; ASYMMETRY; SIO2
+AB Based on particle-in-cell/Monte Carlo collision (PIC/MCC) simulations of geometrically symmetric capacitive argon discharges driven by a high-frequency sinusoidal voltage, the ion energy distribution (IED) on the powered electrode is demonstrated to transition from a multimodal to a quasi-single-peak distribution by adding a very-low-frequency tailored voltage waveform (TVW) and varying its peak-to-peak voltage. This transition is controlled by an abnormal dc self-bias transition. A theory developed in this work reveals that the dc self-bias transition is attributed to temporal charge dynamics and shows good agreement with the results of a time-dependent transmission line model and PIC/MCC plasma simulations. At low-voltage amplitudes, the charging effect of the external blocking capacitor causes multiple sheath collapses per fundamental period of the very-low-frequency TVW. This reduces the total uncompensated charge in the discharge and enhances the ratio of the maximum net charge in both sheaths as well as the discharge symmetry, leading to a very-low dc self-bias and a multimodal structure of the IED. As the voltage amplitude is increased, the sheath adjacent to the bottom powered electrode collapses only once per cycle of the TVW, giving rise to a large charge asymmetry, which leads to a strong dc self-bias and a quasi-single-peak structure of the IED.
+C1 [Feng, Chan; Wen, De-Qi; Wang, You-Nian] Dalian Univ Technol, Sch Phys, Dalian 116023, Peoples R China.
+   [Gudmundsson, Jon Tomas] Univ Iceland, Sci Inst, IS-107 Reykjavik, Iceland.
+   [Gudmundsson, Jon Tomas] KTH Royal Inst Technol, Sch Elect Engn & Comp Sci, Dept Electromagnet & Plasma Phys, SE-10044 Stockholm, Sweden.
+   [Verboncoeur, John P.] Michigan State Univ, Dept Elect & Comp Engn, E Lansing, MI 48824 USA.
+   [Verboncoeur, John P.] Michigan State Univ, Dept Computat Math Sci & Engn, E Lansing, MI 48824 USA.
+   [Schulze, Julian] Ruhr Univ Bochum, Fac Elect Engn & Informat Sci, Chair Appl Electrodynam & Plasma Technol, Bochum, Germany.
+C3 Dalian University of Technology; University of Iceland; Royal Institute
+   of Technology; Michigan State University; Michigan State University;
+   Ruhr University Bochum
+RP Wen, DQ (corresponding author), Dalian Univ Technol, Sch Phys, Dalian 116023, Peoples R China.
+EM dqwen2024@dlut.edu.cn
+FU the Fundamental Research Funds for the Central University [No.
+   DUT24RC(3)115]; the US Deparment of Energy [DE-SC0022078]; the German
+   Research Foundation [428942393]; National Natural Science Foundation of
+   China [No. 12505284]
+FX This work was partially supported by the National Natural Science
+   Foundation of China (No. 12505284), the Fundamental Research Funds for
+   the Central University [Grant No. DUT24RC(3)115], the U.S. Department of
+   Energy (Grant No. DE-SC0022078) (Verboncoeur and Wen during his postdoc
+   at MSU), and the German Research Foundation (No. 428942393).
+NR 52
+TC 0
+Z9 0
+U1 0
+U2 0
+PU AIP Publishing
+PI MELVILLE
+PA 1305 WALT WHITMAN RD, STE 300, MELVILLE, NY 11747-4501 USA
+SN 0003-6951
+EI 1077-3118
+J9 APPL PHYS LETT
+JI Appl. Phys. Lett.
+PD SEP 21
+PY 2026
+VL 129
+IS 12
+AR 124102
+DI 10.1063/5.0344454
+PG 6
+WC Physics, Applied
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Physics
+GA OQ0TN
+UT WOS:001883478500001
+DA 2026-10-01
+ER
+
+PT J
+AU Ieki, H
+   Zhang, S
+   Koyama, S
+   Kjellberg, M
+   Yoshida, H
+   Kurosawa, R
+   Matsunaga, H
+   Miyazawa, K
+   Enzan, N
+   Kim, C
+   Seo, JS
+   Higasa, K
+   Ozaki, K
+   Onouchi, Y
+   Matsuda, K
+   Kamatani, Y
+   Terao, C
+   Matsuda, F
+   Snyder, MP
+   Komuro, I
+   Ito, K
+AF Ieki, Hirotaka
+   Zhang, Sai
+   Koyama, Satoshi
+   Kjellberg, Martin
+   Yoshida, Hiroki
+   Kurosawa, Ryo
+   Matsunaga, Hiroshi
+   Miyazawa, Kazuo
+   Enzan, Nobuyuki
+   Kim, Changhoon
+   Seo, Jeong-Sun
+   Higasa, Koichiro
+   Ozaki, Kouichi
+   Onouchi, Yoshihiro
+   Matsuda, Koichi
+   Kamatani, Yoichiro
+   Terao, Chikashi
+   Matsuda, Fumihiko
+   Snyder, Michael P.
+   Komuro, Issei
+   Ito, Kaoru
+TI Machine Learning Reveals the Contribution of Rare Genetic Variants and
+   Enhances Risk Prediction for Coronary Artery Disease in the Japanese
+   Population
+SO CIRCULATION-GENOMIC AND PRECISION MEDICINE
+LA English
+DT Article
+DE coronary artery disease; genetic risk score; humans; machine learning;
+   risk assessment
+ID HEART-DISEASE; DEATH
+AB BACKGROUND: GWASs (genome-wide association studies) have advanced our understanding of coronary artery disease (CAD) genetics and enabled the development of polygenic risk scores (PRSs) for estimating genetic risk based on common variant burden. However, GWASs have limitations in analyzing rare variants due to insufficient statistical power, thereby constraining PRS performance.METHODS: We conducted whole-genome sequencing of 1752 Japanese patients with CAD and 3019 controls. A machine learning-based analytical framework was applied to identify and interpret rare genetic variants associated with CAD pathogenesis.RESULTS: This approach identified 59 CAD-related genes, including known causal genes such as LDLR and those not previously captured by GWASs. A rare variant-based risk score derived from the framework demonstrated distinct clinical characteristics compared with a conventional common variant-based PRS. The rare variant-based risk score significantly discriminated CAD cases and predicted cardiovascular mortality in an independent cohort. Furthermore, combining the rare variant-based risk score with the traditional PRS improved CAD prediction compared with the PRS alone (area under the curve, 0.66 versus 0.61; P=0.007).CONCLUSIONS: These findings underscore the distinct and complementary value of the rare variant-based risk score compared with the conventional PRS, highlighting the enhanced predictive power achieved through their integration. This comprehensive approach proposes broader genetic profiling, offering substantial potential for improved clinical risk stratification and personalized prevention strategies.
+C1 [Ieki, Hirotaka; Koyama, Satoshi; Yoshida, Hiroki; Kurosawa, Ryo; Matsunaga, Hiroshi; Miyazawa, Kazuo; Enzan, Nobuyuki; Ozaki, Kouichi; Onouchi, Yoshihiro; Ito, Kaoru] RIKEN Ctr Integrat Med Sci, Lab Cardiovasc Genom & Informat, Yokohama, Japan.
+   [Terao, Chikashi] RIKEN Ctr Integrat Med Sci, Lab Stat & Translat Genet, Yokohama, Japan.
+   [Ieki, Hirotaka; Yoshida, Hiroki; Matsunaga, Hiroshi] Univ Tokyo, Grad Sch Med, Dept Cardiovasc Med, Tokyo, Japan.
+   [Komuro, Issei] Univ Tokyo, Grad Sch Med, Dept Frontier Cardiovasc Sci, Tokyo, Japan.
+   [Matsuda, Koichi] Univ Tokyo, Grad Sch Frontier Sci, Dept Computat Biol & Med Sci, Tokyo, Japan.
+   [Kamatani, Yoichiro] Univ Tokyo, Grad Sch Frontier Sci, Dept Computat Biol & Med Sci, Lab Complex Trait Genom, Tokyo, Japan.
+   [Ieki, Hirotaka; Kjellberg, Martin; Snyder, Michael P.] Ctr Genom & Personalized Med, Dept Genet, Stanford, CA USA.
+   [Ieki, Hirotaka; Snyder, Michael P.] Stanford Univ, Sch Med, Stanford Cardiovasc Inst, Stanford, CA USA.
+   [Zhang, Sai] Univ Florida, Dept Epidemiol, Gainesville, FL USA.
+   [Zhang, Sai] Yale Univ, Sch Med, Dept Biomed Informat & Data Sci, New Haven, CT USA.
+   [Koyama, Satoshi; Enzan, Nobuyuki] Massachusetts Gen Hosp, Ctr Genom Med, Dept Med, Boston, MA USA.
+   [Koyama, Satoshi; Enzan, Nobuyuki] Broad Inst Harvard & MIT, Program Med & Populat Genet, Cambridge, MA USA.
+   [Kjellberg, Martin] Royal Inst Technol KTH, Sch Engn Sci Chem Biotechnol & Hlth, Stockholm, Sweden.
+   [Kim, Changhoon; Seo, Jeong-Sun] Macrogen Inc, Bioinformat Inst, Seoul, South Korea.
+   [Seo, Jeong-Sun] Seoul Natl Univ, Bundang Hosp, Asian Genome Inst, Seongnam, Gyeonggi Do, South Korea.
+   [Higasa, Koichiro] Kansai Med Univ, Inst Biomed Sci, Dept Genome Anal, Hirakata, Japan.
+   [Higasa, Koichiro; Matsuda, Fumihiko] Kyoto Univ, Grad Sch Med, Ctr Genom Med, Human Dis Genom, Kyoto, Japan.
+   [Ozaki, Kouichi] Natl Ctr Geriatr & Gerontol, Res Inst, Med Genome Ctr, Obu, Japan.
+   [Onouchi, Yoshihiro] Chiba Univ, Grad Sch Med, Dept Publ Hlth, Chiba, Japan.
+   [Komuro, Issei] Int Univ Hlth & Welf, Tokyo, Japan.
+   [Ito, Kaoru] Chiba Univ, Grad Sch Med, Dept Adv Biomed Data Sci, Chiba, Japan.
+   [Komuro, Issei] Univ Tokyo, 7-3-1 Hongo,Bunkyo Ku, Tokyo 1138655, Japan.
+   [Snyder, Michael P.] Stanford Univ, Sch Med, 240 Pasteur Dr,Room 4452, Stanford, CA 94305 USA.
+   [Ito, Kaoru] Chiba Univ, 1-8-1 Inohana,Chuo Ku, Chiba 2608670, Japan.
+C3 RIKEN; RIKEN; University of Tokyo; University of Tokyo; University of
+   Tokyo; University of Tokyo; Stanford University; State University System
+   of Florida; University of Florida; Yale University; Harvard University;
+   Harvard University Medical Affiliates; Massachusetts General Hospital;
+   Royal Institute of Technology; Macrogen, Inc.; Kansai Medical
+   University; Kyoto University; National Center for Geriatrics &
+   Gerontology; Chiba University; International University of Health &
+   Welfare; Chiba University; University of Tokyo; Stanford University;
+   Chiba University
+RP Komuro, I (corresponding author), Univ Tokyo, 7-3-1 Hongo,Bunkyo Ku, Tokyo 1138655, Japan.; Snyder, MP (corresponding author), Stanford Univ, Sch Med, 240 Pasteur Dr,Room 4452, Stanford, CA 94305 USA.; Ito, K (corresponding author), Chiba Univ, 1-8-1 Inohana,Chuo Ku, Chiba 2608670, Japan.
+EM hieki@stanford.edu; sai.zhang@ufl.edu; skoyama@broadinstitute.org;
+   goodfield2605@gmail.com; r.kurosawa1021@gmail.com;
+   schmeisser0922@gmail.com; wydhx562@yahoo.co.jp;
+   nobuyuki.enzan@gmail.com; kimchan@macrogen.com; jeongsun@snu.ac.kr;
+   higasa@genome.med.kyoto-u.ac.jp; ozakikk@ncgg.go.jp; onouchy@chiba-u.jp;
+   kamatani.yoichiro@edu.k.u-tokyo.ac.jp; chikashi.terao@riken.jp;
+   fumi@genome.med.kyoto-u.ac.jp; mpsnyder@stanford.edu;
+   komuro-tky@umin.ac.jp; kaoru.ito@chiba-u.jp
+OI Yoshida, Hiroki/0000-0001-7245-8801
+FU Japan Society for the Promotion of Science (JSPS) [JP22J00780,
+   JP22K16128]; Japan Heart Foundation/Bayer; American Heart Association
+   postdoctoral fellowship [25POST1357984]; Japan Agency for Medical
+   Research and Development (AMED) [JP24bm1423005, JP24km0405209,
+   JP24tm0524004, JP24tm0624002, JP24ek0210164, JP24gm7010001,
+   JP26gm7010001]; AMED [JP17km0305002, JP17km0305001, JP.24tm0624002];
+   JSPS; Ministry of Education, Culture, Sports, Science, and Technology
+   (MEXT); KAKENHI [JP17K07255, JP17KT0125]; Practical Research Project for
+   Rare/Intractable Diseases from AMED [JP16ek0109070, JP18kk0205008,
+   JP18kk0205001, JP19ek0109283, JP19ek0109348]
+FX Dr Ieki is funded by the Japan Society for the Promotion of Science
+   (JSPS) grant (JP22J00780, JP22K16128), the Japan Heart Foundation/Bayer
+   and American Heart Association postdoctoral fellowship (25POST1357984).
+   Dr Ito is supported by the Japan Agency for Medical Research and
+   Development (AMED) under grant numbers JP24bm1423005, JP24km0405209,
+   JP24tm0524004, JP24tm0624002, JP24km0405209, JP24ek0210164,
+   JP24gm7010001, and JP26gm7010001. Drs Ito and Komuro are supported by
+   AMED under grant numbers JP26jf0126011 and JP26km0405209, and JSPS grant
+   number JP24K23940. Drs Ito and Ozaki are supported by the Research
+   Funding for Longevity Sciences from the NCGG (24-15). BioBank Japan is
+   supported by the Tailor-Made Medical Treatment Program of the Ministry
+   of Education, Culture, Sports, Science, and Technology (MEXT) and AMED
+   under grant numbers JP17km0305002 and JP17km0305001, JP.24tm0624002. The
+   Nagahama study was supported by a JSPS Grant-in-Aid for Scientific
+   Research (C), KAKENHI grant numbers JP17K07255 and JP17KT0125, and the
+   Practical Research Project for Rare/Intractable Diseases from AMED under
+   grant numbers JP16ek0109070, JP18kk0205008, JP18kk0205001,
+   JP19ek0109283, and JP19ek0109348.
+NR 66
+TC 0
+Z9 0
+U1 0
+U2 0
+PU LIPPINCOTT WILLIAMS & WILKINS
+PI PHILADELPHIA
+PA TWO COMMERCE SQ, 2001 MARKET ST, PHILADELPHIA, PA 19103 USA
+SN 2574-8300
+J9 CIRC-GENOM PRECIS ME
+JI Circ.-Genom. Precis. Med.
+PD AUG
+PY 2026
+VL 19
+IS 4
+AR e005341
+DI 10.1161/CIRCGEN.125.005341
+PG 12
+WC Cardiac & Cardiovascular Systems; Genetics & Heredity
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Cardiovascular System & Cardiology; Genetics & Heredity
+GA ON4ZA
+UT WOS:001881730200005
+PM 42237915
+OA Green Accepted, Green Submitted, hybrid
+DA 2026-10-01
+ER
+
+PT J
+AU Dupire, L
+   Khan, AA
+   Karaletsos, T
+   Kelley, S
+   Lundberg, E
+   Ma, J
+   Paull, E
+   Quake, SR
+   Rabadan, R
+   Rowan, C
+   Sims, P
+   Tavazoie, S
+   Tsang, JS
+   Zhang, MX
+   Califano, A
+AF Dupire, Leo
+   Khan, Aly A.
+   Karaletsos, Theofanis
+   Kelley, Shana
+   Lundberg, Emma
+   Ma, Jian
+   Paull, Evan
+   Quake, Stephen R.
+   Rabadan, Raul
+   Rowan, Cassius
+   Sims, Peter
+   Tavazoie, Sohail
+   Tsang, John S.
+   Zhang, Mingxuan
+   Califano, Andrea
+TI Fifteen challenges for generative AI applications to cell biology
+SO CELL
+LA English
+DT Review
+ID BIOMARKER DISCOVERY; SYSTEMS BIOLOGY; PREDICTION; IDENTIFICATION;
+   COMMUNICATION; FRAMEWORK; INFERENCE; ANTIBODY; MODELS; TRIAL
+AB Generative AI (Gen-AI) has shown a remarkable impact in several biological research areas, from protein folding and de novo design to pathogenic mutation prediction. However, it remains unclear whether these molecular-level successes can translate to cellular and multicellular insights relevant to fields ranging from immunology to cancer and neurodegeneration. This arises from the intricate nature of the molecular mechanisms that determine cellular and organismal behavior, the lack of sufficient training data, and the multicellular nature of most pathophysiologic phenotypes. Novel Gen-AI frameworks are likely needed to integrate prior biological knowledge, such as molecular interaction networks, as well as guiding principles focusing the community's attention on solving biologically and translationally relevant problems. Drawing inspiration from Hilbert's list of 23 mathematical problems that have focused the mathematical community's attention for more than a century, we propose fifteen grand AI challenges to focus the biomedical community's attention on critically relevant questions, most of which still lack effective predictive methodologies.
+C1 [Dupire, Leo; Rabadan, Raul; Zhang, Mingxuan; Califano, Andrea] Columbia Univ, Irving Med Sch, Dept Syst Biol, New York, NY 10032 USA.
+   [Khan, Aly A.; Kelley, Shana] Biohub, Chicago, IL USA.
+   [Karaletsos, Theofanis] Chan Zuckerberg Initiat, Redwood City, CA USA.
+   [Kelley, Shana] Northwestern Univ, Dept Chem, Evanston, IL USA.
+   [Kelley, Shana] Northwestern Univ, Feinberg Sch Med, Dept Biochem & Mol Genet, Chicago, IL USA.
+   [Kelley, Shana] Northwestern Univ, Dept Biomed Engn, Evanston, IL USA.
+   [Lundberg, Emma] Stanford Univ, Dept Bioengn, Stanford, CA USA.
+   [Lundberg, Emma] KTH Royal Inst Technol, Sci Life Lab, Dept Prot Sci, Stockholm, Sweden.
+   [Lundberg, Emma] Biohub, San Francisco, CA USA.
+   [Ma, Jian] Carnegie Mellon Univ, Sch Comp Sci, Ray & Stephanie Lane Computat Biol Dept, Pittsburgh, PA USA.
+   [Paull, Evan; Rowan, Cassius; Sims, Peter; Tavazoie, Sohail; Tsang, John S.; Califano, Andrea] Biohub, New York, NY 10027 USA.
+   [Sims, Peter] Columbia Univ, Dept Syst Biol, New York, NY USA.
+   [Sims, Peter] Columbia Univ, Dept Biochem & Mol Biophys, New York, NY USA.
+   [Quake, Stephen R.] Stanford Univ, Dept Bioengn, Stanford, CA 94305 USA.
+   [Quake, Stephen R.] Stanford Univ, Dept Appl Phys, Stanford, CA 94305 USA.
+   [Tavazoie, Sohail] Rockefeller Univ, New York, NY USA.
+   [Tsang, John S.] Yale Univ, Ctr Syst & Engn Immunol, Dept Immunobiol, New Haven, CT USA.
+   [Tsang, John S.] Yale Univ, Ctr Syst & Engn Immunol, Dept Biomed Engn, New Haven, CT USA.
+   [Califano, Andrea] Columbia Univ, Irving Med Ctr, Dept Biochem & Mol Biophys, New York, NY 10032 USA.
+   [Califano, Andrea] Columbia Univ, Irving Med Ctr, Dept Med, New York, NY 10032 USA.
+   [Califano, Andrea] Columbia Univ, Irving Med Ctr, Dept Biomed Informat, New York, NY 10032 USA.
+C3 Columbia University; Chan Zuckerberg Initiative (CZI); Northwestern
+   University; Northwestern University; Northwestern University; Stanford
+   University; Royal Institute of Technology; Carnegie Mellon University;
+   Columbia University; Columbia University; Stanford University; Stanford
+   University; Rockefeller University; Yale University; Yale University;
+   Cornell University; Columbia University; Weill Cornell Medicine;
+   NewYork-Presbyterian Hospital; Cornell University; Columbia University;
+   Weill Cornell Medicine; NewYork-Presbyterian Hospital; Columbia
+   University; Cornell University; Weill Cornell Medicine;
+   NewYork-Presbyterian Hospital
+RP Califano, A (corresponding author), Columbia Univ, Irving Med Sch, Dept Syst Biol, New York, NY 10032 USA.; Califano, A (corresponding author), Biohub, New York, NY 10027 USA.; Califano, A (corresponding author), Columbia Univ, Irving Med Ctr, Dept Biochem & Mol Biophys, New York, NY 10032 USA.; Califano, A (corresponding author), Columbia Univ, Irving Med Ctr, Dept Med, New York, NY 10032 USA.; Califano, A (corresponding author), Columbia Univ, Irving Med Ctr, Dept Biomed Informat, New York, NY 10032 USA.
+EM ac2248@cumc.columbia.edu
+FU Biohub gift to Columbia University; NCI [CZ CU24-2184, R35 CA197745, R35
+   CA253126]
+FX This work was funded in part by a Biohub gift to Columbia University and
+   by the NCI (CZ CU24-2184 to P.S., R35 CA197745 to A.C., and R35 CA253126
+   to R.R.).
+NR 149
+TC 0
+Z9 0
+U1 0
+U2 0
+PU CELL PRESS
+PI CAMBRIDGE
+PA 50 HAMPSHIRE ST, FLOOR 5, CAMBRIDGE, MA 02139 USA
+SN 0092-8674
+EI 1097-4172
+J9 CELL
+JI Cell
+PD SEP 17
+PY 2026
+VL 189
+IS 19
+BP 5870
+EP 5892
+DI 10.1016/j.cell.2026.07.004
+EA SEP 2026
+PG 23
+WC Biochemistry & Molecular Biology; Cell Biology
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Biochemistry & Molecular Biology; Cell Biology
+GA ON3VC
+UT WOS:001881652200001
+PM 42607668
+OA hybrid
+DA 2026-10-01
+ER
+
+EF

@@ -1,0 +1,1035 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Parraud, F
+AF Parraud, Felix
+TI ASYMPTOTIC EXPANSION OF SMOOTH FUNCTIONS IN DETERMINISTIC AND IID HAAR
+   UNITARY MATRICES, AND APPLICATION TO TENSOR PRODUCTS OF MATRICES
+SO ANNALS OF PROBABILITY
+LA English
+DT Article
+DE Random Matrix theory; Free Probability theory; Asymptotic expansion
+ID MODELS; LIMIT
+AB Let U-N be a family of N & times; N independent Haar unitary random matrices and their adjoints, Z(N) a family of deterministic matrices, and P a self-adjoint noncommutative polynomial, that is, for any N, P(U-N, Z(N)) is self-adjoint, f a smooth function. We prove that for any k, if f is smooth enough, there exist deterministic constants alpha(P)(i)(f,Z(N))such that E[1/N Tr(f(P(U-N, Z(N))))] = Sigma(i=0) (k) alpha(i) (P) (f, Z(N)) / N-2i +O(N-2k-2). Besides, the constants alpha(P)(i)(f, Z(N))are built explicitly with the help of free probability. As a corollary, we prove that given alpha < 1/2, for N large enough, every eigenvalue of P(U-N, Z(N)) is N-alpha-close to the spectrum of P(u, Z(N)) where u is a d-tuple of free Haar unitaries. We also prove the convergence of the norm of any polynomial P(U-N circle times I-M,I-N circle times Y-M) as long as the family Y-M converges strongly and that M << N ln(-3)(N).
+C1 [Parraud, Felix] KTH Royal Inst Technol, Dept Math, Stockholm, Sweden.
+C3 Royal Institute of Technology
+RP Parraud, F (corresponding author), KTH Royal Inst Technol, Dept Math, Stockholm, Sweden.
+EM felix.parraud@gmail.com
+NR 60
+TC 0
+Z9 0
+U1 0
+U2 0
+PU INST MATHEMATICAL STATISTICS-IMS
+PI CLEVELAND
+PA 3163 SOMERSET DR, CLEVELAND, OH 44122 USA
+SN 0091-1798
+J9 ANN PROBAB
+JI Ann. Probab.
+PD SEP
+PY 2026
+VL 54
+IS 5
+BP 2310
+EP 2376
+DI 10.1214/25-AOP1806
+PG 67
+WC Statistics & Probability
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Mathematics
+GA OR7AD
+UT WOS:001884579600004
+OA Green Submitted
+DA 2026-10-02
+ER
+
+PT J
+AU Van Peski, R
+AF Van Peski, Roger
+TI REFLECTING POISSON WALKS AND DYNAMICAL UNIVERSALITY IN p-ADIC RANDOM
+   MATRIX THEORY
+SO ANNALS OF PROBABILITY
+LA English
+DT Article
+DE p-adic random matrices; cokernels; Poisson random walks; interacting
+   particle systems
+ID STOCHASTIC DIFFERENTIAL-EQUATIONS; EIGENVALUES; PRODUCTS; TILINGS; PATHS
+AB We prove dynamical local limits for the singular numbers of p-adic random matrix products at both the bulk and edge. The limit object which we construct, the reflecting Poisson sea, may thus be viewed as a p-adic analogue of line ensembles appearing in classical random matrix theory. However, in contrast to those it is a discrete space Poisson-type particle system with only local reflection interactions and no obvious determinantal structure. The limits hold for any GLn(& Zopf;p)-invariant matrix distributions under weak universality hypotheses, with no spatial rescaling.
+C1 [Van Peski, Roger] KTH Royal Inst Technol, Dept Math, Stockholm, Sweden.
+C3 Royal Institute of Technology
+RP Van Peski, R (corresponding author), KTH Royal Inst Technol, Dept Math, Stockholm, Sweden.
+EM rvp@mit.edu
+FU NSF Graduate Research Fellowship [1745302]; European Research Council
+   (ERC) [101002013]
+FX This paper is based on PhD thesis work [52] which was supported by an
+   NSF Graduate Research Fellowship under grant no. 1745302, and the paper
+   itself was written (and Theorems 1.2 and 8.1 added) while supported by
+   the European Research Council (ERC), Grant Agreement No. 101002013.
+NR 57
+TC 0
+Z9 0
+U1 0
+U2 0
+PU INST MATHEMATICAL STATISTICS-IMS
+PI CLEVELAND
+PA 3163 SOMERSET DR, CLEVELAND, OH 44122 USA
+SN 0091-1798
+J9 ANN PROBAB
+JI Ann. Probab.
+PD SEP
+PY 2026
+VL 54
+IS 5
+BP 2568
+EP 2625
+DI 10.1214/25-AOP1811
+PG 58
+WC Statistics & Probability
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Mathematics
+GA OR7AD
+UT WOS:001884579600008
+OA Green Submitted
+DA 2026-10-02
+ER
+
+PT C
+AU Tuli, A
+   Balaam, M
+   Singh, P
+   Kumar, N
+   Lampinen, A
+AF Tuli, Anupriya
+   Balaam, Madeline
+   Singh, Pushpendra
+   Kumar, Neha
+   Lampinen, Airi
+GP ACM
+TI Ecological Systems Theory for Studying and Designing Menstrual
+   Technologies
+SO PROCEEDINGS OF THE 2026 CHI CONFERENCE ON HUMAN FACTORS IN COMPUTING
+   SYSTEMS, CHI 2026
+LA English
+DT Proceedings Paper
+CT 2026 Conference on Human Factors in Computing Systems-CHI
+CY APR 13-17, 2026
+CL Barcelona, SPAIN
+SP Association for Computing Machinery, ACM SIGCHI
+DE Ecological approach; EST; Canvas; menstrual technologies; menstrual
+   health and wellbeing; translational research
+AB Menstrual experiences are shaped by many different stakeholders, entities, and the broader socio-cultural context, or in other words, the ecological systems surrounding a menstruator. We explore what it means to take an ecological approach in studying and designing menstrual technologies. We translated and adapted Ecological Systems Theory (EST) for menstrual wellbeing and packaged the outcome in the form of a socio-ecological Canvas, accompanied by written examples and a set of prompts to facilitate engagement. We invited ten experts to engage with the Canvas in reflective workshops, which informed its further refinement. These sessions highlighted the Canvas' generative value, fostering critical reflection on how design choices are shaped by and ripple across layers of influence. With this translational research, we invite HCI researchers and practitioners to critically reflect on the ecologies they study and design for, envisioning both aspired versions of existing realities and realities that do not exist yet.
+C1 [Tuli, Anupriya; Balaam, Madeline] KTH Royal Inst Technol, Stockholm, Sweden.
+   [Singh, Pushpendra] IIIT Delhi, New Delhi, India.
+   [Kumar, Neha] Georgia Tech, Atlanta, GA USA.
+   [Lampinen, Airi] Stockholm Univ, Dept Comp & Syst Sci, Stockholm, Sweden.
+RP Tuli, A (corresponding author), KTH Royal Inst Technol, Stockholm, Sweden.
+EM anupriya@kth.se; balaam@kth.se; psingh@iiitd.ac.in;
+   neha.kumar@cc.gatech.edu; airi@dsv.su.se
+FU Digital Futures centre at KTH; Stockholm University; RISE; Swedish
+   Research Council (Vetenskapsradet) [2023-04032]; Wallenberg AI,
+   Autonomous Systems and Software Program - Humanity and Society (WASP-HS)
+   [808]; European Union (ERC) [101043637]
+FX We extend our gratitude to all participants for their time, curiosity,
+   and engaged, critical interactions with the Canvas. We are especially
+   grateful to the Associate Chairs and reviewers for their generous
+   engagement, critical questions, and constructive feedback, which played
+   an important role in shaping and strengthening this manuscript. This
+   work was funded by a Postdoctoral Fellowship at the Digital Futures
+   centre at KTH, Stockholm University and RISE as well as the Swedish
+   Research Council (Vetenskapsradet, 2023-04032), Wallenberg AI,
+   Autonomous Systems and Software Program - Humanity and Society (WASP-HS,
+   Project No. 808), and the European Union (ERC, Intimate Touch,
+   101043637). Views and opinions expressed are, however, those of the
+   author(s) only and do not necessarily reflect those of the European
+   Union or the European Research Council. Neither the European Union nor
+   the granting authority can be held responsible for them.
+NR 92
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ASSOC COMPUTING MACHINERY
+PI NEW YORK
+PA 1601 Broadway, 10th Floor, NEW YORK, NY, UNITED STATES
+BN 979-8-4007-2278-3
+PY 2026
+DI 10.1145/3772318.3791619
+PG 26
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+GA BA8IG
+UT WOS:001795713700044
+OA gold
+DA 2026-10-02
+ER
+
+PT C
+AU Haynes, AC
+   Vidal, LT
+   Lindegren, A
+   Zhou, R
+   Ortega, AG
+   Park, JY
+   Brynskov, A
+   Johnson, H
+   Höök, K
+AF Haynes, Alice C.
+   Vidal, Laia Turmo
+   Lindegren, Andreas
+   Zhou, Ran
+   Ortega, Alejandra Gomez
+   Park, Joo Young
+   Brynskov, Anna
+   Johnson, Hannah
+   Hook, Kristina
+GP ACM
+TI Aesthetics of Felt Asymmetry
+SO PROCEEDINGS OF THE 2026 CHI CONFERENCE ON HUMAN FACTORS IN COMPUTING
+   SYSTEMS, CHI 2026
+LA English
+DT Proceedings Paper
+CT 2026 Conference on Human Factors in Computing Systems-CHI
+CY APR 13-17, 2026
+CL Barcelona, SPAIN
+SP Association for Computing Machinery, ACM SIGCHI
+DE Asymmetry; Soma Design; Somaesthetics; Autobiographical Methods;
+   Autobiographical Design; Body Plurality
+AB Our bodies mediate every interaction with technology, yet-as soma design and feminist HCI remind us-the body is not a neutral canvas. We introduce and examine felt asymmetries-somaesthetic experiences of difference in the body-as a site for generative and critical engagement in interaction design. Through an autobiographical design exploration, and a series of somatic explorations with nine designers including individual inquiries and workshops, we sensitised to, articulated, and shared personal experiences of asymmetry. We draw from these explorations to contribute: (1) Opening a design space exploring the aesthetics of felt asymmetries; (2) Reflections on engaging with asymmetry in design, e.g. as a design material, an estrangement activity or doorway into intimate experience; (3) Considerations for creating technologies that resonate with, rather than erase, the asymmetries of lived experience. We argue that bodily asymmetries are not only to be accommodated in design, but embraced as aesthetic resources-sources of joy, tension, and creativity.
+C1 [Haynes, Alice C.; Vidal, Laia Turmo; Lindegren, Andreas; Zhou, Ran; Johnson, Hannah; Hook, Kristina] KTH Royal Inst Technol, Media Technol & Interact Design, Stockholm, Sweden.
+   [Ortega, Alejandra Gomez] Stockholm Univ, Stockholm, Sweden.
+   [Park, Joo Young] KTH Royal Inst Technol, Media Technol & Interact Design, Stockholm, Sweden.
+   [Brynskov, Anna] IT Univ Copenhagen, Digital Design, Copenhagen, Denmark.
+RP Haynes, AC (corresponding author), KTH Royal Inst Technol, Media Technol & Interact Design, Stockholm, Sweden.
+EM ahaynes@kth.se; laiatv@kth.se; alindeg@kth.se; ranzhou@kth.se;
+   alejandra@dsv.su.se; jooyoung@kth.se; abry@itu.dk; hajohn@kth.se;
+   khook@kth.se
+FU Digital Futures Postdoctoral Fellowships; Swedish Foundation for
+   Strategic Research [IS24-0139]; European Union (ERC) [101043637]
+FX We are grateful to all of the colleagues and friends who discussed these
+   concepts with us and gave feedback throughout the process. We also thank
+   the funding bodies who supported us to conduct this research. Alice
+   Haynes and Laia Turmo Vidal are funded by Digital Futures Postdoctoral
+   Fellowships and by the Swedish Foundation for Strategic Research with
+   project number IS24-0139, which also partially funds Kristina Hook. Ran
+   Zhou and Jooyoung Park are funded by the European Union (ERC, Intimate
+   Touch, 101043637). Views and opinions expressed are however those of the
+   author(s) only and do not necessarily reflect those of the European
+   Union or the European Research Council. Neither the European Union nor
+   the granting authority can be held responsible for them.
+NR 84
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ASSOC COMPUTING MACHINERY
+PI NEW YORK
+PA 1601 Broadway, 10th Floor, NEW YORK, NY, UNITED STATES
+BN 979-8-4007-2278-3
+PY 2026
+DI 10.1145/3772318.3791749
+PG 17
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+GA BA8IG
+UT WOS:001795713700161
+OA gold
+DA 2026-10-02
+ER
+
+PT C
+AU Mohammadi-Seif, A
+   Baeza-Yates, R
+AF Mohammadi-Seif, Abolfazl
+   Baeza-Yates, Ricardo
+BE DeMarsico, M
+   Ho, TK
+   Jurie, F
+   Liu, CL
+   Lopresti, D
+   Nystrom, I
+   Ogier, JM
+   Ross, A
+   Wang, L
+TI Improving Model Safety by Targeted Error Correction
+SO PATTERN RECOGNITION, ICPR 2026, PT XV
+SE Lecture Notes in Computer Science
+LA English
+DT Proceedings Paper
+CT 28th International Conference on Pattern Recognition-ICPR-Annual
+CY AUG 17-22, 2026
+CL Lyon, FRANCE
+SP Institute of Electrical and Electronics Engineers Inc
+DE Error Analysis; Post-hoc Correction; Trustworthy AI
+AB The widespread adoption of machine learning in critical applications demands techniques to mitigate high-consequence errors. Our method utilizes a dual-classifier GBDT pipeline to distinguish routine human-like errors from high-risk non-human misclassifications. Evaluated across three domains, animal breed classification, skin lesion diagnosis (ISIC 2018), and prostate histopathology (SICAPv2), our framework demonstrates robust safety improvements. To address real-world deployment concerns, our results confirm the pipeline introduces negligible inference latency (1.60% overhead for the animal dataset, 1.84% for ISIC, and 1.70% for SICAPv2) while outperforming traditional Maximum Class Probability (MCP) baselines in correction precision. Our conservative correction strategy successfully reduced dangerous non-human errors by 34.1% in ISIC and 12.57% in SICAPv2, improving super-class diagnostic safety to 90.41% and 92.13% respectively. This proves that safety-critical reliability can be substantially enhanced post-hoc without expensive model retraining.
+C1 [Mohammadi-Seif, Abolfazl; Baeza-Yates, Ricardo] Univ Pompeu Fabra, Barcelona, Spain.
+   [Baeza-Yates, Ricardo] KTH Royal Inst Technol, Stockholm, Sweden.
+RP Mohammadi-Seif, A (corresponding author), Univ Pompeu Fabra, Barcelona, Spain.
+EM abolfazl.mohammadiseif@upf.edu; rbaeza@acm.org
+NR 32
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 0302-9743
+EI 1611-3349
+BN 978-3-032-31932-6; 978-3-032-31933-3
+J9 LECT NOTES COMPUT SC
+PY 2027
+VL 16826
+BP 435
+EP 449
+DI 10.1007/978-3-032-31933-3_30
+PG 15
+WC Computer Science, Artificial Intelligence; Computer Science, Theory &
+   Methods
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science
+GA BB2AD
+UT WOS:001869329500030
+DA 2026-10-02
+ER
+
+PT C
+AU Seznec, Y
+   Lindegren, A
+   Lindegren, F
+   Comber, R
+AF Seznec, Yann
+   Lindegren, Andreas
+   Lindegren, Frida
+   Comber, Rob
+GP ACM
+TI Play/Destroy: A portfolio of sound destruction devices
+SO PROCEEDINGS OF THE 2026 CHI CONFERENCE ON HUMAN FACTORS IN COMPUTING
+   SYSTEMS, CHI 2026
+LA English
+DT Proceedings Paper
+CT 2026 Conference on Human Factors in Computing Systems-CHI
+CY APR 13-17, 2026
+CL Barcelona, SPAIN
+SP Association for Computing Machinery, ACM SIGCHI
+DE Research through Design; sound; impermanence; sustainability;
+   destruction; seamful design
+AB Digital media operates on a curious boundary between storage and loss. While each new storage format promises a permanent solution to our exponentially expanding media libraries, they inevitably fail or otherwise become unusable. This paper reflects on a long-term design process that attempts to bring a different paradigm to the experience of personal digital media: destruction. We present an annotated portfolio of a set of sound listening devices, critically unpacking the particular temporal, perceptual, and experiential qualities that emerge when designing for the loss of personal media. These annotations show how destruction comes to matter in designing against the traditional bias towards growth and accumulation in HCI.
+C1 [Seznec, Yann; Lindegren, Andreas; Comber, Rob] KTH Royal Inst Technol, Dept Media Technol & Interact Design, Stockholm, Sweden.
+RP Seznec, Y (corresponding author), KTH Royal Inst Technol, Dept Media Technol & Interact Design, Stockholm, Sweden.
+EM yannse@kth.se; alindeg@kth.se; lindegren.frida@gmail.com; rcomber@kth.se
+FU Swedish Energy Agency (Energimyndigheten) [P2020-90326]
+FX This project was funded by the Swedish Energy Agency
+   (Energimyndigheten), award number P2020-90326.
+NR 67
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ASSOC COMPUTING MACHINERY
+PI NEW YORK
+PA 1601 Broadway, 10th Floor, NEW YORK, NY, UNITED STATES
+BN 979-8-4007-2278-3
+PY 2026
+DI 10.1145/3772318.3791701
+PG 13
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+GA BA8IG
+UT WOS:001795713700118
+OA Green Submitted, gold
+DA 2026-10-02
+ER
+
+PT J
+AU Wang, HR
+   Chen, MZ
+   Mesa, F
+   Quevedo-Teruel, O
+AF Wang, Hairu
+   Chen, Mingzheng
+   Mesa, Francisco
+   Quevedo-Teruel, Oscar
+TI Hybrid Dielectric-Metadome Structures Modelled via 2-D Ray Tracing and
+   Physical Optics
+SO IET MICROWAVES ANTENNAS & PROPAGATION
+LA English
+DT Article
+DE array antenna; dielectric lens; dome; metadome; physical optics;
+   radiation pattern; ray tracing; wide scanning coverage
+ID PHASED-ARRAY; METASURFACE-DOME; LENS; ANTENNA
+AB This study introduces a hybrid dome structure that combines a dielectric lens (DL) and a metadome (MD) to enhance the scanning capabilities of phased array antennas (PAAs). These configurations show great potential for improving the scanning capacity of PAAs with a lightweight dome while allowing a broad frequency range. Since traditional full-wave simulations of such electrically large structures are computationally intensive and time-consuming, the radiation characteristics of hybrid dome structures are analysed using a simplified two-dimensional (2-D) ray-tracing and physical-optics (RT-PO) model. This RT-PO model enables precise computation of the radiation pattern in a principal plane using much less computational resources than full-wave simulations. The RT-PO model is validated by comparing it with full-wave simulations of hybrid domes featuring practical metaelements. The novelty of this work lies in the validation of the hybrid dome concept and the use of a simplified 2-D RT-PO model that facilitates rapid analysis/design tasks. The hybrid dome is found to be an effective solution to extend the scanning range of PAAs and this integrated system is highly suitable for a wide range of uses in emerging beam-scanning antenna technologies.
+C1 [Wang, Hairu; Chen, Mingzheng; Quevedo-Teruel, Oscar] KTH Royal Inst Technol, Dept Commun Syst, Stockholm, Sweden.
+   [Mesa, Francisco] Univ Seville, ETS Ingn Informat, Dept Appl Phys 1, Seville, Spain.
+C3 Royal Institute of Technology; University of Sevilla
+RP Wang, HR (corresponding author), KTH Royal Inst Technol, Dept Commun Syst, Stockholm, Sweden.
+EM hairu@kth.se
+FU VR Project [2024-06482, 2025-05385, 2026-01755];
+   MICIU/AEI/10.13039/501100011033 and ERDF/EU [PID2023-148281NB-I00]
+FX The work of H. Wang and O. Quevedo-Teruel has been partially funded by
+   the VR Research environment grant for research on sixth-generation
+   wireless systems (6G) SEE-6GIA (2024-06482) and the VR Project
+   (2025-05385) under the call 'Research project grant within natural and
+   engineering sciences'. The work of M. Chen has been partially funded by
+   the VR International Postdoc grant (2026-01755) under the call
+   'International postdoc within natural and engineering sciences (spring
+   call)'. The work of F. Mesa has been partially funded by the Grant
+   PID2023-148281NB-I00 funded by MICIU/AEI/10.13039/501100011033 and by
+   ERDF/EU.
+NR 54
+TC 0
+Z9 0
+U1 0
+U2 0
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 1751-8725
+EI 1751-8733
+J9 IET MICROW ANTENNA P
+JI IET Microw. Antennas Propag.
+PD SEP 25
+PY 2026
+VL 20
+IS 1
+AR e70134
+DI 10.1049/mia2.70134
+PG 15
+WC Engineering, Electrical & Electronic; Telecommunications
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering; Telecommunications
+GA OS6CN
+UT WOS:001885196400001
+OA gold
+DA 2026-10-02
+ER
+
+PT C
+AU D'Adamo, A
+   Srinivasan, K
+   Vidal, LT
+   De La Prida, D
+   Azpicueta-Ruiz, LA
+   Väljamäe, A
+   Tajadura-Jiménez, A
+AF D'Adamo, Amar
+   Srinivasan, Karunya
+   Vidal, Laia Turmo
+   De La Prida, Daniel
+   Azpicueta-Ruiz, Luis Antonio
+   Valjamae, Aleksander
+   Tajadura-Jimenez, Ana
+GP ACM
+TI Taking a Walk on the Wild Side: Effects of Walking in Synchrony with
+   Pitch-Altered Footstep Sounds on Body Perception in Outside the Lab
+   Contexts
+SO PROCEEDINGS OF THE 2026 CHI CONFERENCE ON HUMAN FACTORS IN COMPUTING
+   SYSTEMS, CHI 2026
+LA English
+DT Proceedings Paper
+CT 2026 Conference on Human Factors in Computing Systems-CHI
+CY APR 13-17, 2026
+CL Barcelona, SPAIN
+SP Association for Computing Machinery, ACM SIGCHI
+DE Auditory Body Perception; Multimodal Interfaces; Sonification; Mixed
+   Methods; Emotion; Evaluation Method; Embodied Interaction; Wearable
+   Computers
+ID EMOTIONAL RESPONSES; SONIFICATION; GAIT; MUSIC; OWNERSHIP; MOVEMENT;
+   FEEDBACK; MODEL; TOUCH; SIZE
+AB The 'Footsteps Illusion' shows that pitch-altering footstep sounds in real-time affects body perception, gait, and emotion: high versus low frequencies evoke a lighter versus heavier body. We tested whether this illusion extends beyond the lab, where environmental factors matter. Using a mixed-methods approach, twenty-eight participants used a minimal setup to synchronize with three prerecorded pitch-altered footstep soundtracks: Control, High-Frequency, and Low-Frequency. In Experiment 1, they walked a fixed path, with gait recordings, questionnaires, and body visualizations. In Experiment 2, they walked freely across campus routes with High/Low-Frequency soundtracks, followed by post-walk interviews using a novel spatial mapping tool linking body sensations to context. Results replicate the illusion outdoors, showing synchronization with prerecorded sounds as a viable alternative to real-time feedback, and revealing that contextual factors modulate illusion effects. We contribute insights and novel tools (prototype, spatial mapping method, and footstep soundbase) for studying multisensory body perception in everyday contexts.
+C1 [D'Adamo, Amar; Srinivasan, Karunya; Azpicueta-Ruiz, Luis Antonio; Tajadura-Jimenez, Ana] Univ Carlos III Madrid, Madrid, Spain.
+   [Vidal, Laia Turmo] KTH Royal Inst Technol, Stockholm, Sweden.
+   [De La Prida, Daniel] Univ Politecn Madrid, Madrid, Spain.
+   [Valjamae, Aleksander] Tartu Univ, Tartu, Estonia.
+   [Tajadura-Jimenez, Ana] UCL, London, England.
+RP D'Adamo, A (corresponding author), Univ Carlos III Madrid, Madrid, Spain.
+EM adadamo@inf.uc3m.es; ksriniva@inf.uc3m.es; laiatv@kth.se;
+   daniel.prida@upm.es; lazpicue@ing.uc3m.es; aleksandervaljamae@gmail.com;
+   atajadur@inf.uc3m.es
+FU European Research Council (ERC) under the European Union [101002711];
+   Sweden's Digital Futures Center
+FX We thank Joaquin Diaz for helping during the footstep sounds recordings.
+   This research was supported by the European Research Council (ERC) under
+   the European Union's Horizon 2020 research and innovation programme
+   (grant agreement No 101002711; project BODYinTRANSIT). L.T.V. was
+   supported by a postdoctoral grant from Sweden's Digital Futures Center.
+   A.V. is a policy analyst in the European Parliamentary Research Service
+   (EPRS), he is writing in a personal capacity, and any views expressed do
+   not represent an official position of the European Parliament.
+NR 173
+TC 1
+Z9 1
+U1 0
+U2 0
+PU ASSOC COMPUTING MACHINERY
+PI NEW YORK
+PA 1601 Broadway, 10th Floor, NEW YORK, NY, UNITED STATES
+BN 979-8-4007-2278-3
+PY 2026
+DI 10.1145/3772318.3793153
+PG 21
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+GA BA8IG
+UT WOS:001795713700389
+OA gold
+DA 2026-10-02
+ER
+
+PT J
+AU Gharigh, MRK
+   Varawala, L
+   Hesamzadeh, MR
+   Dán, G
+AF Gharigh, Mohammad Reza Karimi
+   Varawala, Lamia
+   Hesamzadeh, Mohammad Reza
+   Dan, Gyorgy
+TI A tax-subsidy scheme for efficient investment in renewable generation
+   capacity
+SO ELECTRIC POWER SYSTEMS RESEARCH
+LA English
+DT Article
+DE Renewable energy; Electricity generation capacity; Market power;
+   Environmental externalities; Incentives
+ID ENERGY; BEHAVIOR
+AB Electricity markets are central to the energy transition, but current market rules do not always deliver socially desirable outcomes. This paper studies two related inefficiencies in wholesale electricity markets. First, competitive market-clearing based on merit-order dispatch can ignore pollution damages, leading to inefficient spot-market outcomes. We address this distortion by deriving a Pigouvian tax that charges each generator for its marginal contribution to pollution damages. Second, because generation capacity affects future spot prices, producers may strategically distort their long-run investment decisions, particularly in systems with increasingly low-operating-cost renewable generation. To align private investment incentives with social welfare, we derive a generator-specific investment subsidy based on each producer's contribution to aggregate utility. We show that, under the stated behavioral and informational assumptions, the combined tax-subsidy mechanism aligns decentralized dispatch and generation-capacity investment decisions with the social-welfare benchmark while respecting operational constraints. Implementing this mechanism does not require producers to report their complete private cost functions; the tax and subsidy can instead be calculated using existing market submissions and settlement data, verified emission information, and generator-specific counterfactual market re-clearing outcome. An analytical example and numerical experiments illustrate the mechanism and show that strategic capacity investment can exceed the socially optimal level and reduce welfare.
+C1 [Gharigh, Mohammad Reza Karimi; Varawala, Lamia; Hesamzadeh, Mohammad Reza; Dan, Gyorgy] KTH Royal Inst Technol, Dept Elect Engn & Comp Sci, Teknikringen 33, S-11428 Stockholm, Sweden.
+C3 Royal Institute of Technology
+RP Gharigh, MRK (corresponding author), KTH Royal Inst Technol, Dept Elect Engn & Comp Sci, Teknikringen 33, S-11428 Stockholm, Sweden.
+EM mrkg@kth.se
+NR 43
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ELSEVIER SCIENCE SA
+PI LAUSANNE
+PA PO BOX 564, 1001 LAUSANNE, SWITZERLAND
+SN 0378-7796
+EI 1873-2046
+J9 ELECTR POW SYST RES
+JI Electr. Power Syst. Res.
+PD APR
+PY 2027
+VL 265
+AR 114248
+DI 10.1016/j.epsr.2026.114248
+EA SEP 2026
+PN D
+PG 13
+WC Engineering, Electrical & Electronic
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering
+GA OT9KP
+UT WOS:001886098900001
+OA Green Submitted, hybrid
+DA 2026-10-02
+ER
+
+PT J
+AU Sánchez-Ceinos, J
+   Tortorella, G
+   Filis, G
+   Fontanive, G
+   Shengwei, S
+   Syrén, PO
+   Cosentino, F
+AF Sanchez-Ceinos, Julia
+   Tortorella, Giovanni
+   Filis, Georgios
+   Fontanive, Giacomo
+   Shengwei, Sun
+   Syren, Per-Olof
+   Cosentino, Francesco
+TI BREAKING DOWN THE THREAT: PETASE MITIGATES ENDOTHELIAL DAMAGE INDUCED BY
+   PET MICRO-NANOPLASTICS (MNPS)
+SO ATHEROSCLEROSIS
+LA English
+DT Meeting Abstract
+C1 [Sanchez-Ceinos, Julia; Filis, Georgios; Fontanive, Giacomo; Cosentino, Francesco] Karolinska Inst, Med Solna, Solna, Sweden.
+   [Tortorella, Giovanni; Cosentino, Francesco] Univ Campania Luigi Vanvitelli, Dept Adv Med & Surg Sci, Naples, Italy.
+   [Shengwei, Sun; Syren, Per-Olof] KTH Royal Inst Technol, Dept Fibre & Polymer Technol, Stockholm, Sweden.
+C3 Karolinska Institutet; Universita della Campania Vanvitelli; Royal
+   Institute of Technology
+NR 0
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ELSEVIER IRELAND LTD
+PI CLARE
+PA ELSEVIER HOUSE, BROOKVALE PLAZA, EAST PARK SHANNON, CO, CLARE, 00000,
+   IRELAND
+SN 0021-9150
+EI 1879-1484
+J9 ATHEROSCLEROSIS
+JI Atherosclerosis
+PD AUG
+PY 2026
+VL 419
+SU 1
+MA P006 / #63
+AR 120935
+DI 10.1016/j.atherosclerosis.2026.120935
+EA SEP 2026
+PG 1
+WC Cardiac & Cardiovascular Systems; Peripheral Vascular Disease
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Cardiovascular System & Cardiology
+GA OI6BB
+UT WOS:001878411300107
+DA 2026-10-02
+ER
+
+PT J
+AU Gharigh, MRK
+   Hesamzadeh, MR
+   Biggar, DR
+   Bunn, D
+   Dicn, G
+AF Gharigh, Mohammad Reza Karimi
+   Hesamzadeh, Mohammad Reza
+   Biggar, Darryl R.
+   Bunn, Derek
+   Dan, Gyorgy
+TI Contract Design for Facilitating Risk Management in Local Electricity
+   Markets
+SO IEEE TRANSACTIONS ON ENERGY MARKETS POLICY AND REGULATION
+LA English
+DT Article
+DE Pricing; Contracts; Modeling; Loading; Design methodology; Dispatching;
+   Measurement units; Power markets; Energy; Timing; Local electricity
+   market; risk-management contract; ohmic loss; congestion
+ID POWER MARKETS; GENERATION
+AB Local electricity markets (LEMs) based on distribution-level locational marginal pricing (DLMPs) are attracting increasing attention from market participants and regulators. However, the resulting spatio-temporal uncertainty in DLMPs exposes distribution-level actors to volatile surpluses, creating a need for efficient hedging strategies. In this paper, we develop a three-stage LEM design and its associated hedge contracts for DLMP-based market participants. We design, analyze, and numerically test two families of cash-settled contracts: flexibility service provider (FSP) contracts (FCs), which hedge the temporal volatility of DLMPs faced by FSP portfolios, and network contracts (NCs), which hedge the spatial DLMP risk borne by the distribution network operator (DNO). The contracts are constructed so that FC payouts replicate FSP surpluses (FSs) and NC payouts replicate the merchandising surplus (MS) of the distribution network, including the effects of congestion and ohmic losses. We prove that the joint portfolio of FCs and NCs is revenue adequate, in the sense that total contract payouts equal total social welfare from the DLMP-based dispatch in every modeled scenario, and we illustrate the construction using a modified IEEE 33-bus system. This contract framework aligns financial payouts with fundamental market surpluses and can support broader participation of distributed energy resources in DLMP-based LEMs.
+C1 [Gharigh, Mohammad Reza Karimi; Hesamzadeh, Mohammad Reza] KTH Royal Inst Technol, Sch Elect Engn & Comp Sci, Dept Elect Power & Energy Syst, S-11428 Stockholm, Sweden.
+   [Biggar, Darryl R.] Monash Univ, Monash Business Sch, Dept Econ, Melbourne, Vic 3168, Australia.
+   [Bunn, Derek] London Business Sch, Dept Management Sci & Operat, London NW1 4SA, England.
+   [Dan, Gyorgy] KTH Royal Inst Technol, Sch Elect Engn & Comp Sci, Dept Network & Syst Engn, S-11428 Stockholm, Sweden.
+C3 Royal Institute of Technology; University of London; London Business
+   School; Royal Institute of Technology
+RP Gharigh, MRK (corresponding author), KTH Royal Inst Technol, Sch Elect Engn & Comp Sci, Dept Elect Power & Energy Syst, S-11428 Stockholm, Sweden.
+EM mrkg@kth.se; mrhesa@kth.se; darryl.biggar@monash.edu; dbunn@london.edu;
+   gyuri@kth.se
+FU Swedish Research Council (Vetenskapsradet) [2022-04382]
+FX This work was supported in part by the Swedish Research Council
+   (Vetenskapsradet) under Project 2022-04382.
+NR 45
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+EI 2771-9626
+J9 IEEE T ENERGY MARK P
+JI IEEE Trans. Energy Mark. Policy Regul.
+PD SEP
+PY 2026
+VL 4
+IS 3
+BP 336
+EP 350
+DI 10.1109/TEMPR.2026.3704683
+PG 15
+WC Energy & Fuels; Engineering, Electrical & Electronic
+WE Emerging Sources Citation Index (ESCI)
+SC Energy & Fuels; Engineering
+GA OG4XP
+UT WOS:001876975800012
+OA hybrid
+DA 2026-10-02
+ER
+
+PT J
+AU DaCosta, RA
+   Gregorio, C
+   Calderón-Larrañaga, A
+   Ornago, AM
+   Mrhar, A
+   Ortolá, R
+   Fredolini, C
+   Vetrano, DL
+   Carballo-Casla, A
+AF DaCosta, Rachel Ann
+   Gregorio, Caterina
+   Calderon-Larranaga, Amaia
+   Ornago, Alice Margherita
+   Mrhar, Anja
+   Ortola, Rosario
+   Fredolini, Claudia
+   Vetrano, Davide Liborio
+   Carballo-Casla, Adrian
+TI Biological signature of dietary patterns in older adults: findings from
+   a population-based study
+SO BMC MEDICINE
+LA English
+DT Article
+DE Nutrition; Eating patterns; Geroscience; Dietary inflammatory potential;
+   Inflammaging; Age-related diseases; Healthy aging; Biological processes
+ID CARDIOVASCULAR-DISEASE; PLASMA-CONCENTRATIONS; INFLAMMATORY INDEX;
+   QUALITY; RISK; BIOMARKER; VALIDATION; ADHERENCE; SURVIVAL; MARKERS
+AB Background Diet quality is a key modifiable factor influencing age-related health outcomes, yet its impact on the biological mechanisms involved in the aging process is not fully understood. This study aimed to identify the blood-based biomarkers most strongly associated with adherence to diverse dietary patterns and to describe the pathophysiological domains they belong to.Methods We analysed data from 1,769 participants aged >= 60 years from the population-based Swedish National Study on Aging and Care in Kungsholmen. Dietary intake was assessed using validated food frequency questionnaires. Diet quality was evaluated using adherence to the Alternative Mediterranean Diet (AMED), the Alternative Healthy Eating Index (AHEI), and the reverse-transformed Empirical Dietary Inflammatory Index (rEDII). Fifty-four blood biomarkers spanning metabolic, inflammatory, vascular, and neurodegenerative domains were analysed. Cross-sectional associations between adherence to the dietary patterns and standardized biomarker levels were examined using quantile regression, adjusted for sociodemographic and lifestyle factors.Results After multiple comparison correction, at the median level of each biomarker distribution, higher adherence (1 standard deviation increment) to the AMED was directly associated with folic acid levels [beta coefficient (95% confidence interval) = 0.066 (0.033, 0.099)] and inversely with glial fibrillary acidic protein [-0.018 (-0.030, -0.006)]. Higher AHEI adherence showed direct association with folic acid levels [0.068 (0.035,0.100)] and inverse with growth differentiation factor 15 levels [-0.063 (-0.098, -0.029)]. Higher adherence to the rEDII was inversely associated with leptin [-0.094 (-0.139, -0.049)], insulin [-0.086 (-0.130, -0.043)], growth differentiation factor 15 [-0.064 (-0.100, -0.027)], alkaline phosphatase [-0.078 (-0.122, -0.033)], tumour necrosis factor receptor superfamily member 1B [-0.047 (-0.076, -0.019)], and leukocytes [-0.058 (-0.092, -0.024)]. Associations remained consistent across multiple sensitivity analyses.Conclusions Higher diet quality is associated with favourable levels of blood-based biomarkers in older adults, with distinct associations within the metabolic and inflammatory domains, supporting the role of diet in promoting healthier aging.
+C1 [DaCosta, Rachel Ann; Gregorio, Caterina; Calderon-Larranaga, Amaia; Ornago, Alice Margherita; Mrhar, Anja; Vetrano, Davide Liborio; Carballo-Casla, Adrian] Karolinska Inst, Dept Neurobiol Care Sci & Soc, Aging Res Ctr, Stockholm, Sweden.
+   [DaCosta, Rachel Ann; Gregorio, Caterina; Calderon-Larranaga, Amaia; Ornago, Alice Margherita; Mrhar, Anja; Vetrano, Davide Liborio; Carballo-Casla, Adrian] Stockholm Univ, Stockholm, Sweden.
+   [Calderon-Larranaga, Amaia; Vetrano, Davide Liborio] Stockholm Gerontol Res Ctr, Stockholm, Sweden.
+   [Mrhar, Anja] Univ Ljubljana, Biotech Fac, Ljubljana, Slovenia.
+   [Ortola, Rosario] Univ Autonoma Madrid, Dept Prevent Med & Publ Hlth, Madrid, Spain.
+   [Ortola, Rosario; Carballo-Casla, Adrian] Ctr Networked Biomed Res Epidemiol & Publ Hlth CIB, Madrid, Spain.
+   [Fredolini, Claudia] KTH Royal Inst Technol, SciLifeLab, Dept Prot Sci, Solna, Sweden.
+   [Fredolini, Claudia] KTH Royal Inst Technol, SciLifeLab, Affin Prote Unit, Solna, Sweden.
+C3 Karolinska Institutet; Stockholm University; Karolinska Institutet;
+   Stockholm Gerontol Research Center; University of Ljubljana; Autonomous
+   University of Madrid; SciLifeLab; SciLifeLab
+RP DaCosta, RA; Carballo-Casla, A (corresponding author), Karolinska Inst, Dept Neurobiol Care Sci & Soc, Aging Res Ctr, Stockholm, Sweden.; DaCosta, RA; Carballo-Casla, A (corresponding author), Stockholm Univ, Stockholm, Sweden.; Carballo-Casla, A (corresponding author), Ctr Networked Biomed Res Epidemiol & Publ Hlth CIB, Madrid, Spain.
+EM rachel.ann.da.costa@ki.se; adrian.carballo.casla@ki.se
+FU Karolinska Institute
+FX Open access funding provided by Karolinska Institute.
+NR 63
+TC 0
+Z9 0
+U1 0
+U2 0
+PU BMC
+PI LONDON
+PA CAMPUS, 4 CRINAN ST, LONDON N1 9XW, ENGLAND
+SN 1741-7015
+J9 BMC MED
+JI BMC Med.
+PD SEP 15
+PY 2026
+VL 24
+IS 1
+AR 520
+DI 10.1186/s12916-026-05202-2
+PG 14
+WC Medicine, General & Internal
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC General & Internal Medicine
+GA OS5ZM
+UT WOS:001885188500001
+PM 42791570
+OA Green Submitted, gold
+DA 2026-10-02
+ER
+
+PT J
+AU Zhu, DY
+   Svagan, AJ
+   Yang, N
+   Hansen, MF
+   Kühl, M
+   Burmolle, M
+AF Zhu, Deyong
+   Svagan, Anna J.
+   Yang, Nan
+   Hansen, Mads Frederik
+   Kuhl, Michael
+   Burmolle, Mette
+TI Carbon substrate type shapes spatial self-organization in a
+   multi-species biofilm community
+SO ISME JOURNAL
+LA English
+DT Article
+DE multispecies biofilm; spatial self-organization; microbial community
+   assembly; cross-feeding; 3D bioprinting; genome-scale metabolic modeling
+ID BACTERIAL; PROGRAM
+AB Spatial organization is a defining feature of multispecies biofilms and critically influences microbial interactions and emergent community properties. However, understanding and manipulating how microbes assemble into spatially structured biofilms remains challenging because most experimental frameworks emphasize species composition and pairwise interactions, while often overlooking the spatial constraints on biofilms imposed by the environment. In this study, we focus on how carbon substrate type, distinguishing between diffusible sugars and polymeric substrates, affects biofilm self-organization in a four-member synthetic bacterial community (SynCom). Across all tested conditions, the SynCom consistently formed more biofilm biomass than any of its subsets, indicating a robust synergistic phenotype. Using chemically defined, 3D-printed hydrogel substrates with consistent physical properties, we varied carbon source composition to identify its impact on biofilm assembly. Microscopic imaging showed that carbon substrate type strongly influenced biofilm self-organization with diffusible simple carbon substrates yielding relatively intermixed communities, whereas polymer-rich carbon substrates promoted a highly structured biofilm organization characterized by the dominance and peripheral localization of polymer-degrading species. Bioinformatic analyses of carbohydrate-active enzyme repertoires and genome-scale metabolic modeling suggested bidirectional metabolite exchange among the SynCom members, which was also supported by analysis of biofilm formation in conditioned community supernatants. Together, our findings suggest carbon substrate type as an important ecological determinant of biofilm self-organization, highlighting the need to integrate environmental factors alongside species composition and metabolic potential to fully understand and manipulate natural and engineered multispecies biofilms.
+C1 [Zhu, Deyong; Yang, Nan; Hansen, Mads Frederik; Burmolle, Mette] Univ Copenhagen, Dept Biol, Sect Microbiol, DK-2100 Copenhagen, Denmark.
+   [Svagan, Anna J.] Royal Inst Technol KTH, Dept Fibre & Polymer Technol, SE-10044 Stockholm, Sweden.
+   [Kuhl, Michael] Univ Copenhagen, Dept Biol, Marine Biol Sect, DK-3000 Helsingor, Denmark.
+C3 University of Copenhagen; Royal Institute of Technology; University of
+   Copenhagen
+RP Zhu, DY; Burmolle, M (corresponding author), Univ Copenhagen, Dept Biol, Sect Microbiol, DK-2100 Copenhagen, Denmark.
+EM deyong.zhu@bio.ku.dk; burmolle@bio.ku.dk
+FU Independent Research Fund Denmark [DFF-8022-00301B, DFF-8021-00308B];
+   Villum Foundation [35906]; European Research Council; European Horizon
+   2020 research and innovation programme [101002208]; Gordon and Betty
+   Moore foundation [GBMF9206]
+FX This study was supported by the grants from the Villum Foundation (grant
+   number 35906) and the European Research Council under the European
+   Horizon 2020 research and innovation programme (grant number 101002208)
+   to M.B.; the grant from the Villum Foundation (grant number 59145) to
+   D.Z.; and the grants from the Independent Research Fund Denmark (grant
+   number DFF-8022-00301B and DFF-8021-00308B) and the Gordon and Betty
+   Moore foundation (grant number GBMF9206) to M.K.
+NR 119
+TC 0
+Z9 0
+U1 0
+U2 0
+PU OXFORD UNIV PRESS
+PI OXFORD
+PA GREAT CLARENDON ST, OXFORD OX2 6DP, ENGLAND
+SN 1751-7362
+EI 1751-7370
+J9 ISME J
+JI ISME J.
+PD JAN
+PY 2026
+VL 20
+IS 1
+AR wrag223
+DI 10.1093/ismejo/wrag223
+PG 15
+WC Ecology; Microbiology
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Environmental Sciences & Ecology; Microbiology
+GA OU3OZ
+UT WOS:001886383800001
+PM 42658845
+OA Green Accepted, gold
+DA 2026-10-02
+ER
+
+PT J
+AU Hafeez, S
+   Bhatti, MF
+   Asghar, M
+AF Hafeez, Saleha
+   Bhatti, Muhammad Faraz
+   Asghar, Muhammad
+TI A trispecific triabody targeting A, B, and Rh(D) antigens for antigen
+   blocking to expand red blood cell transfusion compatibility: An in vitro
+   assessment
+SO BLOOD CELLS MOLECULES AND DISEASES
+LA English
+DT Article
+DE Antigen-blocking; Triabody-coated RBCs; Hemagglutination; Incompatible
+   blood; Transfusion compatibility; Immunocytochemistry
+ID IONIC STRENGTH
+AB The need for compatible blood remains a persistent challenge to timely and safe transfusion support. Despite this, the stability and functional behavior of antigen-blocking strategies under storage and physiologically relevant conditions remain poorly understood, particularly regarding their stability during prolonged exposure to changing blood environments. This study evaluates a trispecific triabody designed to simultaneously target A, B, and Rh(D) antigens on red blood cells to block antigen recognition and prevent incompatibility-related hemagglutination. Triabody-coated RBCs were prepared through repeated incubation cycles and assessed for stability in incompatible plasma under storage (4 degrees C) and physiologically relevant temperatures (37 degrees C). Results showed that the triabody bound efficiently and reached saturation across tested blood groups. During storage at 4 degrees C, detachment remained minimal during early storage but increased after prolonged incubation, coinciding with declining pH and increased free hemoglobin. At 37 degrees C, triabody detached progressively, with anti-B dissociation occurring earlier than anti-A and anti-Rh(D), while differential stability was also observed during prolonged storage at 4 degrees C. Detachment showed a closer temporal association with pH decline than with ionic strength or free hemoglobin changes and was followed by hemagglutination in incompatible plasma. Triabody-coated RBCs maintained antigen blocking during early exposure but showed differential stability during prolonged incubation, supporting their potential to improve transfusion compatibility while highlighting the need for further in vitro optimization of triabody binding stability before in vivo validation.
+C1 [Hafeez, Saleha; Asghar, Muhammad] Natl Univ Sci & Technol, Atta Ur Rahman Sch Appl Biosci, Dept Biomed, Sect H-12, Islamabad 44000, Pakistan.
+   [Bhatti, Muhammad Faraz] Natl Univ Sci & Technol, Atta Ur Rahman Sch Appl Biosci, Dept Agr Sci & Technol, Sect H-12, Islamabad 44000, Pakistan.
+   [Asghar, Muhammad] Natl Univ Sci & Technol, Sch Mech & Mfg Engn, Dept Biomed Engn, Sect H-12, Islamabad 44000, Pakistan.
+   [Asghar, Muhammad] Lund Univ, Dept Biol, Kontaktvagen 10, S-22362 Lund, Sweden.
+   [Asghar, Muhammad] KTH Royal Inst Technol, Dept Prot Sci, Stockholm, Sweden.
+   [Asghar, Muhammad] Univ Southern Denmark, Dept Sports Sci & Clin Biomech, Odense, Denmark.
+RP Asghar, M (corresponding author), Lund Univ, Dept Biol, Kontaktvagen 10, S-22362 Lund, Sweden.
+EM muhammad.asghar@biol.lu.se
+FU PhD student's research funds from the Atta-ur-Rahman School of Applied
+   Biosciences (ASAB) at the National University of Sciences and Technology
+   (NUST), Sector H-12, Islamabad, Pakistan; Ragnar Soderberg Foundation
+   Sweden
+FX This research was supported by a PhD student's research funds from the
+   Atta-ur-Rahman School of Applied Biosciences (ASAB) at the National
+   University of Sciences and Technology (NUST), Sector H-12, Islamabad,
+   Pakistan. Muhammad Asghar was supported by Ragnar Soderberg Foundation
+   Sweden.
+NR 17
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ACADEMIC PRESS INC ELSEVIER SCIENCE
+PI SAN DIEGO
+PA 525 B ST, STE 1900, SAN DIEGO, CA 92101-4495 USA
+SN 1079-9796
+EI 1096-0961
+J9 BLOOD CELL MOL DIS
+JI Blood Cells Mol. Dis.
+PD FEB
+PY 2027
+VL 122
+AR 103040
+DI 10.1016/j.bcmd.2026.103040
+EA SEP 2026
+PG 8
+WC Hematology
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Hematology
+GA OS2SF
+UT WOS:001884966600001
+PM 42772215
+OA hybrid
+DA 2026-10-02
+ER
+
+PT J
+AU Brown, SNM
+   Drotz, A
+   Ferreira, M
+   Drummond, J
+   Martinez, DM
+AF Brown, Samuel N. M.
+   Drotz, Axel
+   Ferreira, Matheus
+   Drummond, James
+   Martinez, D. Mark
+TI Flow-Induced Compaction and Elastic Rebound in Saturated Deformable
+   Fibre Networks
+SO TRANSPORT IN POROUS MEDIA
+LA English
+DT Article
+DE Fibrous networks; Consolidation; Elastic rebound; Poroelasticity
+ID WET; POROSITY; WEBS
+AB During the flow-induced compaction of saturated deformable fibrous media, local nonuniformity in solid volume fraction can develop, persist after compression, and partially relax through elastic rebound. Using an experimental approach that spatially resolves the local volume fraction in situ, we characterize the formation and elastic relaxation of this nonuniformity, which manifests as a solid-fraction gradient, in two distinct lignocellulosic fibre networks and over a range of compression rates and bulk solid fractions. Gradient severity increases with compression rate and is more pronounced in the less permeable, less compressible network, consistent with the competition between mechanical loading and hydraulic drainage. Following compression, these gradients relax partially but arrest irreversibly in a nonuniform state, a behaviour indicative of elasto-(visco)plastic network deformation. Across the two materials and various bulk solid fractions studied, the recoverable component of the nonuniformity shows a primary dependence on compression rate, with comparatively weak sensitivity to material type over the range studied; this trend is consistent with an approximately material-insensitive ratio of elastic modulus to compressive yield stress. At high compression rates, the normalized relaxation curves collapse onto a common functional form consistent with a poroelastic diffusion framework, suggesting that, at least for the media studied here, the relaxation kinetics may depend more on structural network properties than on constituent-specific chemistry. Overall, compression rate emerges as a key governing variable controlling both the amplitude of elastic rebound and the transition to a regime in which appreciable rebound occurs.
+C1 [Brown, Samuel N. M.; Drotz, Axel; Ferreira, Matheus; Drummond, James; Martinez, D. Mark] Univ British Columbia, Dept Chem & Biol Engn, 2360 East Mall, Vancouver, BC V6T 1Z3, Canada.
+   [Drotz, Axel] KTH Royal Inst Technol, Sch Elect Engn & Comp Sci, Malvinas v 10, S-11428 Stockholm, Sweden.
+C3 University of British Columbia; Royal Institute of Technology
+RP Brown, SNM (corresponding author), Univ British Columbia, Dept Chem & Biol Engn, 2360 East Mall, Vancouver, BC V6T 1Z3, Canada.
+EM samuelb9@student.ubc.ca; axeldrotz@gmail.com; matheu03@student.ubc.ca;
+   james.drummond@ubc.ca; mark.martinez@ubc.ca
+FU Natural Sciences and Engineering Research Council of Canada [ALLRP
+   591167-2023]; Valmet Oyj [ALLRP 591167-2023]
+FX This work was financially supported by Valmet Oyj and the Natural
+   Sciences and Engineering Research Council of Canada (NSERC) through the
+   Alliance Grant program (ALLRP 591167-2023).
+NR 27
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SPRINGER
+PI NEW YORK
+PA ONE NEW YORK PLAZA, SUITE 4600, NEW YORK, NY, UNITED STATES
+SN 0169-3913
+EI 1573-1634
+J9 TRANSPORT POROUS MED
+JI Transp. Porous Media
+PD SEP 27
+PY 2026
+VL 153
+IS 8
+AR 102
+DI 10.1007/s11242-026-02357-7
+PG 20
+WC Engineering, Chemical
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering
+GA OT4BW
+UT WOS:001885735500001
+DA 2026-10-02
+ER
+
+PT J
+AU Li, NZ
+   Wu, PR
+   Zhu, LP
+   Mei, WD
+   Ning, BY
+   Ng, DWK
+AF Li, Nianzu
+   Wu, Peiran
+   Zhu, Lipeng
+   Mei, Weidong
+   Ning, Boyu
+   Ng, Derrick Wing Kwan
+TI Sum-Rate Maximization for Movable-Antenna Array Enhanced Downlink NOMA
+   Systems
+SO IEEE TRANSACTIONS ON WIRELESS COMMUNICATIONS
+LA English
+DT Article
+DE Decoding; Optimization; Antennas; NOMA; Algorithms; Silicon carbide;
+   Educational institutions; Wireless communication; Arrays; Gain; Movable
+   antenna (MA); non-orthogonal multiple access (NOMA); resource
+   allocation; antenna positioning; two-stage optimization
+AB Movable antenna (MA) systems have recently attracted significant attention in the field of wireless communications owing to their exceptional capability to proactively reconfigure wireless channels via flexible antenna movements. In this paper, we investigate the resource allocation design for an MA array-enhanced downlink non-orthogonal multiple access (NOMA) system, where a base station deploys multiple MAs to serve multiple single-antenna users. Our goal is to maximize the sum rate of all users by jointly optimizing the transmit beamforming, positions of MAs, successive interference cancellation (SIC) decoding order, and users' corresponding decoding indicator matrix, under the constraints of maximum transmit power, finite MA moving region, minimum inter-MA distance, and minimum rate requirement of each user. The formulated problem is inherently highly non-convex, rendering it challenging to acquire a globally optimal solution. As a compromise, we propose a low-complexity two-stage optimization algorithm to obtain an effective suboptimal solution. Specifically, in stage one, the SIC decoding order is first determined by solving a channel gain maximization problem. Then, in stage two, with the given SIC decoding order, the beamforming vectors, MA positions, and users' decoding indicator matrix are iteratively optimized by capitalizing on alternating optimization, successive convex approximation (SCA), and genetic algorithm (GA). Finally, extensive simulations show that the sum-rate performance of the proposed MA-enhanced NOMA system significantly outperforms that of conventional fixed-position antenna (FPA) systems. Moreover, results also unveil that the antenna position optimization in our proposed algorithm can further enhance the advantages of NOMA over space division multiple access (SDMA).
+C1 [Li, Nianzu; Wu, Peiran] Sun Yat sen Univ, Sch Elect & Informat Technol, Guangzhou 510006, Peoples R China.
+   [Li, Nianzu; Mei, Weidong] Univ Elect Sci & Technol China, Natl Key Lab Wireless Commun, Chengdu 611731, Peoples R China.
+   [Zhu, Lipeng] Natl Univ Singapore, Singapore 119077, Singapore.
+   [Zhu, Lipeng] Beijing Inst Technol, State Key Lab CNS ATM, Beijing 100081, Peoples R China.
+   [Zhu, Lipeng] Beijing Inst Technol, Sch Interdisciplinary Sci, Beijing 100081, Peoples R China.
+   [Ning, Boyu] KTH Royal Inst Technol, Dept Commun Syst, S-10044 Stockholm, Sweden.
+   [Ng, Derrick Wing Kwan] Univ New South Wales, Sch Elect Engn & Telecommun, Sydney, Nsw 2052, Australia.
+C3 Sun Yat Sen University; University of Electronic Science & Technology of
+   China; National University of Singapore; Beijing Institute of
+   Technology; Beijing Institute of Technology; Royal Institute of
+   Technology; University of New South Wales Sydney
+RP Wu, PR (corresponding author), Sun Yat sen Univ, Sch Elect & Informat Technol, Guangzhou 510006, Peoples R China.; Zhu, LP (corresponding author), Natl Univ Singapore, Singapore 119077, Singapore.
+EM linz5@std.uestc.edu.cn; wupr3@mail.sysu.edu.cn; zhulp@bit.edu.cn;
+   wmei@uestc.edu.cn; boydning@outlook.com; w.k.ng@unsw.edu.au
+FU National Natural Science Foundation of China [62572141]; Guangdong Basic
+   and Applied Basic Research Foundation [2025A1515140074]
+FX This work was supported in part by the National Natural Science
+   Foundation of China under Grant 62572141 and in part by Guangdong Basic
+   and Applied Basic Research Foundation under Grant 2025A1515140074. An
+   earlier version of this paper was presented in part at the 2025 IEEE
+   International Conference on Communications Work-shops [DOI:
+   10.1109/ICCWorkshops67674.2025.11162153]. The associate editor
+   coordinating the review of this article and approving it for publication
+   was G. Wei.
+NR 46
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1536-1276
+EI 1558-2248
+J9 IEEE T WIREL COMMUN
+JI IEEE Trans. Wirel. Commun.
+PY 2026
+VL 25
+BP 23797
+EP 23814
+DI 10.1109/TWC.2026.3732158
+PG 18
+WC Engineering, Electrical & Electronic; Telecommunications
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering; Telecommunications
+GA OT7OR
+UT WOS:001885973300002
+OA Green Submitted
+DA 2026-10-02
+ER
+
+PT J
+AU Tsiakiris, G
+   Rahm, J
+   Besenecker, U
+   Hedblom, M
+   Eizadi, H
+   Persson, E
+   Johansson, M
+AF Tsiakiris, Georgios
+   Rahm, Johan
+   Besenecker, Ute
+   Hedblom, Marcus
+   Eizadi, Hamidreza
+   Persson, Eva
+   Johansson, Maria
+TI Experiences of after-dark urban forest walks when using head torches:
+   off-the-shelf vs customised
+SO JOURNAL OF URBAN MANAGEMENT
+LA English
+DT Article
+DE Head torch; Restorative potential; Urban forest; Daylight; Structured
+   walks
+ID ENVIRONMENT; DESIGN; HEALTH
+AB During the dark season, electric lighting in urban forests can facilitate recreational activities and psychological restoration. However, the permanent presence of electric lighting causes light pollution, with detrimental effects for people and wildlife. This study explored the extent to which head torches could support pedestrian needs in a Nordic context where daylight hours are reduced during the winter season. The aim was to compare the pedestrian appraisal of an urban forest path under different lighting conditions: daylight (DL); regular off-the-shelf head torches (OHT); and customised head torches (CHT), with reduced light distribution and thereby less light pollution. The 75 participants completed structured walks with observer-based environmental assessments on site by means of questionnaires under DL, OHT or CHT light conditions. The results showed that participants experienced (appraised) the urban forest path similarly in the two head torch conditions in terms of visual accessibility, perceived safety, and the restorative potential of the forest setting. The behavioural intention to choose the path did not differ between head torches, but the intention to avoid the path was lower with OHT. No differences in comfort aspects of the light could be identified. As expected, the urban forest was rated higher for the environmental appraisals in DL, but retained its restorative potential even in the two head torch conditions. It is concluded that light sources with less ecological impact could be introduced without influencing pedestrians' environmental experiences negatively.
+C1 [Tsiakiris, Georgios; Rahm, Johan; Johansson, Maria] Lund Univ, Dept Architecture & Built Environm, Environm Psychol, Klas Anshelms 16, POB 118, S-22100 Lund, Sweden.
+   [Besenecker, Ute; Eizadi, Hamidreza] KTH Royal Inst Technol, Sch Architecture & Built Environm, Dept Architecture, Lighting Design, Osquars Backe 5, SE-10044 Stockholm, Sweden.
+   [Hedblom, Marcus] Swedish Univ Agr Sci, Dept Urban & Rural Dev, Landscape Management, Ulls Va G 27,POB 7012, S-75007 Uppsala, Sweden.
+   [Persson, Eva] Tyrens Sweden AB, Folkungagatan 44, S-11886 Stockholm, Sweden.
+RP Tsiakiris, G (corresponding author), Lund Univ, Dept Architecture & Built Environm, Environm Psychol, Box 118, S-22100 Lund, Sweden.
+EM georgios.tsiakiris@abm.lth.se
+NR 53
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 2226-5856
+EI 2589-0360
+J9 J URBAN MANAG
+JI J. Urban Manag.
+PD FEB
+PY 2027
+VL 16
+IS 1
+AR 100540
+DI 10.1016/j.jum.2026.100540
+EA SEP 2026
+PG 15
+WC Urban Studies
+WE Emerging Sources Citation Index (ESCI)
+SC Urban Studies
+GA OS9VJ
+UT WOS:001885448200001
+OA gold
+DA 2026-10-02
+ER
+
+EF
